@@ -1,10 +1,14 @@
+// =============================== Introduction
+/*
 // External JavaScript helps separation of concerns making it easier to maintain code
 let js = "amazing";
 // if (js === "amazing") alert("JavaScript is FUN!");
 
 console.log(40 + 20 + 40); //A special function for printing on the console
+*/
 
-// Values and Variables
+// =============================== Values and Variables
+/*
 // A value - A piece of data / The smallest unit of information
 console.log("Wakabi");
 console.log(23);
@@ -42,10 +46,9 @@ let population = 45.9;
 console.log("Country:", country);
 console.log("Continent:", continent);
 console.log("Population:", population);
+*/
 
-// ==========================================================================
-
-// Data types
+// =============================== Data types
 // 7 Primitive Data Types
 // Number - floating point number
 let age = 23;
