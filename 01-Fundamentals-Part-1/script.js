@@ -72,3 +72,12 @@ console.log(typeof "Brian");
 let javascriptIsFun = true;
 javascriptIsFun = "Yes";
 console.log(typeof javascriptIsFun);
+
+// undefined - an empty value - both type and value are undefined
+let year;
+console.log(typeof year);
+
+year = 1990;
+console.log(typeof year);
+
+console.log(typeof null); //Bug in JavaScript
