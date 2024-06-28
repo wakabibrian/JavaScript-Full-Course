@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.2.0...v1.3.0) (2024-06-28)
+
+
+### Features
+
+* Add comments ([b92282a](https://github.com/wakabibrian/JavaScript-Full-Course/commit/b92282a792e8f1be590a5030cdfccbf0016d80d2))
+* Add data type exercise ([4ef5b5c](https://github.com/wakabibrian/JavaScript-Full-Course/commit/4ef5b5caaeb5aa19b240495fc4740e55fe6f51dc))
+* Add dynamic typing ([d65c425](https://github.com/wakabibrian/JavaScript-Full-Course/commit/d65c425c76e859a5f45c3f0db920b3ea157cb52c))
+* Add the 7 data types and variables exercise ([a99f98d](https://github.com/wakabibrian/JavaScript-Full-Course/commit/a99f98de4361bd04e3d9311903f89a5ea6a5a022))
+* Add typeof operator ([fd00bf7](https://github.com/wakabibrian/JavaScript-Full-Course/commit/fd00bf7c8f73b07675d54950235ed6bab8af3bee))
+* Add undefined type ([26ef818](https://github.com/wakabibrian/JavaScript-Full-Course/commit/26ef81800025c963b2ca2f992d94ad506595ab1f))
+
 ## [1.2.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.1.1...v1.2.0) (2024-06-28)
 
 
