@@ -33,6 +33,7 @@ const PI = 3.1415; // Constants do not change
 // Make your variables descriptive
 let myFirstJob = "Mechanic";
 let myCurrentJob = "Programmer";
+*/
 
 // Exercise
 // Declare variables called country, continent and population
@@ -46,9 +47,9 @@ let population = 45.9;
 console.log("Country:", country);
 console.log("Continent:", continent);
 console.log("Population:", population);
-*/
 
 // =============================== Data types
+/*
 // 7 Primitive Data Types
 // Number - floating point number
 let age = 23;
@@ -81,3 +82,18 @@ year = 1990;
 console.log(typeof year);
 
 console.log(typeof null); //Bug in JavaScript
+*/
+
+// Exercise
+// Declare a variable called isIsland and set its value according to your country.
+// The variable should hold a Boolean value. Also declare a variable language, but don't assign it any value yet.
+
+// Log the types of isIsland, population, country and language to the console.
+let isIsland = false;
+let language;
+
+console.log("Type of Country:", typeof country);
+console.log("Type of Continent:", typeof continent);
+console.log("Type of Population:", typeof population);
+console.log("Type of IsIsland:", typeof isIsland);
+console.log("Type of Language:", typeof language);
