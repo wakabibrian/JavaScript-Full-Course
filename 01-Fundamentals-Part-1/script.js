@@ -67,3 +67,8 @@ console.log(typeof true);
 console.log(typeof isFullAge);
 console.log(typeof 23);
 console.log(typeof "Brian");
+
+// Dynamic typing - changing the type of the value - reassigning the variable
+let javascriptIsFun = true;
+javascriptIsFun = "Yes";
+console.log(typeof javascriptIsFun);
