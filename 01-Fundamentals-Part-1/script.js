@@ -61,3 +61,9 @@ let children;
 // Null - also means empty value like undefined
 // Symbol - value that is unique and cannot be changed
 // Bigint - large integers than the Numbers can hold
+
+// operator typeof - shows the type of a value
+console.log(typeof true);
+console.log(typeof isFullAge);
+console.log(typeof 23);
+console.log(typeof "Brian");
