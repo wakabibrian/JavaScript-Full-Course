@@ -29,3 +29,32 @@ const PI = 3.1415; // Constants do not change
 // Make your variables descriptive
 let myFirstJob = "Mechanic";
 let myCurrentJob = "Programmer";
+
+// Exercise
+// Declare variables called country, continent and population
+// and assign their values according to your own country (population in millions).
+// Log their values to the console.
+
+let country = "Uganda";
+let continent = "Africa";
+let population = 45.9;
+
+console.log("Country:", country);
+console.log("Continent:", continent);
+console.log("Population:", population);
+
+// ==========================================================================
+
+// Data types
+// 7 Primitive Data Types
+// Number - floating point number
+let age = 23;
+// String - Sequence of characters
+let lastName = "Brian";
+// Boolean - logical type true or false
+let isFullAge = true;
+// Undefined - value taken by a variable that is not yet defined / without assigning a value
+let children;
+// Null - also means empty value like undefined
+// Symbol - value that is unique and cannot be changed
+// Bigint - large integers than the Numbers can hold
