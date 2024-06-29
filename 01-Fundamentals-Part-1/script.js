@@ -141,3 +141,16 @@ console.log(ageWakabi * 2, ageWakabi / 10, 2 ** 3); //2 ** 3 means 2 power of 3 
 const firstName = "Wakabi";
 const lastName = "Brian";
 console.log(firstName + " " + lastName); //String concatenation
+
+// typeof operator
+console.log(typeof ageWakabi); //Shows the type of a value
+
+// assignment operators
+let x = 10 + 5; // = is the assignment operator - x will be assigned 15
+console.log(x);
+
+x += 10; // x = x + 10
+x *= 4; // x = x * 4
+x++; // x = x + 1
+x--; // x = x - 1
+console.log(x);
