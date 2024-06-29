@@ -40,13 +40,13 @@ let myCurrentJob = "Programmer";
 // and assign their values according to your own country (population in millions).
 // Log their values to the console.
 
-let country = "Uganda";
-let continent = "Africa";
-let population = 45.9;
+// let country = "Uganda";
+// let continent = "Africa";
+// let population = 45.9;
 
-console.log("Country:", country);
-console.log("Continent:", continent);
-console.log("Population:", population);
+// console.log("Country:", country);
+// console.log("Continent:", continent);
+// console.log("Population:", population);
 
 // =============================== Data types
 /*
@@ -89,16 +89,17 @@ console.log(typeof null); //Bug in JavaScript
 // The variable should hold a Boolean value. Also declare a variable language, but don't assign it any value yet.
 
 // Log the types of isIsland, population, country and language to the console.
-let isIsland = false;
+// let isIsland = false;
 let language;
 
-console.log("Type of Country:", typeof country);
-console.log("Type of Continent:", typeof continent);
-console.log("Type of Population:", typeof population);
-console.log("Type of IsIsland:", typeof isIsland);
-console.log("Type of Language:", typeof language);
+// console.log("Type of Country:", typeof country);
+// console.log("Type of Continent:", typeof continent);
+// console.log("Type of Population:", typeof population);
+// console.log("Type of IsIsland:", typeof isIsland);
+// console.log("Type of Language:", typeof language);
 
 // ===============================  let, const and var
+/*
 let age = 30; // When we need to mutate/reassign/change the variable
 age = 31;
 
@@ -110,3 +111,18 @@ const birthYear = 1990; //Variable cannot be mutated/reassigned/changed
 // Its good practice to have little variable changes - introduces a potential to create bugs
 
 // Avoid using var
+*/
+
+// Exercise
+// 1. Set the value of language to the language spoken where you live
+// (some countries have multiple languages, but just choose one).
+
+// 2. Think about which variables should be const variables (which values will never change,
+// and which might change?). Then, change these variables to const.
+
+// 3. Try to change one of the changed variables now, and observe what happens.
+language = "English";
+const country = "Uganda";
+const continent = "Africa";
+const isIsland = false;
+// isIsland = true; // Throws an error
