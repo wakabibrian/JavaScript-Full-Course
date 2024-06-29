@@ -97,3 +97,16 @@ console.log("Type of Continent:", typeof continent);
 console.log("Type of Population:", typeof population);
 console.log("Type of IsIsland:", typeof isIsland);
 console.log("Type of Language:", typeof language);
+
+// ===============================  let, const and var
+let age = 30; // When we need to mutate/reassign/change the variable
+age = 31;
+
+const birthYear = 1990; //Variable cannot be mutated/reassigned/changed
+
+// We cannot declare empty const variable;
+// const job //This throws an error
+// For best practice, always use const by default and only when a variable needs to change you can use let
+// Its good practice to have little variable changes - introduces a potential to create bugs
+
+// Avoid using var
