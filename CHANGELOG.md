@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.3.0...v1.4.0) (2024-06-29)
+
+
+### Features
+
+* Add let, const and var ([be227c7](https://github.com/wakabibrian/JavaScript-Full-Course/commit/be227c7f1589f16f405fd3e12be875b551525101))
+* Add let, const exercise ([475ff01](https://github.com/wakabibrian/JavaScript-Full-Course/commit/475ff01c59990cefb055c0b72bc2ea4fa3224151))
+
 ## [1.3.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.2.0...v1.3.0) (2024-06-28)
 
 
