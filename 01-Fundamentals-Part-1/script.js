@@ -126,3 +126,18 @@ const country = "Uganda";
 const continent = "Africa";
 const isIsland = false;
 // isIsland = true; // Throws an error
+
+// ===============================  Basic Operators
+// An operator helps to transform values or combine multiple values
+// Mathematical or Arithmetic operators
+const now = 2037;
+const ageWakabi = now - 1990;
+const ageSarah = now - 2018;
+
+console.log(ageWakabi, ageSarah);
+
+console.log(ageWakabi * 2, ageWakabi / 10, 2 ** 3); //2 ** 3 means 2 power of 3 = 2 * 2 * 2
+
+const firstName = "Wakabi";
+const lastName = "Brian";
+console.log(firstName + " " + lastName); //String concatenation
