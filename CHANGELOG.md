@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.4.0...v1.5.0) (2024-07-01)
+
+
+### Features
+
+* Add assignment operators ([83c0146](https://github.com/wakabibrian/JavaScript-Full-Course/commit/83c014641e1f52f6fda243277400f9ac6993d96a))
+* Add comparison operators ([e3bf9db](https://github.com/wakabibrian/JavaScript-Full-Course/commit/e3bf9db3d90093202902d9fba239f9edbb1ac091))
+* Add exercise - basic operators ([4792cf2](https://github.com/wakabibrian/JavaScript-Full-Course/commit/4792cf2a1607b1437e06afb430faea709a0fa45e))
+* Add mathematical operators ([827575a](https://github.com/wakabibrian/JavaScript-Full-Course/commit/827575a0870c589dc899d65608111d8c47a216b8))
+
 ## [1.4.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.3.0...v1.4.0) (2024-06-29)
 
 
