@@ -284,6 +284,7 @@ m tall.
 // console.log(markHigherBMI);
 
 //=============================== Strings and Template Literals
+/*
 const firstName = "Wakabi";
 const lastName = "Brian";
 const birthYear = 1990;
@@ -312,3 +313,27 @@ const isIsland = false;
 // 5
 const description = `${country} is in ${continent}, and its ${population} million people speak ${language}`;
 console.log(description);
+*/
+
+//=============================== Taking Decisions: if / else Statements
+const age = 19;
+if (age >= 18) {
+  console.log("Sara can start driving license 🚗");
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`Sara is too young. Wait another ${yearsLeft} years`);
+}
+
+// The else block is optional
+// if else - is called an if else control structure because it has control over the way our code is executed (not in a linear way)
+
+const birthYear = 2012;
+let century;
+
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+
+console.log(century);
