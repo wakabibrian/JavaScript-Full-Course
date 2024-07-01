@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.8.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.7.0...v1.8.0) (2024-07-01)
+
+
+### Features
+
+* Add template literals ([4716ae4](https://github.com/wakabibrian/JavaScript-Full-Course/commit/4716ae425144f30a66cc14e3a1fce2d7f0656384))
+
 ## [1.7.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.6.0...v1.7.0) (2024-07-01)
 
 
