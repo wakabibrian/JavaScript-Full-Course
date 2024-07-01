@@ -128,85 +128,87 @@ const birthYear = 1990; //Variable cannot be mutated/reassigned/changed
 // isIsland = true; // Throws an error
 
 // ===============================  Basic Operators
-// An operator helps to transform values or combine multiple values
-// Mathematical or Arithmetic operators
-const now = 2037;
-const ageWakabi = now - 1990;
-const ageSarah = now - 2018;
+// // An operator helps to transform values or combine multiple values
+// // Mathematical or Arithmetic operators
+// const now = 2037;
+// const ageWakabi = now - 1990;
+// const ageSarah = now - 2018;
 
-console.log(ageWakabi, ageSarah);
+// console.log(ageWakabi, ageSarah);
 
-console.log(ageWakabi * 2, ageWakabi / 10, 2 ** 3); //2 ** 3 means 2 power of 3 = 2 * 2 * 2
+// console.log(ageWakabi * 2, ageWakabi / 10, 2 ** 3); //2 ** 3 means 2 power of 3 = 2 * 2 * 2
 
-const firstName = "Wakabi";
-const lastName = "Brian";
-console.log(firstName + " " + lastName); //String concatenation
+// const firstName = "Wakabi";
+// const lastName = "Brian";
+// console.log(firstName + " " + lastName); //String concatenation
 
-// typeof operator
-console.log(typeof ageWakabi); //Shows the type of a value
+// // typeof operator
+// console.log(typeof ageWakabi); //Shows the type of a value
 
-// assignment operators
-let x = 10 + 5; // = is the assignment operator - x will be assigned 15
-console.log(x);
+// // assignment operators
+// let x = 10 + 5; // = is the assignment operator - x will be assigned 15
+// console.log(x);
 
-x += 10; // x = x + 10
-x *= 4; // x = x * 4
-x++; // x = x + 1
-x--; // x = x - 1
-console.log(x);
+// x += 10; // x = x + 10
+// x *= 4; // x = x * 4
+// x++; // x = x + 1
+// x--; // x = x - 1
+// console.log(x);
 
-// Comparison operators - The result should be a boolean
-console.log(ageWakabi > ageSarah); //<,>,<=,>=
-console.log(ageSarah >= 18);
-const isFullAge = ageSarah >= 18;
-console.log(isFullAge);
-console.log(now - 1990 > now - 2018);
+// // Comparison operators - The result should be a boolean
+// console.log(ageWakabi > ageSarah); //<,>,<=,>=
+// console.log(ageSarah >= 18);
+// const isFullAge = ageSarah >= 18;
+// console.log(isFullAge);
+// console.log(now - 1990 > now - 2018);
 
-// Exercise
-// 1. If your country split in half, and each half would contain half the population, then how many people would live in each half?
+// // Exercise
+// // 1. If your country split in half, and each half would contain half the population, then how many people would live in each half?
 
-// 2. Increase the population of your country by 1 and log the result to the console.
+// // 2. Increase the population of your country by 1 and log the result to the console.
 
-// 3. Finland has a population of 6 million. Does your country have more people than Finland?
+// // 3. Finland has a population of 6 million. Does your country have more people than Finland?
 
-// 4. The average population of a country is 33 million people. Does you country have less people than the average country?
+// // 4. The average population of a country is 33 million people. Does you country have less people than the average country?
 
-// 5. Based on the variables you created, create a new variable description which contains a string with this format: 'Portugal is in Europe, and its 11 million people speak portuguese'.
+// // 5. Based on the variables you created, create a new variable description which contains a string with this format: 'Portugal is in Europe, and its 11 million people speak portuguese'.
 
-const country = "Uganda";
-const continent = "Africa";
-let population = 45.9;
-const language = "English";
-const isIsland = false;
+// const country = "Uganda";
+// const continent = "Africa";
+// let population = 45.9;
+// const language = "English";
+// const isIsland = false;
 
-// 1
-const halfPopulationUganda = population / 2;
-console.log(halfPopulationUganda);
+// // 1
+// const halfPopulationUganda = population / 2;
+// console.log(halfPopulationUganda);
 
-// 2
-population++;
-console.log(population);
+// // 2
+// population++;
+// console.log(population);
 
-// 3
-const populationFinland = 6;
-console.log(population > populationFinland);
+// // 3
+// const populationFinland = 6;
+// console.log(population > populationFinland);
 
-// 4
-const avgPopulationOfCountryX = 33;
-console.log(population < avgPopulationOfCountryX);
+// // 4
+// const avgPopulationOfCountryX = 33;
+// console.log(population < avgPopulationOfCountryX);
 
-// 5
-const description =
-  country +
-  " " +
-  "is in" +
-  " " +
-  continent +
-  ", and its" +
-  " " +
-  population +
-  " " +
-  "million people speak" +
-  " " +
-  language;
-console.log(description);
+// // 5
+// const description =
+//   country +
+//   " " +
+//   "is in" +
+//   " " +
+//   continent +
+//   ", and its" +
+//   " " +
+//   population +
+//   " " +
+//   "million people speak" +
+//   " " +
+//   language;
+// console.log(description);
+
+// ===============================  Operator Precedence
