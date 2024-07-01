@@ -284,3 +284,20 @@ m tall.
 // console.log(markHigherBMI);
 
 //=============================== Strings and Template Literals
+const firstName = "Wakabi";
+const lastName = "Brian";
+const birthYear = 1990;
+const year = 2037;
+const job = "programmer";
+
+const wakabi = `I'm ${firstName} ${lastName}, a ${
+  year - birthYear
+} years old ${job}`;
+console.log(wakabi);
+
+console.log(`You can use backticks for all strings...`);
+
+// Creating multiline strings
+console.log(`String with
+multiple
+lines`);
