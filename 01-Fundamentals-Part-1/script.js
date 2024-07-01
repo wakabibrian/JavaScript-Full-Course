@@ -154,3 +154,10 @@ x *= 4; // x = x * 4
 x++; // x = x + 1
 x--; // x = x - 1
 console.log(x);
+
+// Comparison operators - The result should be a boolean
+console.log(ageWakabi > ageSarah); //<,>,<=,>=
+console.log(ageSarah >= 18);
+const isFullAge = ageSarah >= 18;
+console.log(isFullAge);
+console.log(now - 1990 > now - 2018);
