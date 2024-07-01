@@ -212,22 +212,73 @@ const birthYear = 1990; //Variable cannot be mutated/reassigned/changed
 // console.log(description);
 
 // ===============================  Operator Precedence
-// Order in which operators are executed
-const now = 2037;
-const ageWakabi = now - 1990;
-const ageSarah = now - 2018;
-console.log(now - 1990 > now - 2018);
+// // Order in which operators are executed
+// const now = 2037;
+// const ageWakabi = now - 1990;
+// const ageSarah = now - 2018;
+// console.log(now - 1990 > now - 2018);
 
-// Operator precedence table: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence
-// > operator has a lower precedence than the - operator. Therefor - is executed first
-// Some operators are executed from left to right while others are executed from right to left.
-console.log(25 - 10 - 5); //left to right execution
+// // Operator precedence table: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence
+// // > operator has a lower precedence than the - operator. Therefor - is executed first
+// // Some operators are executed from left to right while others are executed from right to left.
+// console.log(25 - 10 - 5); //left to right execution
 
-// right to left operation/execution
-let x, y;
-x = y = 25 - 10 - 5; //x=y=10 //right to left x
-console.log(x, y);
+// // right to left operation/execution
+// let x, y;
+// x = y = 25 - 10 - 5; //x=y=10 //right to left x
+// console.log(x, y);
 
-// Grouping - highest precedence
-const averageAge = (ageSarah + ageWakabi) / 2;
-console.log(ageSarah, ageWakabi, averageAge);
+// // Grouping - highest precedence
+// const averageAge = (ageSarah + ageWakabi) / 2;
+// console.log(ageSarah, ageWakabi, averageAge);
+
+//=============================== Coding Challenge #1
+/*
+Mark and John are trying to compare their BMI (Body Mass Index), which is
+calculated using the formula:
+BMI = mass / height ** 2 = mass / (height * height) (mass in kg
+and height in meter).
+
+Your tasks:
+1. Store Mark's and John's mass and height in variables
+2. Calculate both their BMIs using the formula (you can even implement both
+versions)
+3. Create a Boolean variable 'markHigherBMI' containing information about
+whether Mark has a higher BMI than John.
+
+Test data:
+Data 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95
+m tall.
+Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76
+m tall.
+*/
+
+/* Write your code below. Good luck! 🙂 */
+
+let massMark, heightMark, massJohn, heightJohn, BMIMark, BMIJohn, markHigherBMI;
+
+// Test Data 1
+massMark = 78;
+heightMark = 1.69;
+massJohn = 92;
+heightJohn = 1.95;
+
+BMIMark = massMark / (heightMark * heightMark);
+BMIJohn = massJohn / (heightJohn * heightJohn);
+console.log(BMIMark, BMIJohn);
+
+markHigherBMI = BMIMark > BMIJohn;
+console.log(markHigherBMI);
+
+// Test Data 2
+massMark = 95;
+heightMark = 1.88;
+massJohn = 85;
+heightJohn = 1.76;
+
+BMIMark = massMark / (heightMark * heightMark);
+BMIJohn = massJohn / (heightJohn * heightJohn);
+console.log(BMIMark, BMIJohn);
+
+markHigherBMI = BMIMark > BMIJohn;
+console.log(markHigherBMI);
