@@ -371,3 +371,10 @@ console.log(typeof NaN); //number - invalid number
 console.log(String(1990)); //convert to strings
 
 // JS can only convert to strings, numbers and booleans
+
+//Type coercion
+// Happens when JS is dealing with 2 values of different types
+console.log("I am " + 23 + " years old"); //Type coercion to sting
+console.log("23" - "10" - 3); //Type coercion to number
+console.log("23" + "10" + 3); //Type coercion to string
+console.log("23" * "3"); //Type coercion to number
