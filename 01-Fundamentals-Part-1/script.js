@@ -90,7 +90,7 @@ console.log(typeof null); //Bug in JavaScript
 
 // Log the types of isIsland, population, country and language to the console.
 // let isIsland = false;
-let language;
+// let language;
 
 // console.log("Type of Country:", typeof country);
 // console.log("Type of Continent:", typeof continent);
@@ -121,10 +121,10 @@ const birthYear = 1990; //Variable cannot be mutated/reassigned/changed
 // and which might change?). Then, change these variables to const.
 
 // 3. Try to change one of the changed variables now, and observe what happens.
-language = "English";
-const country = "Uganda";
-const continent = "Africa";
-const isIsland = false;
+// language = "English";
+// const country = "Uganda";
+// const continent = "Africa";
+// const isIsland = false;
 // isIsland = true; // Throws an error
 
 // ===============================  Basic Operators
@@ -161,3 +161,52 @@ console.log(ageSarah >= 18);
 const isFullAge = ageSarah >= 18;
 console.log(isFullAge);
 console.log(now - 1990 > now - 2018);
+
+// Exercise
+// 1. If your country split in half, and each half would contain half the population, then how many people would live in each half?
+
+// 2. Increase the population of your country by 1 and log the result to the console.
+
+// 3. Finland has a population of 6 million. Does your country have more people than Finland?
+
+// 4. The average population of a country is 33 million people. Does you country have less people than the average country?
+
+// 5. Based on the variables you created, create a new variable description which contains a string with this format: 'Portugal is in Europe, and its 11 million people speak portuguese'.
+
+const country = "Uganda";
+const continent = "Africa";
+let population = 45.9;
+const language = "English";
+const isIsland = false;
+
+// 1
+const halfPopulationUganda = population / 2;
+console.log(halfPopulationUganda);
+
+// 2
+population++;
+console.log(population);
+
+// 3
+const populationFinland = 6;
+console.log(population > populationFinland);
+
+// 4
+const avgPopulationOfCountryX = 33;
+console.log(population < avgPopulationOfCountryX);
+
+// 5
+const description =
+  country +
+  " " +
+  "is in" +
+  " " +
+  continent +
+  ", and its" +
+  " " +
+  population +
+  " " +
+  "million people speak" +
+  " " +
+  language;
+console.log(description);
