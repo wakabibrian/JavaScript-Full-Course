@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.11.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.10.0...v1.11.0) (2024-07-01)
+
+
+### Features
+
+* Add type coercion ([401ae8c](https://github.com/wakabibrian/JavaScript-Full-Course/commit/401ae8c91521f5bbffa3b30877c4657048529beb))
+* Add type conversion ([be84417](https://github.com/wakabibrian/JavaScript-Full-Course/commit/be84417be0c707274ebac22a7f5b96f12d234aed))
+
 ## [1.10.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.9.0...v1.10.0) (2024-07-01)
 
 
