@@ -316,6 +316,7 @@ console.log(description);
 */
 
 //=============================== Taking Decisions: if / else Statements
+/*
 const age = 19;
 if (age >= 18) {
   console.log("Sara can start driving license 🚗");
@@ -339,11 +340,10 @@ if (birthYear <= 2000) {
 console.log(century);
 
 // Exercise
-/*
-1. If your country's population is greater than 33 million, log a string like this to the console: "Portugal's population is 22 million below average" (the 22 is the average of 33 minus the country's population).
+// 1. If your country's population is greater than 33 million, log a string like this to the console: "Portugal's population is 22 million below average" (the 22 is the average of 33 minus the country's population).
 
-2. After checking the result, change the population temporarily to 13 and then to 130. See the different results, and set the population back to original.
-*/
+// 2. After checking the result, change the population temporarily to 13 and then to 130. See the different results, and set the population back to original.
+
 
 let population = 45.9;
 const country = "Uganda";
@@ -355,3 +355,19 @@ if (population > 33) {
     `${country}'s population is ${33 - population} million below average`
   );
 }
+*/
+
+//=============================== Type Conversion and Coercion
+// Type conversion when we manually convert from 1 type to another
+// Type is when JavaScript automatically converts for us behind the scenes
+
+//Type conversion
+const inputYear = "1990";
+console.log(Number(inputYear), inputYear); //Convert strings to Numbers by Number(string)
+
+console.log(Number("Wakabi")); //NaN
+console.log(typeof NaN); //number - invalid number
+
+console.log(String(1990)); //convert to strings
+
+// JS can only convert to strings, numbers and booleans
