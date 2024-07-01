@@ -253,32 +253,34 @@ Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76
 m tall.
 */
 
-/* Write your code below. Good luck! 🙂 */
+// /* Write your code below. Good luck! 🙂 */
 
-let massMark, heightMark, massJohn, heightJohn, BMIMark, BMIJohn, markHigherBMI;
+// let massMark, heightMark, massJohn, heightJohn, BMIMark, BMIJohn, markHigherBMI;
 
-// Test Data 1
-massMark = 78;
-heightMark = 1.69;
-massJohn = 92;
-heightJohn = 1.95;
+// // Test Data 1
+// massMark = 78;
+// heightMark = 1.69;
+// massJohn = 92;
+// heightJohn = 1.95;
 
-BMIMark = massMark / (heightMark * heightMark);
-BMIJohn = massJohn / (heightJohn * heightJohn);
-console.log(BMIMark, BMIJohn);
+// BMIMark = massMark / (heightMark * heightMark);
+// BMIJohn = massJohn / (heightJohn * heightJohn);
+// console.log(BMIMark, BMIJohn);
 
-markHigherBMI = BMIMark > BMIJohn;
-console.log(markHigherBMI);
+// markHigherBMI = BMIMark > BMIJohn;
+// console.log(markHigherBMI);
 
-// Test Data 2
-massMark = 95;
-heightMark = 1.88;
-massJohn = 85;
-heightJohn = 1.76;
+// // Test Data 2
+// massMark = 95;
+// heightMark = 1.88;
+// massJohn = 85;
+// heightJohn = 1.76;
 
-BMIMark = massMark / (heightMark * heightMark);
-BMIJohn = massJohn / (heightJohn * heightJohn);
-console.log(BMIMark, BMIJohn);
+// BMIMark = massMark / (heightMark * heightMark);
+// BMIJohn = massJohn / (heightJohn * heightJohn);
+// console.log(BMIMark, BMIJohn);
 
-markHigherBMI = BMIMark > BMIJohn;
-console.log(markHigherBMI);
+// markHigherBMI = BMIMark > BMIJohn;
+// console.log(markHigherBMI);
+
+//=============================== Strings and Template Literals
