@@ -301,3 +301,14 @@ console.log(`You can use backticks for all strings...`);
 console.log(`String with
 multiple
 lines`);
+
+// Exercise
+// Recreate the description variable from the last assignment, this time using the template literal syntax.
+const country = "Uganda";
+const continent = "Africa";
+let population = 45.9;
+const language = "English";
+const isIsland = false;
+// 5
+const description = `${country} is in ${continent}, and its ${population} million people speak ${language}`;
+console.log(description);
