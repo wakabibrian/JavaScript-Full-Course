@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.5.0...v1.6.0) (2024-07-01)
+
+
+### Features
+
+* Add operator precedence ([fd85c20](https://github.com/wakabibrian/JavaScript-Full-Course/commit/fd85c2036c99cccf218118cae0bd8f0c3d1907a1))
+
 ## [1.5.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.4.0...v1.5.0) (2024-07-01)
 
 
