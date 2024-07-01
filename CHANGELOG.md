@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.10.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.9.0...v1.10.0) (2024-07-01)
+
+
+### Features
+
+* Add exercise - Taking Decisions: if / else Statements ([124bc32](https://github.com/wakabibrian/JavaScript-Full-Course/commit/124bc32702e23600a64d4810b11c2cfcbbab3239))
+* Add if else ([f18c1f9](https://github.com/wakabibrian/JavaScript-Full-Course/commit/f18c1f9ba92b4bbd3922334a8ea5a2a55ddd1e93))
+
 ## [1.9.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.8.0...v1.9.0) (2024-07-01)
 
 
