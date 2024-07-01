@@ -212,3 +212,22 @@ const birthYear = 1990; //Variable cannot be mutated/reassigned/changed
 // console.log(description);
 
 // ===============================  Operator Precedence
+// Order in which operators are executed
+const now = 2037;
+const ageWakabi = now - 1990;
+const ageSarah = now - 2018;
+console.log(now - 1990 > now - 2018);
+
+// Operator precedence table: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence
+// > operator has a lower precedence than the - operator. Therefor - is executed first
+// Some operators are executed from left to right while others are executed from right to left.
+console.log(25 - 10 - 5); //left to right execution
+
+// right to left operation/execution
+let x, y;
+x = y = 25 - 10 - 5; //x=y=10 //right to left x
+console.log(x, y);
+
+// Grouping - highest precedence
+const averageAge = (ageSarah + ageWakabi) / 2;
+console.log(ageSarah, ageWakabi, averageAge);
