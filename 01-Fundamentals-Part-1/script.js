@@ -409,3 +409,22 @@ if (height) {
 }
 */
 //=============================== Equality Operators: == vs. ===
+// === strict equality operator (It does not perform type coercion), only returns true when both values are exactly the same
+// == Loose equality operator (Performs type coercion)
+const age = 18;
+if (age === 18) console.log("You just became an adult");
+
+console.log("18" == 18); //True - String 18 will be converted to a number
+console.log(18 == 18); //True
+
+// Always avoid the loose equality operator to avoid bugs
+
+const favorite = Number(prompt("What's your favorite number?"));
+
+if (favorite === 23) {
+  console.log("Cool! 23 is an amazing number.");
+} else if (favorite === 7) {
+  console.log("7 is also a cool number!");
+} else {
+  console.log("Number is not 23 or 7.");
+}
