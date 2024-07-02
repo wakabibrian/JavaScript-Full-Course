@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.18.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.17.1...v1.18.0) (2024-07-02)
+
+
+### Features
+
+* Add The Conditional (Ternary) Operator ([286d6a0](https://github.com/wakabibrian/JavaScript-Full-Course/commit/286d6a074e799bb948ef6d0bb7e7ce3cd2bb1e9b))
+
 ### [1.17.1](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.17.0...v1.17.1) (2024-07-02)
 
 ## [1.17.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.16.0...v1.17.0) (2024-07-02)
