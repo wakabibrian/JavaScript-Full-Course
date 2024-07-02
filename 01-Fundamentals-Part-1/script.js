@@ -382,6 +382,7 @@ console.log("23" * "3"); //Type coercion to number
 */
 
 //=============================== Truthy and Falsy Values
+/*
 // Falsy values - not values that exactly false but will become false when we convert them to a boolean
 // 5 falsy values: 0, "", null, undefined, NaN
 // Everything else are called truthy values - values that will become true when we convert them to a boolean
@@ -406,3 +407,5 @@ if (height) {
 } else {
   console.log("Height is undefined");
 }
+*/
+//=============================== Equality Operators: == vs. ===
