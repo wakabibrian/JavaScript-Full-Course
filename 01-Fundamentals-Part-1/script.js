@@ -442,3 +442,23 @@ if (favorite !== 23) console.log("Why not 23?");
 // NOT operator - it acts on only one boolean value (It inverts the value)
 
 //=============================== Logical Operators
+const hasDriversLicense = true;
+const hasGoodVision = true;
+
+console.log(hasDriversLicense && hasGoodVision); //AND operator
+console.log(hasDriversLicense || hasGoodVision); //OR operator
+
+// if (hasDriversLicense && hasGoodVision) {
+//   console.log("Sarah is able to drive!");
+// } else {
+//   console.log("Someone else should drive...");
+// }
+
+const isTired = false; //
+console.log(hasDriversLicense || hasGoodVision || isTired);
+
+if (hasDriversLicense && hasGoodVision && !isTired) {
+  console.log("Sarah is able to drive!");
+} else {
+  console.log("Someone else should drive...");
+}
