@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.12.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.11.0...v1.12.0) (2024-07-02)
+
+
+### Features
+
+* Add truthy and falsy values ([f27adc2](https://github.com/wakabibrian/JavaScript-Full-Course/commit/f27adc2d82bdae97642d3d1750ddddbb59bc9238))
+* Add type type coercion to booleans ([9cbe149](https://github.com/wakabibrian/JavaScript-Full-Course/commit/9cbe14915ee52e643feeb583baefbbe9f43dfa4d))
+
 ## [1.11.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.10.0...v1.11.0) (2024-07-01)
 
 
