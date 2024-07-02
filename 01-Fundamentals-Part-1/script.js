@@ -358,6 +358,7 @@ if (population > 33) {
 */
 
 //=============================== Type Conversion and Coercion
+/*
 // Type conversion when we manually convert from 1 type to another
 // Type is when JavaScript automatically converts for us behind the scenes
 
@@ -378,3 +379,6 @@ console.log("I am " + 23 + " years old"); //Type coercion to sting
 console.log("23" - "10" - 3); //Type coercion to number
 console.log("23" + "10" + 3); //Type coercion to string
 console.log("23" * "3"); //Type coercion to number
+*/
+
+//=============================== Truthy and Falsy Values
