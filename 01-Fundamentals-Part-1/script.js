@@ -578,6 +578,7 @@ if (day === "monday") {
   */
 
 //=============================== Statements and Expressions
+/*
 // Expression - piece of code that produces a value
 3 + 4;
 1991;
@@ -588,3 +589,6 @@ true && false && !false;
 if (23 > 10) {
   const str = "23 is bigger than 10";
 }
+  */
+
+//=============================== The Conditional (Ternary) Operator
