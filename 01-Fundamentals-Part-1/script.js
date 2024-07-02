@@ -535,6 +535,7 @@ if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
 */
 
 //=============================== The switch Statement
+/*
 const day = "sunday";
 switch (day) {
   case "monday": // day === "monday"
@@ -574,3 +575,6 @@ if (day === "monday") {
 } else {
   console.log("Not a valid day");
 }
+  */
+
+//=============================== Statements and Expressions
