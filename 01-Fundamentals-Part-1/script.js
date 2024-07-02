@@ -382,3 +382,12 @@ console.log("23" * "3"); //Type coercion to number
 */
 
 //=============================== Truthy and Falsy Values
+// Falsy values - not values that exactly false but will become false when we convert them to a boolean
+// 5 falsy values: 0, "", null, undefined, NaN
+// Everything else are called truthy values - values that will become true when we convert them to a boolean
+// For example a number thats not 0 or a string thats not empty string, ""
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean("Wakabi"));
+console.log(Boolean({}));
+console.log(Boolean(""));
