@@ -409,6 +409,7 @@ if (height) {
 }
 */
 //=============================== Equality Operators: == vs. ===
+/*
 // === strict equality operator (It does not perform type coercion), only returns true when both values are exactly the same
 // == Loose equality operator (Performs type coercion)
 const age = 18;
@@ -431,3 +432,6 @@ if (favorite === 23) {
 
 // Different
 if (favorite !== 23) console.log("Why not 23?");
+*/
+
+//=============================== Boolean Logic
