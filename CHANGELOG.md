@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.13.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.12.0...v1.13.0) (2024-07-02)
+
+
+### Features
+
+* Add different(!==) operator ([96bc918](https://github.com/wakabibrian/JavaScript-Full-Course/commit/96bc9186a13670f5ba3d0f6bae2591b88ba2be8f))
+* Add Equality Operators: == vs. === ([1af4951](https://github.com/wakabibrian/JavaScript-Full-Course/commit/1af4951249225d465ed486295fbdba4036492c6a))
+
 ## [1.12.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.11.0...v1.12.0) (2024-07-02)
 
 
