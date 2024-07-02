@@ -435,3 +435,8 @@ if (favorite !== 23) console.log("Why not 23?");
 */
 
 //=============================== Boolean Logic
+// It uses truth and falsy values to solve complex logic problems
+// It combines several logical operators
+// AND operator returns true only if both A and B are true
+// OR operator returns true if one of the values is true
+// NOT operator - it acts on only one boolean value (It inverts the value)
