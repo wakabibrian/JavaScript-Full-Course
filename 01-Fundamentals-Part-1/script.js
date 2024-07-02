@@ -488,7 +488,7 @@ Data 1: Dolphins score 96, 108 and 89. Koalas score 88, 91 and 110
 Data Bonus 1: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 123
 Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
 */
-
+/*
 // 1
 // const scoreDolphins = (93 + 108 + 89) / 3;
 const scoreDolphins = (97 + 112 + 101) / 3;
@@ -532,3 +532,6 @@ if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
 } else {
   console.log("No team wins the trophy");
 }
+*/
+
+//=============================== The switch Statement
