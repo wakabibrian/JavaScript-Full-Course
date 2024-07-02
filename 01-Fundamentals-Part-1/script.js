@@ -428,3 +428,6 @@ if (favorite === 23) {
 } else {
   console.log("Number is not 23 or 7.");
 }
+
+// Different
+if (favorite !== 23) console.log("Why not 23?");
