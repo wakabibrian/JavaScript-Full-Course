@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.15.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.14.0...v1.15.0) (2024-07-02)
+
+
+### Features
+
+* Add logic operators ([f268588](https://github.com/wakabibrian/JavaScript-Full-Course/commit/f268588042e0a98ad6dd2ce4031fed46ace9c593))
+
 ## [1.14.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.13.0...v1.14.0) (2024-07-02)
 
 
