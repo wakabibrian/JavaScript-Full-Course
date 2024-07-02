@@ -391,3 +391,18 @@ console.log(Boolean(undefined));
 console.log(Boolean("Wakabi"));
 console.log(Boolean({}));
 console.log(Boolean(""));
+
+// Type coercion to booleans - during logical operators and logical statements e.g if statements
+const money = 100;
+if (money) {
+  console.log("Don't spend it all");
+} else {
+  console.log("You should get a job!");
+}
+
+let height = 45;
+if (height) {
+  console.log("YAY! Height is defined");
+} else {
+  console.log("Height is undefined");
+}
