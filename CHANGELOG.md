@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.17.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.16.0...v1.17.0) (2024-07-02)
+
+
+### Features
+
+* Add if statement - switch statement equivalent ([3c4bea8](https://github.com/wakabibrian/JavaScript-Full-Course/commit/3c4bea804441e566a17f250f4a970ed0688c1f03))
+* Add switch statement ([a44661e](https://github.com/wakabibrian/JavaScript-Full-Course/commit/a44661effa2c4d44c1912bfd2ba89a4ef28adfa2))
+
 ## [1.16.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.15.0...v1.16.0) (2024-07-02)
 
 
