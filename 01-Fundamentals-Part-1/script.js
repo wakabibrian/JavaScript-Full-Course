@@ -578,3 +578,13 @@ if (day === "monday") {
   */
 
 //=============================== Statements and Expressions
+// Expression - piece of code that produces a value
+3 + 4;
+1991;
+true && false && !false;
+
+//Statement - big block of code that is executed that doesn't produce a value
+// Complete sentence that ends with a semi-colon
+if (23 > 10) {
+  const str = "23 is bigger than 10";
+}
