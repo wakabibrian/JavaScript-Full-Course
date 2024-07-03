@@ -1,5 +1,5 @@
 //=============================== Activating Strict Mode
-
+/*
 "use strict"; //Helps to write secure JavaScript code.
 
 let hasDriversLicense = false;
@@ -10,3 +10,6 @@ if (hasDriversLicense) console.log("I can drive");
 
 // const interface = "Audio"; // Reserved JS word for future
 // const private = 453;
+*/
+
+//=============================== Functions
