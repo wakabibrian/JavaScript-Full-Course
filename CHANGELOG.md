@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.20.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.19.0...v1.20.0) (2024-07-03)
+
+
+### Features
+
+* Add strict mode ([9b3572d](https://github.com/wakabibrian/JavaScript-Full-Course/commit/9b3572df9c8b2476faa4200365601353228a8205))
+* Add strict mode examples ([250781e](https://github.com/wakabibrian/JavaScript-Full-Course/commit/250781eab04c8151e30487be4805d95df16ffd5c))
+
 ## [1.19.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.18.0...v1.19.0) (2024-07-03)
 
 
