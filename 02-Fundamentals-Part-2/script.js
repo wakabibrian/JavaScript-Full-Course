@@ -13,3 +13,25 @@ if (hasDriversLicense) console.log("I can drive");
 */
 
 //=============================== Functions
+// A function can hold 1 or more complete lines of code that can be reused over and over
+
+function logger() {
+  console.log("My name is Brian");
+}
+
+// Calling/running/invoking the function
+logger();
+logger();
+logger();
+
+//Parameters
+function fruitProcessor(apples, oranges) {
+  const juice = `Juice with ${apples} apples and ${oranges} orange`;
+  return juice;
+}
+
+const appleJuice = fruitProcessor(5, 0); //arguments
+console.log(appleJuice);
+
+const appleOrangeJuice = fruitProcessor(2, 4);
+console.log(appleOrangeJuice);
