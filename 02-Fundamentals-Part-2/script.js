@@ -13,6 +13,7 @@ if (hasDriversLicense) console.log("I can drive");
 */
 
 //=============================== Functions
+/*
 // A function can hold 1 or more complete lines of code that can be reused over and over
 
 function logger() {
@@ -35,3 +36,6 @@ console.log(appleJuice);
 
 const appleOrangeJuice = fruitProcessor(2, 4);
 console.log(appleOrangeJuice);
+*/
+
+//=============================== Function Declarations vs. Expressions
