@@ -60,6 +60,7 @@ console.log(age2);
 */
 
 //=============================== Arrow Functions
+/*
 // Special form of function expression that is shorter and faster to write
 const calcAge3 = (birthYear) => 2037 - birthYear; //The return happens implicitly
 const age3 = calcAge3(1990);
@@ -73,3 +74,6 @@ const yearsUntilRetirement = (birthYear, firstName) => {
 
 console.log(yearsUntilRetirement(1990, "Brian"));
 console.log(yearsUntilRetirement(2019, "Britney"));
+*/
+
+//=============================== Functions Calling Other Functions
