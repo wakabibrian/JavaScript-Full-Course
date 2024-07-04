@@ -39,3 +39,11 @@ console.log(appleOrangeJuice);
 */
 
 //=============================== Function Declarations vs. Expressions
+// Function declaration
+// Above is function declaration because we use the function keyword to declare a function
+function calcAge1(birthYear) {
+  return 2037 - birthYear;
+}
+
+const age1 = calcAge1(1990);
+console.log(age1);
