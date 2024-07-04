@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.21.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.20.0...v1.21.0) (2024-07-04)
+
+
+### Features
+
+* Add arrow functions ([48e6224](https://github.com/wakabibrian/JavaScript-Full-Course/commit/48e6224c152f563a46824c5b773fd4c4a75fa05e))
+* Add function declaration ([7716e4e](https://github.com/wakabibrian/JavaScript-Full-Course/commit/7716e4ebe6848a48dd164fc9109dc78062bdd06a))
+* Add function expression ([b345e23](https://github.com/wakabibrian/JavaScript-Full-Course/commit/b345e23b8d3c3ececba2d5236c58f1aa6a248cdf))
+* Add functions - parameters, arguments and return ([9de9d67](https://github.com/wakabibrian/JavaScript-Full-Course/commit/9de9d6772fea6ecb804d693b0d5d767b85ebb433))
+* Add Functions Calling Other Functions ([dbf0c0f](https://github.com/wakabibrian/JavaScript-Full-Course/commit/dbf0c0f4de94d492bde22952e5bd9c7af9856ab2))
+* Addd difference between function declaration and expression ([54cf4a7](https://github.com/wakabibrian/JavaScript-Full-Course/commit/54cf4a7768d32eeceff8838ec94d928b18db6050))
+
 ## [1.20.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.19.0...v1.20.0) (2024-07-03)
 
 
