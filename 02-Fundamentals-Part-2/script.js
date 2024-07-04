@@ -39,6 +39,7 @@ console.log(appleOrangeJuice);
 */
 
 //=============================== Function Declarations vs. Expressions
+/*
 // Function declaration
 // Above is function declaration because we use the function keyword to declare a function
 
@@ -56,3 +57,6 @@ const age2 = calcAge2(1990);
 console.log(age2);
 
 // We can call function declarations before defining the function
+*/
+
+//=============================== Arrow Functions
