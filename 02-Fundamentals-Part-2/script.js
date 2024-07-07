@@ -77,6 +77,7 @@ console.log(yearsUntilRetirement(2019, "Britney"));
 */
 
 //=============================== Functions Calling Other Functions
+/*
 function cutPieces(fruit) {
   return fruit * 3;
 }
@@ -90,3 +91,6 @@ function fruitProcessor(apples, oranges) {
 }
 
 console.log(fruitProcessor(2, 3));
+*/
+
+//=============================== Review Functions
