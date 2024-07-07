@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.22.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.21.0...v1.22.0) (2024-07-07)
+
+
+### Features
+
+* return statement immediately exits the function ([f0e2184](https://github.com/wakabibrian/JavaScript-Full-Course/commit/f0e218438407b7208415d350c9da0fbc08ffbadc))
+
 ## [1.21.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.20.0...v1.21.0) (2024-07-04)
 
 
