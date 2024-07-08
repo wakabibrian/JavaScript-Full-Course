@@ -253,3 +253,13 @@ console.log(friends);
 
 console.log(friends.indexOf("Steven")); //Return the index of the element
 console.log(friends.indexOf("Bob")); //Not available, return -1
+
+friends.push(23);
+console.log(friends.includes("Bob")); // Return false
+console.log(friends.includes("Steven")); // Return true
+console.log(friends.includes("23")); // Return false - it tests with strict equality
+console.log(friends.includes(23)); // Return true
+
+if (friends.includes("Peter")) {
+  console.log("You have a friend called Peter");
+}
