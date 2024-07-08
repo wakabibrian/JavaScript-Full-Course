@@ -191,3 +191,10 @@ console.log(friends);
 
 const years = new Array(1991, 1990, 1984, 2008); //array() function syntax
 console.log(years);
+
+// Getting elements
+console.log(friends[0]);
+console.log(friends[2]);
+
+// Number of elements
+console.log(friends.length);
