@@ -181,4 +181,13 @@ const checkWinner = (avgDolhins, avgKoalas) => {
 checkWinner(scoreDolphins, scoreKoalas);
 */
 
-//=============================== Arrays
+//=============================== Arrays - Data structure
+// const friend1 = "Micheal";
+// const friend2 = "Steven";
+// const friend3 = "Peter";
+
+const friends = ["Micheal", "Steven", "Peter"]; //Literal syntax
+console.log(friends);
+
+const years = new Array(1991, 1990, 1984, 2008); //array() function syntax
+console.log(years);
