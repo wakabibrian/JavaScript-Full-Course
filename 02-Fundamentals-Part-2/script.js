@@ -182,6 +182,7 @@ checkWinner(scoreDolphins, scoreKoalas);
 */
 
 //=============================== Arrays - Data structure
+/*
 // const friend1 = "Micheal";
 // const friend2 = "Steven";
 // const friend3 = "Peter";
@@ -229,3 +230,6 @@ const ages = [
 ];
 
 console.log(ages);
+*/
+
+//=============================== Basic Array Operations (Methods)
