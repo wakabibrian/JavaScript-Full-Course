@@ -233,6 +233,8 @@ console.log(ages);
 */
 
 //=============================== Basic Array Operations (Methods)
+
+// Add Elements
 const friends = ["Micheal", "Steven", "Peter"];
 const newLength = friends.push("Jay"); // Add elements to the end of the array and returns the length of the new array
 console.log(friends);
@@ -240,3 +242,8 @@ console.log(newLength);
 
 friends.unshift("John"); // Add elements to the beginning of the array and returns the length of the new array
 console.log(friends);
+
+//Remove elements
+const popped = friends.pop(); //Removes the last element of the array and returns the removed element
+console.log(friends);
+console.log(popped);
