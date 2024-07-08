@@ -203,3 +203,10 @@ console.log(friends[friends.length - 1]); //last element
 // Mutate elements to the array
 friends[2] = "Jay";
 console.log(friends);
+
+// friends = ["Bob", "Alice"]; //Throws an error
+
+// Array with different types
+const firstName = "Wakabi";
+const wakabi = [firstName, "Brian", 2024 - 1990, "Programmer", friends];
+console.log(wakabi);
