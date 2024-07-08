@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.25.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.24.0...v1.25.0) (2024-07-08)
+
+
+### Features
+
+* Add includes() mehod ([264a61e](https://github.com/wakabibrian/JavaScript-Full-Course/commit/264a61e14f841cca615b73fc322225eccfb53487))
+* Add indexOf() method ([d16dcd6](https://github.com/wakabibrian/JavaScript-Full-Course/commit/d16dcd66a864a430498652466d441e5aa39db418))
+* Add pop() method ([932020c](https://github.com/wakabibrian/JavaScript-Full-Course/commit/932020ce382dc20fb06e4e38ddc18234017c07e4))
+* Add push() method ([ac14314](https://github.com/wakabibrian/JavaScript-Full-Course/commit/ac14314e40f3a548f85bc0c16c172ab462ed2cf9))
+* Add the shift() method ([d6df193](https://github.com/wakabibrian/JavaScript-Full-Course/commit/d6df193d8eddcd4ff994990b22ec4bbf589eb38a))
+* Add unshift() method ([34e3d5a](https://github.com/wakabibrian/JavaScript-Full-Course/commit/34e3d5ab0c8d1e673fcd90e7e15e96bd7136878f))
+
 ## [1.24.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.23.0...v1.24.0) (2024-07-08)
 
 
