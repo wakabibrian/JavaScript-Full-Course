@@ -247,3 +247,6 @@ console.log(friends);
 const popped = friends.pop(); //Removes the last element of the array and returns the removed element
 console.log(friends);
 console.log(popped);
+
+friends.shift(); // Removes the first element of the array and returns the element that was removed
+console.log(friends);
