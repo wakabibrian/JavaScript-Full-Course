@@ -198,3 +198,8 @@ console.log(friends[2]);
 
 // Number of elements
 console.log(friends.length);
+console.log(friends[friends.length - 1]); //last element
+
+// Mutate elements to the array
+friends[2] = "Jay";
+console.log(friends);
