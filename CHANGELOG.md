@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.24.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.23.0...v1.24.0) (2024-07-08)
+
+
+### Features
+
+* Add arrays of different data type elements ([5282c3d](https://github.com/wakabibrian/JavaScript-Full-Course/commit/5282c3d229ae0f7836b39a9c6acac8ed41109177))
+* Add exercise ([2ca59ff](https://github.com/wakabibrian/JavaScript-Full-Course/commit/2ca59ff6cb92f3739945cf2a1a28c5fe9fed4aaa))
+* Add getting elements and number of elements (length of array) ([a3bfce8](https://github.com/wakabibrian/JavaScript-Full-Course/commit/a3bfce875f3f0e28cf4e1446d50692cd7ec7480d))
+* Add literal and array function syntax ([fb8e83a](https://github.com/wakabibrian/JavaScript-Full-Course/commit/fb8e83ade86fa3562763a6f1ad7bcb271724c4cb))
+* Mutate array ([09dddf8](https://github.com/wakabibrian/JavaScript-Full-Course/commit/09dddf8013f8b20fd9cd19ed8732c54cdae7e6e3))
+
 ## [1.23.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.22.0...v1.23.0) (2024-07-08)
 
 
