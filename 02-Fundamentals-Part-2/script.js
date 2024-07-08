@@ -146,7 +146,7 @@ To calculate average of 3 values, add them all together and divide by 3
 To check if number A is at least double number B, check for A >= 2 * B.
 Apply this to the team's average scores
 */
-
+/*
 // 1. Create an arrow function 'calcAverage' to calculate the average of 3 scores
 const calcAverage = (score1, score2, score3) => {
   return (score1 + score2 + score3) / 3;
@@ -179,3 +179,6 @@ const checkWinner = (avgDolhins, avgKoalas) => {
 
 // 4. Use the 'checkWinner' function to determine the winner for both Data 1 and Data 2
 checkWinner(scoreDolphins, scoreKoalas);
+*/
+
+//=============================== Arrays
