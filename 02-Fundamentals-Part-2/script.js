@@ -233,3 +233,7 @@ console.log(ages);
 */
 
 //=============================== Basic Array Operations (Methods)
+const friends = ["Micheal", "Steven", "Peter"];
+const newLength = friends.push("Jay"); // Add elements to the end of the array and returns the length of the new array
+console.log(friends);
+console.log(newLength);
