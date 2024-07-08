@@ -250,3 +250,6 @@ console.log(popped);
 
 friends.shift(); // Removes the first element of the array and returns the element that was removed
 console.log(friends);
+
+console.log(friends.indexOf("Steven")); //Return the index of the element
+console.log(friends.indexOf("Bob")); //Not available, return -1
