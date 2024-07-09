@@ -289,3 +289,48 @@ actually be the returned value of a function! So you can just call a function as
 values (so don't store the tip values in separate variables first, but right in the new
 array)
 */
+
+// Solution 1
+/*
+const calcTip = (bill) => {
+  if (bill >= 50 && bill <= 300) {
+    return 0.15 * bill;
+  } else {
+    return 0.2 * bill;
+  }
+};
+
+const bills = [125, 555, 44];
+
+const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
+
+const total = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
+
+console.log(tips, total);
+*/
+
+// Solution 2
+/*
+const bills = [125, 555, 44];
+const tips = [];
+const totals = [];
+
+let index = 0;
+const calcTip = (bills) => {
+  bills[index] >= 50 && bills[index] <= 300
+    ? tips.push(bills[index] * 0.15)
+    : tips.push(bills[index] * 0.2);
+
+  totals.push(bills[index] + tips[index]);
+
+  index++;
+  if (index === bills.length) {
+    return;
+  } else {
+    calcTip(bills);
+  }
+};
+
+calcTip(bills);
+console.log(tips, totals);
+*/
