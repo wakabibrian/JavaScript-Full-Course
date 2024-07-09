@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.26.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.25.0...v1.26.0) (2024-07-09)
+
+
+### Features
+
+* Add coding challenge 2 ([812b773](https://github.com/wakabibrian/JavaScript-Full-Course/commit/812b77383338ed25f9db251d056eba38da8ad2f3))
+
 ## [1.25.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.24.0...v1.25.0) (2024-07-08)
 
 
