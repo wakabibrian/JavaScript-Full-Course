@@ -356,6 +356,7 @@ const wakabi = {
 */
 
 //=============================== Dot vs. Bracket Notation
+/*
 // Getting the property from the object.
 const wakabi = {
   firstName: "Wakabi",
@@ -403,3 +404,6 @@ console.log(wakabi);
 console.log(
   `${wakabi.firstName} has ${wakabi.friends.length} friends and his best friend is ${wakabi.friends[0]}`
 );
+*/
+
+//=============================== Object Methods
