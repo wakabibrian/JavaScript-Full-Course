@@ -398,3 +398,8 @@ wakabi.location = "Uganda";
 wakabi["twitter"] = "@wakabibrian";
 
 console.log(wakabi);
+
+// Challenge
+console.log(
+  `${wakabi.firstName} has ${wakabi.friends.length} friends and his best friend is ${wakabi.friends[0]}`
+);
