@@ -416,10 +416,16 @@ const wakabi = {
   friends: ["Micheal", "Steven", "Peter"],
   hasDriversLicense: false,
 
-  calcAge: function (birthYear) {
-    return 2037 - birthYear;
-  }, // Method - any function that is attached to an object. We use a function expression not declaration
+  // calcAge: function (birthYear) {
+  //   return 2037 - birthYear;
+  // }, // Method - any function that is attached to an object. We use a function expression not declaration
+
+  calcAge: function () {
+    return 2037 - this.birthYear; //this keyword is equal to the object onto which the method is called
+  },
 };
 
-console.log(wakabi.calcAge(1990));
-console.log(wakabi["calcAge"](1990));
+// console.log(wakabi.calcAge(1990));
+// console.log(wakabi["calcAge"](1990));
+
+console.log(wakabi.calcAge());
