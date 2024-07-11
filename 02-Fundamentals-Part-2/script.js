@@ -366,6 +366,7 @@ const wakabi = {
   friends: ["Micheal", "Steven", "Peter"],
 };
 
+
 console.log(wakabi);
 
 // Dot notation
@@ -407,3 +408,18 @@ console.log(
 */
 
 //=============================== Object Methods
+const wakabi = {
+  firstName: "Wakabi",
+  lastName: "Brian",
+  birthYear: 1990,
+  job: "programmer",
+  friends: ["Micheal", "Steven", "Peter"],
+  hasDriversLicense: false,
+
+  calcAge: function (birthYear) {
+    return 2037 - birthYear;
+  }, // Method - any function that is attached to an object. We use a function expression not declaration
+};
+
+console.log(wakabi.calcAge(1990));
+console.log(wakabi["calcAge"](1990));
