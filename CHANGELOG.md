@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.27.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.26.0...v1.27.0) (2024-07-11)
+
+
+### Features
+
+* Add a challenge and object in relation to arrays ([523d365](https://github.com/wakabibrian/JavaScript-Full-Course/commit/523d365291a9fa2d7c50b43344aa21dd6f335693))
+* Add a method ([9bdba17](https://github.com/wakabibrian/JavaScript-Full-Course/commit/9bdba17d4c817215de652b2ba4d4fb7a96788abc))
+* Add adding properties to the object ([affc8e7](https://github.com/wakabibrian/JavaScript-Full-Course/commit/affc8e7fa50a23cb294531af8735aefc8fe49529))
+* Add Bracket notation ([60250ae](https://github.com/wakabibrian/JavaScript-Full-Course/commit/60250ae6d4ae1a3c82fd666ef3f0d2fdb71ef306))
+* Add bracket notation example ([631b3ca](https://github.com/wakabibrian/JavaScript-Full-Course/commit/631b3ca3dff8a565468564b177667633469310c1))
+* Add challenge ([453aa0d](https://github.com/wakabibrian/JavaScript-Full-Course/commit/453aa0d5aec38f74107597ce997065b270a948dc))
+* Add introduction to objects ([8c9555a](https://github.com/wakabibrian/JavaScript-Full-Course/commit/8c9555aeda2182bd17bdac92db3e2e6d253db5a9))
+* Add storing a calculated method ([446cc2a](https://github.com/wakabibrian/JavaScript-Full-Course/commit/446cc2aa9eb99faa5830dd6b89437c1715804601))
+* Add the dot notation ([bd81694](https://github.com/wakabibrian/JavaScript-Full-Course/commit/bd8169404458d27c0caa1220cad3e0e1ff29cd38))
+* Add the this keyword ([8820fca](https://github.com/wakabibrian/JavaScript-Full-Course/commit/8820fca69e75fb2faed97d8afe54ef4873c28a63))
+* Difference between dot and bracket notation ([e5c9c42](https://github.com/wakabibrian/JavaScript-Full-Course/commit/e5c9c42bd12b4fce5fa2ddf26da416ec565c1c22))
+
 ## [1.26.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.25.0...v1.26.0) (2024-07-09)
 
 
