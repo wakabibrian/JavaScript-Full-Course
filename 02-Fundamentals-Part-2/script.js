@@ -516,6 +516,7 @@ console.log(
 */
 
 //=============================== Iteration: The for Loop
+/*
 // console.log("Lifting weight repetition 1");
 // console.log("Lifting weight repetition 2");
 // console.log("Lifting weight repetition 3");
@@ -531,3 +532,6 @@ console.log(
 for (let rep = 1; rep <= 10; rep++) {
   console.log(`Lifting weight repetition ${rep}🏋️`);
 }
+*/
+
+//=============================== Looping Arrays, Breaking and Continuing
