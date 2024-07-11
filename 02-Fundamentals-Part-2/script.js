@@ -376,3 +376,13 @@ console.log(wakabi["lastName"]); // Here you can put any expression
 const nameKey = "Name";
 console.log(wakabi["first" + nameKey]);
 console.log(wakabi["last" + nameKey]);
+
+// When to use Dot or Bracket Notation
+// - When we need to first compute the property name, we have to use the bracket notation
+// - In any other case, use the dot notation
+
+const interestedIn = prompt(
+  "What do you want to know about Wakabi? Choose between firstName, lastName, age, job and friends"
+);
+
+console.log(wakabi[interestedIn]);
