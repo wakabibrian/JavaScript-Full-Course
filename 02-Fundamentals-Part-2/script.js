@@ -336,6 +336,7 @@ console.log(tips, totals);
 */
 
 //=============================== Introduction to Objects
+/*
 // Another data structures (store multiple values) after arrays
 // We define key-value pairs
 // Used to group the entire variables that belong together
@@ -352,3 +353,6 @@ const wakabi = {
 
 // The above object has 5 properties; firstName, lastName, age, job and friends
 // The above is the object literal syntax - literally writing down the entire object content
+*/
+
+//=============================== Dot vs. Bracket Notation
