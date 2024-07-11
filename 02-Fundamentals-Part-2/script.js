@@ -535,3 +535,15 @@ for (let rep = 1; rep <= 10; rep++) {
 */
 
 //=============================== Looping Arrays, Breaking and Continuing
+const wakabi = [
+  "Wakabi",
+  "Brian",
+  2037 - 1990,
+  "programmer",
+  ["Micheal", "Steven", "Peter"],
+  true,
+];
+
+for (let i = 0; i < wakabi.length; i++) {
+  console.log(wakabi[i], typeof wakabi[i]);
+}
