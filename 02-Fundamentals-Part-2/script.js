@@ -428,6 +428,12 @@ const wakabi = {
     this.age = 2037 - this.birthYear; //Store the calcAge in a variable to avoid repeating calculations
     return this.age;
   },
+
+  getSummary: function () {
+    return `${this.firstName} is a ${this.calcAge()}-year old ${
+      this.job
+    }, and he has ${this.hasDriversLicense ? "a" : "no"} driver's license`;
+  },
 };
 
 // console.log(wakabi.calcAge(1990));
@@ -438,3 +444,9 @@ console.log(wakabi.calcAge());
 console.log(wakabi.age);
 console.log(wakabi.age);
 console.log(wakabi.age);
+
+// Challenge
+// "Wakabi is a 47-year old programmer, and he has no driver's license"
+console.log(wakabi.getSummary());
+
+// Arrays are also objects/special kind of objects since they have methods which can be used to manipulate them
