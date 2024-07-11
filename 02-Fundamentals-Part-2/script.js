@@ -336,3 +336,19 @@ console.log(tips, totals);
 */
 
 //=============================== Introduction to Objects
+// Another data structures (store multiple values) after arrays
+// We define key-value pairs
+// Used to group the entire variables that belong together
+// The order doesn't matter
+// Arrays for more ordered data, objects for more structured data
+
+const wakabi = {
+  firstName: "Wakabi",
+  lastName: "Brian",
+  age: 2037 - 1990,
+  job: "programmer",
+  friends: ["Micheal", "Steven", "Peter"],
+};
+
+// The above object has 5 properties; firstName, lastName, age, job and friends
+// The above is the object literal syntax - literally writing down the entire object content
