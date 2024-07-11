@@ -472,6 +472,7 @@ Test data: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.9
 tall
 */
 
+/*
 const mark = {
   fullName: "Mark Miller",
   mass: 78,
@@ -512,3 +513,6 @@ console.log(
     john.bmi > mark.bmi ? "higher" : "lower"
   } than ${mark.fullName}'s (${mark.bmi})`
 );
+*/
+
+//=============================== Iteration: The for Loop
