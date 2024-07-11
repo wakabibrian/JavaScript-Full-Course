@@ -420,8 +420,13 @@ const wakabi = {
   //   return 2037 - birthYear;
   // }, // Method - any function that is attached to an object. We use a function expression not declaration
 
+  // calcAge: function () {
+  //   return 2037 - this.birthYear; //this keyword is equal to the object onto which the method is called
+  // },
+
   calcAge: function () {
-    return 2037 - this.birthYear; //this keyword is equal to the object onto which the method is called
+    this.age = 2037 - this.birthYear; //Store the calcAge in a variable to avoid repeating calculations
+    return this.age;
   },
 };
 
@@ -429,3 +434,7 @@ const wakabi = {
 // console.log(wakabi["calcAge"](1990));
 
 console.log(wakabi.calcAge());
+
+console.log(wakabi.age);
+console.log(wakabi.age);
+console.log(wakabi.age);
