@@ -369,3 +369,10 @@ console.log(wakabi);
 
 // Dot notation
 console.log(wakabi.lastName);
+
+// Bracket Notation
+console.log(wakabi["lastName"]); // Here you can put any expression
+
+const nameKey = "Name";
+console.log(wakabi["first" + nameKey]);
+console.log(wakabi["last" + nameKey]);
