@@ -392,3 +392,9 @@ if (wakabi[interestedIn]) {
     "Wrong request! Choose between firstName, lastName, age, job and friends"
   );
 }
+
+// Adding new properties to the object
+wakabi.location = "Uganda";
+wakabi["twitter"] = "@wakabibrian";
+
+console.log(wakabi);
