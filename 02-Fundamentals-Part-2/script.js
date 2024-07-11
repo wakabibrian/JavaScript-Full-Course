@@ -385,4 +385,10 @@ const interestedIn = prompt(
   "What do you want to know about Wakabi? Choose between firstName, lastName, age, job and friends"
 );
 
-console.log(wakabi[interestedIn]);
+if (wakabi[interestedIn]) {
+  console.log(wakabi[interestedIn]);
+} else {
+  console.log(
+    "Wrong request! Choose between firstName, lastName, age, job and friends"
+  );
+}
