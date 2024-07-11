@@ -356,3 +356,16 @@ const wakabi = {
 */
 
 //=============================== Dot vs. Bracket Notation
+// Getting the property from the object.
+const wakabi = {
+  firstName: "Wakabi",
+  lastName: "Brian",
+  age: 2037 - 1990,
+  job: "programmer",
+  friends: ["Micheal", "Steven", "Peter"],
+};
+
+console.log(wakabi);
+
+// Dot notation
+console.log(wakabi.lastName);
