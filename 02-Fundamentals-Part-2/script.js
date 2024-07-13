@@ -535,6 +535,7 @@ for (let rep = 1; rep <= 10; rep++) {
 */
 
 //=============================== Looping Arrays, Breaking and Continuing
+/*
 const wakabi = [
   "Wakabi",
   "Brian",
@@ -579,3 +580,6 @@ for (let i = 0; i < wakabi.length; i++) {
   console.log(wakabi[i], typeof wakabi[i]);
   if (typeof wakabi[i] === "number") break; //Once the number is found, it breaks
 }
+  */
+
+//=============================== Looping Backwards and Loops in Loops
