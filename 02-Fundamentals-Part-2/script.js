@@ -565,3 +565,17 @@ for (let i = 0; i < years.length; i++) {
 }
 
 console.log(ages);
+
+// continue and break
+// continue - Exit the current iteration of the loop
+console.log("------------ ONLY STRINGS -----------");
+for (let i = 0; i < wakabi.length; i++) {
+  if (typeof wakabi[i] !== "string") continue; //log only strings, everything else should be skipped
+  console.log(wakabi[i], typeof wakabi[i]);
+}
+
+console.log("------------ BREAK WITH NUMBER -----------");
+for (let i = 0; i < wakabi.length; i++) {
+  console.log(wakabi[i], typeof wakabi[i]);
+  if (typeof wakabi[i] === "number") break; //Once the number is found, it breaks
+}
