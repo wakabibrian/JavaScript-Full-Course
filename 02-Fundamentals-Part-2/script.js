@@ -616,8 +616,20 @@ for (let exercise = 1; exercise < 4; exercise++) {
 // While loop more versatile than the for loop because it doesn't need the counter
 // console.log("------------ while loop");
 
-let rep = 1;
-while (rep <= 10) {
-  console.log(`Lifting weight repetition ${rep}🏋️`);
-  rep++;
+// let rep = 1;
+// while (rep <= 10) {
+//   console.log(`Lifting weight repetition ${rep}🏋️`);
+//   rep++;
+// }
+
+// While loop without a counter variable
+let dice = Math.trunc(Math.random() * 6) + 1;
+
+while (dice !== 6) {
+  console.log(`You rolled a ${dice}`);
+  dice = Math.trunc(Math.random() * 6) + 1;
+
+  if (dice === 6) console.log("Loop is about to end...");
 }
+
+// When you don't know how many iterations, use a while loop, but when you know, use the for loop
