@@ -583,3 +583,14 @@ for (let i = 0; i < wakabi.length; i++) {
   */
 
 //=============================== Looping Backwards and Loops in Loops
+const wakabi = [
+  "Wakabi",
+  "Brian",
+  2037 - 1990,
+  "programmer",
+  ["Micheal", "Steven", "Peter"],
+];
+
+for (let i = wakabi.length - 1; i >= 0; i--) {
+  console.log(i, wakabi[i]);
+}
