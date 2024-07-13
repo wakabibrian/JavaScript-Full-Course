@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.29.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.28.0...v1.29.0) (2024-07-13)
+
+
+### Features
+
+* Add coding challenge ([543d9a4](https://github.com/wakabibrian/JavaScript-Full-Course/commit/543d9a4b4c9a30d1cb123c3d34f31927c1763a6a))
+* Add continue and break ([8592b08](https://github.com/wakabibrian/JavaScript-Full-Course/commit/8592b08e74fe2a00f76124d6e336a3b2424cc163))
+* Add filling and reading from array with for loop ([c3da5fc](https://github.com/wakabibrian/JavaScript-Full-Course/commit/c3da5fc3ae0e74a1504d982283f3fea2bdfa94eb))
+* Add for loop ([79aa2ca](https://github.com/wakabibrian/JavaScript-Full-Course/commit/79aa2ca21b42013bab43d8518e6ef92a32d04f62))
+* Add looping backwards ([57e77d7](https://github.com/wakabibrian/JavaScript-Full-Course/commit/57e77d76d1294a9b7a40f693f4abbfd39deaac6e))
+* Add looping through the array ([e0b4305](https://github.com/wakabibrian/JavaScript-Full-Course/commit/e0b4305f1755da095c7842de29bdfa731b52ae79))
+* Add loops in loops ([7904fa2](https://github.com/wakabibrian/JavaScript-Full-Course/commit/7904fa294ac02f2ea1b7c7e9f30b9043b76afe28))
+* Add the while loop ([0d32997](https://github.com/wakabibrian/JavaScript-Full-Course/commit/0d32997dd048fbec5a509bfa94c0fcda796eab86))
+* Add while loop without a counter variable ([405e57a](https://github.com/wakabibrian/JavaScript-Full-Course/commit/405e57a72d6c891d2b3408c06cb18611e9df22eb))
+
 ## [1.28.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.27.0...v1.28.0) (2024-07-11)
 
 
