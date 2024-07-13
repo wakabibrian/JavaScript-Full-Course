@@ -583,6 +583,7 @@ for (let i = 0; i < wakabi.length; i++) {
   */
 
 //=============================== Looping Backwards and Loops in Loops
+// Looping Backwards
 const wakabi = [
   "Wakabi",
   "Brian",
@@ -593,4 +594,13 @@ const wakabi = [
 
 for (let i = wakabi.length - 1; i >= 0; i--) {
   console.log(i, wakabi[i]);
+}
+
+// Loops in Loops
+for (let exercise = 1; exercise < 4; exercise++) {
+  console.log(`---------- Start exercise ${exercise}`);
+
+  for (let rep = 1; rep < 6; rep++) {
+    console.log(`Exercise ${exercise}: Lifting weight repetition ${rep}🏋️`);
+  }
 }
