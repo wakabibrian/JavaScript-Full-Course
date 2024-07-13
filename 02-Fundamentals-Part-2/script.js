@@ -583,6 +583,7 @@ for (let i = 0; i < wakabi.length; i++) {
   */
 
 //=============================== Looping Backwards and Loops in Loops
+/*
 // Looping Backwards
 const wakabi = [
   "Wakabi",
@@ -604,5 +605,19 @@ for (let exercise = 1; exercise < 4; exercise++) {
     console.log(`Exercise ${exercise}: Lifting weight repetition ${rep}🏋️`);
   }
 }
+  */
 
-//=============================== The while LoopThe while Loop
+//=============================== The while Loop
+// console.log("------------ for loop");
+// for (let rep = 1; rep <= 10; rep++) {
+//   console.log(`Lifting weight repetition ${rep}🏋️`);
+// }
+
+// While loop more versatile than the for loop because it doesn't need the counter
+// console.log("------------ while loop");
+
+let rep = 1;
+while (rep <= 10) {
+  console.log(`Lifting weight repetition ${rep}🏋️`);
+  rep++;
+}
