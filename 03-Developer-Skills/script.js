@@ -7,3 +7,18 @@
 console.log();
 
 // TODO;
+
+const measureKelvin = function () {
+  const measure = {
+    type: "temp",
+    unit: "celsius",
+    value: Number(prompt("Degrees celsius: ")),
+  };
+
+  console.table(measure);
+
+  const kelvin = measure.value + 273;
+  return kelvin;
+};
+
+console.log(measureKelvin());
