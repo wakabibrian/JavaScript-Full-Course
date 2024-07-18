@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.30.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.29.0...v1.30.0) (2024-07-18)
+
+
+### Features
+
+* Add value to input field ([dc59f36](https://github.com/wakabibrian/JavaScript-Full-Course/commit/dc59f36e74fc39aef8caa83587912755ef4f1830))
+* Read value from input field ([bf48bd2](https://github.com/wakabibrian/JavaScript-Full-Course/commit/bf48bd2dcbddb28ba5aec82cfaf54e88d11289be))
+* Select textContent with querySelector ([9a27a7c](https://github.com/wakabibrian/JavaScript-Full-Course/commit/9a27a7ce1f2a26d39b0c390a50603bf83bfbba1b))
+* Set content to the element ([881573c](https://github.com/wakabibrian/JavaScript-Full-Course/commit/881573cd73169769cb534e866ca6cc3717dfa4a6))
+
 ## [1.29.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.28.0...v1.29.0) (2024-07-13)
 
 
