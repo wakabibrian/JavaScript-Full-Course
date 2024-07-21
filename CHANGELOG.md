@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.31.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.30.0...v1.31.0) (2024-07-21)
+
+
+### Features
+
+* Add Handle click event ([4086ad4](https://github.com/wakabibrian/JavaScript-Full-Course/commit/4086ad45b51bd43b550e5ca01dae60637b9f5cda))
+* Implement the game logic ([69da7c8](https://github.com/wakabibrian/JavaScript-Full-Course/commit/69da7c85a107eded65af63733145845bfb720850))
+
 ## [1.30.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.29.0...v1.30.0) (2024-07-18)
 
 
