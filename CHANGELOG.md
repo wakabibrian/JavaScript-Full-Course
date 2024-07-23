@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.32.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.31.0...v1.32.0) (2024-07-23)
+
+
+### Features
+
+* Change background color ([0cabb9d](https://github.com/wakabibrian/JavaScript-Full-Course/commit/0cabb9debd4dc015a9b88c87ef7324f5fcaf69c5))
+* Change width ([4e24056](https://github.com/wakabibrian/JavaScript-Full-Course/commit/4e2405679b05017072fb2a846c19bd52fb78e5f3))
+* Implement HighScores ([6572d00](https://github.com/wakabibrian/JavaScript-Full-Course/commit/6572d001a0d3fcf2767de7fa2151ad719a2a5169))
+* Implement reset button ([57bfbcf](https://github.com/wakabibrian/JavaScript-Full-Course/commit/57bfbcf583a4ef55c479980eac95ef979dba89f7))
+* Refactor code - DRY ([33f4ac5](https://github.com/wakabibrian/JavaScript-Full-Course/commit/33f4ac548c8beaa8cde5169fc1dfd8cd665a2a54))
+* Refactor when guess is different ([f3b91ee](https://github.com/wakabibrian/JavaScript-Full-Course/commit/f3b91ee05c2b80bb0dc62ef224d838abc63dff53))
+
 ## [1.31.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.30.0...v1.31.0) (2024-07-21)
 
 
