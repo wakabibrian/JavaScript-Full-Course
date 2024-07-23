@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.33.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.32.0...v1.33.0) (2024-07-23)
+
+
+### Features
+
+* Add class ([6376ea5](https://github.com/wakabibrian/JavaScript-Full-Course/commit/6376ea5bf845b7fb3b83d27fa208a81923310c23))
+* Add Escape key ([2c21bb1](https://github.com/wakabibrian/JavaScript-Full-Course/commit/2c21bb111cec2626a2d05f6b3d0299c7dd64325d))
+* Add querySelectorAll ([c9acdc4](https://github.com/wakabibrian/JavaScript-Full-Course/commit/c9acdc42bb1166b5c87ee3a6804f8493963736e1))
+* Remove class ([c8e36ea](https://github.com/wakabibrian/JavaScript-Full-Course/commit/c8e36ea1d3cb9e24a2d753f48ed3c35ac7a7a725))
+* Separate function ([b0c19f5](https://github.com/wakabibrian/JavaScript-Full-Course/commit/b0c19f5ebad6c78bc85f5f8745c7791f775761f9))
+
 ## [1.32.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.31.0...v1.32.0) (2024-07-23)
 
 
