@@ -35,21 +35,10 @@ document.querySelector('.check').addEventListener('click', function () {
       document.querySelector('.highscore').textContent = highScore;
     }
 
-    // When guess is too high
-  } else if (guess > secreteNumber) {
-    document.querySelector('.message').textContent = '📈 Too High!';
-    if (score > 1) {
-      score--;
-      document.querySelector('.score').textContent = score;
-    } else {
-      document.querySelector('.message').textContent = '💥 You lost the game!';
-      document.querySelector('.score').textContent = 0;
-    }
-
-    // When guess is too low
-  } else if (guess < secreteNumber) {
-    document.querySelector('.message').textContent = '📉 Too Low!';
-
+    // When guess is different from secrete number
+  } else if (guess !== secreteNumber) {
+    document.querySelector('.message').textContent =
+      guess > secreteNumber ? '📈 Too High!' : '📉 Too Low!';
     if (score > 1) {
       score--;
       document.querySelector('.score').textContent = score;
@@ -58,6 +47,30 @@ document.querySelector('.check').addEventListener('click', function () {
       document.querySelector('.score').textContent = 0;
     }
   }
+
+  // When guess is too high
+  // } else if (guess > secreteNumber) {
+  //   document.querySelector('.message').textContent = '📈 Too High!';
+  //   if (score > 1) {
+  //     score--;
+  //     document.querySelector('.score').textContent = score;
+  //   } else {
+  //     document.querySelector('.message').textContent = '💥 You lost the game!';
+  //     document.querySelector('.score').textContent = 0;
+  //   }
+
+  //   // When guess is too low
+  // } else if (guess < secreteNumber) {
+  //   document.querySelector('.message').textContent = '📉 Too Low!';
+
+  //   if (score > 1) {
+  //     score--;
+  //     document.querySelector('.score').textContent = score;
+  //   } else {
+  //     document.querySelector('.message').textContent = '💥 You lost the game!';
+  //     document.querySelector('.score').textContent = 0;
+  //   }
+  // }
 });
 
 document.querySelector('.again').addEventListener('click', function () {
@@ -84,3 +97,6 @@ Your tasks:
 fields
 4. Also restore the original background color (#222) and number width (15rem
 */
+
+// Refactoring means changing the code without changing how it works
+// It helps to improve the code and to eliminate duplicate code
