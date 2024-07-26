@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.34.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.33.0...v1.34.0) (2024-07-26)
+
+
+### Features
+
+* Add get Element by Id ([92a96ff](https://github.com/wakabibrian/JavaScript-Full-Course/commit/92a96ffc7d7b63d2660080662f2c0142d650a2eb))
+* Add Rolling a dice ([be9ddd8](https://github.com/wakabibrian/JavaScript-Full-Course/commit/be9ddd8d3b57f9d74910277844b505694570e754))
+* Add starting conditions and selecting elements ([603dbfc](https://github.com/wakabibrian/JavaScript-Full-Course/commit/603dbfc32b7e04fba233ccb6f6c6b8c4fb75909f))
+* Hold current score ([dd5a9d6](https://github.com/wakabibrian/JavaScript-Full-Course/commit/dd5a9d68f21a8f5f7765f6a642eb1b94a7f58c42))
+* Implement reset button ([4b0f756](https://github.com/wakabibrian/JavaScript-Full-Course/commit/4b0f756ad82bf090a9b3fce510918a26725963f8))
+* Switch active player ([58cfce8](https://github.com/wakabibrian/JavaScript-Full-Course/commit/58cfce8f7d4feb6eda9a387320b3bef968d255f0))
+
 ## [1.33.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.32.0...v1.33.0) (2024-07-23)
 
 
