@@ -63,3 +63,17 @@ const addExp = function (a, b) {
 };
 
 var addArrow = (a, b) => a + b;
+
+// Example
+if (!numProducts) deleteShoppingCart();
+
+var numProducts = 10;
+
+function deleteShoppingCart() {
+  console.log('All products deleted!');
+}
+
+// Best practices
+// 1. Don't use var
+// 2. Declare your variables on top of the code
+// 3. Declare your functions before using them
