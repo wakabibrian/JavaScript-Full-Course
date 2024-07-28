@@ -41,3 +41,25 @@ calcAge(1990);
 */
 
 // ============================= Hoisting and the TDZ
+console.log(me); // Hoisted to a value of undefined
+// console.log(job); // Not Hoisted
+// console.log(year); // Not Hoisted
+
+var me = 'Wakabi';
+let job = 'Programmer';
+const year = 1990;
+
+// Functions
+console.log(addDecl(2, 3)); //Hoisted
+// console.log(addExp(2, 3)); //Not Hoisted (Its in the TDZ)
+// console.log(addArrow(2, 3)); //Hoisted with value of undefined hence not a function
+
+function addDecl(a, b) {
+  return a + b;
+}
+
+const addExp = function (a, b) {
+  return a + b;
+};
+
+var addArrow = (a, b) => a + b;
