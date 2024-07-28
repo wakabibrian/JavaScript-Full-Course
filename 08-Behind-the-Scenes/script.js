@@ -1,5 +1,7 @@
 'use strict';
 
+// ============================= Scoping
+/*
 function calcAge(birthYear) {
   const age = 2037 - birthYear;
   //   console.log(firstName); // From global scope
@@ -36,3 +38,6 @@ const firstName = 'Brian';
 calcAge(1990);
 // console.log(age); //Throws  an error due to scoping
 // printAge(); //Throws  an error due to scoping
+*/
+
+// ============================= Hoisting and the TDZ
