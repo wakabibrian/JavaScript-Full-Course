@@ -77,3 +77,12 @@ function deleteShoppingCart() {
 // 1. Don't use var
 // 2. Declare your variables on top of the code
 // 3. Declare your functions before using them
+
+// Window - global object
+var x = 2; // Found in the window object
+let y = 3; // Not found
+const z = 4; // Not found
+console.log(x === window.x);
+console.log(y === window.y);
+console.log(z === window.z);
+// Do not declare properties on the window object
