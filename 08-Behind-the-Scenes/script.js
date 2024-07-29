@@ -41,6 +41,7 @@ calcAge(1990);
 */
 
 // ============================= Hoisting and the TDZ
+/*
 console.log(me); // Hoisted to a value of undefined
 // console.log(job); // Not Hoisted
 // console.log(year); // Not Hoisted
@@ -86,3 +87,6 @@ console.log(x === window.x);
 console.log(y === window.y);
 console.log(z === window.z);
 // Do not declare properties on the window object
+*/
+
+// ============================= The this Keyword
