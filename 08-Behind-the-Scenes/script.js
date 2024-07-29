@@ -90,3 +90,39 @@ console.log(z === window.z);
 */
 
 // ============================= The this Keyword
+// window
+console.log(this); // The window object
+
+// Function Expression
+const calcAge = function (birthYear) {
+  console.log(2037 - birthYear);
+  console.log(this);
+};
+calcAge(1990); //undefined (strict mode)
+
+// Arrow function
+const calcAgeArr = birthYear => {
+  console.log(2037 - birthYear);
+  console.log(this);
+};
+calcAgeArr(1990); //window object (Arrow function does not get its own this keyword. It uses the this keyword of the parent scope)
+
+// Object
+const wakabi = {
+  year: 1990,
+  calcAge: function () {
+    console.log(this); //wakabi object
+    console.log(2037 - this.year);
+  },
+};
+wakabi.calcAge();
+
+const matilda = {
+  year: 2017,
+};
+
+matilda.calcAge = wakabi.calcAge;
+matilda.calcAge(); //this -> matilda object
+
+const f = wakabi.calcAge;
+f(); //this -> undefined
