@@ -164,3 +164,19 @@ wakabi.greet();
 console.log(this.firstName); //this is the window object
 // Never use an arrow function as a method
 wakabi.calcAge();
+
+// Arguments keyword
+const addExpr = function (a, b) {
+  console.log(arguments);
+  return a + b;
+};
+addExpr(2, 5);
+addExpr(2, 5, 8, 12);
+
+const addArr = (a, b) => {
+  console.log(arguments);
+  return a + b;
+};
+addArr(2, 5);
+
+//arguments keyword doesnot exist on arrow functions, only in function expressions and declarations
