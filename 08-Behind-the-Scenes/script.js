@@ -137,11 +137,18 @@ const wakabi = {
     console.log(this); //wakabi object
     console.log(2037 - this.year);
 
-    const self = this; //self or that
-    const isMillennial = function () {
-      console.log(self);
-      // console.log(this.year >= 1981 && this.year <= 1996);
-      console.log(self.year >= 1981 && self.year <= 1996);
+    // solution 1
+    // const self = this; //self or that
+    // const isMillennial = function () {
+    //   console.log(self);
+    //   // console.log(this.year >= 1981 && this.year <= 1996);
+    //   console.log(self.year >= 1981 && self.year <= 1996);
+    // };
+
+    // Solution 2
+    const isMillennial = () => {
+      console.log(this); //this keyword from the parent scope(calcAge) - wakabi
+      console.log(this.year >= 1981 && this.year <= 1996);
     };
 
     isMillennial(); //Regular function call, the this keyword is undefined
