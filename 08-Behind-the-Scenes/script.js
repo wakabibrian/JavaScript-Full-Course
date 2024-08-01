@@ -90,6 +90,7 @@ console.log(z === window.z);
 */
 
 // ============================= The this Keyword
+/*
 // window
 console.log(this); // The window object
 
@@ -126,3 +127,20 @@ matilda.calcAge(); //this -> matilda object
 
 const f = wakabi.calcAge;
 f(); //this -> undefined
+*/
+
+// ============================= Regular Functions vs. Arrow Functions
+const wakabi = {
+  firstName: 'Wakabi',
+  year: 1990,
+  calcAge: function () {
+    console.log(this); //wakabi object
+    console.log(2037 - this.year);
+  },
+
+  greet: () => console.log(`Hey ${this.firstName}`), //Uses the this keyword from its parent scope (window object)
+};
+
+wakabi.greet();
+console.log(this.firstName); //this is the window object
+// Never use an arrow function as a method
