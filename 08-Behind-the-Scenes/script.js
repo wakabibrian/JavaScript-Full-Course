@@ -136,11 +136,24 @@ const wakabi = {
   calcAge: function () {
     console.log(this); //wakabi object
     console.log(2037 - this.year);
+
+    const self = this; //self or that
+    const isMillennial = function () {
+      console.log(self);
+      // console.log(this.year >= 1981 && this.year <= 1996);
+      console.log(self.year >= 1981 && self.year <= 1996);
+    };
+
+    isMillennial(); //Regular function call, the this keyword is undefined
   },
 
-  greet: () => console.log(`Hey ${this.firstName}`), //Uses the this keyword from its parent scope (window object)
+  // greet: () => console.log(`Hey ${this.firstName}`), //Uses the this keyword from its parent scope (window object)
+  greet: function () {
+    console.log(`Hey ${this.firstName}`);
+  },
 };
 
 wakabi.greet();
 console.log(this.firstName); //this is the window object
 // Never use an arrow function as a method
+wakabi.calcAge();
