@@ -130,6 +130,7 @@ f(); //this -> undefined
 */
 
 // ============================= Regular Functions vs. Arrow Functions
+/*
 const wakabi = {
   firstName: 'Wakabi',
   year: 1990,
@@ -179,4 +180,7 @@ const addArr = (a, b) => {
 };
 addArr(2, 5);
 
-//arguments keyword doesnot exist on arrow functions, only in function expressions and declarations
+//arguments keyword does not exist on arrow functions, only in function expressions and declarations
+*/
+
+// ============================= Primitives vs. Objects (Primitive vs. Reference Types)
