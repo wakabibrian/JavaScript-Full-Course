@@ -184,3 +184,36 @@ addArr(2, 5);
 */
 
 // ============================= Primitives vs. Objects (Primitive vs. Reference Types)
+// Primitive types
+let age = 31;
+let oldAge = age;
+age = 32;
+console.log(age);
+console.log(oldAge);
+
+// Reference types
+const me = {
+  name: 'Brian',
+  age: 31,
+};
+
+const friend = me;
+friend.age = 27;
+
+console.log(me);
+console.log(friend);
+
+// Copying objects, we change one of them without changing the other.
+const jessica = {
+  firstName: 'Jessica',
+  lastName: 'Williams',
+  age: 27,
+  family: ['Alice', 'Joel'],
+};
+
+const jessicaCopy = Object.assign({}, jessica); //Shallow copy (only first level)
+jessicaCopy.lastName = 'Davis';
+jessicaCopy.family.push('Mary');
+jessicaCopy.family.push('Job');
+console.log(jessica);
+console.log(jessicaCopy);
