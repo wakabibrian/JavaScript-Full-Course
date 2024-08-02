@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.35.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.34.0...v1.35.0) (2024-08-02)
+
+
+### Features
+
+* Add arguments keyword ([a98dbec](https://github.com/wakabibrian/JavaScript-Full-Course/commit/a98dbec94cb5e3b2852b741ec93986d326e2ce9b))
+* Add best practices ([60c6c8d](https://github.com/wakabibrian/JavaScript-Full-Course/commit/60c6c8d29e7428347bf995ba4ba411441c4faa8f))
+* Add Primitives vs. Objects - copying objects ([80b66d2](https://github.com/wakabibrian/JavaScript-Full-Course/commit/80b66d2880bf7917b4e156c941d575752f0f09f8))
+* Add scoping ([2612dc9](https://github.com/wakabibrian/JavaScript-Full-Course/commit/2612dc930032cdf2152a780a668078d1d429702f))
+* Add self ([21408de](https://github.com/wakabibrian/JavaScript-Full-Course/commit/21408de0e9e5fa314f4d62d2cf0bf993bdd0808c))
+* Add the this keyword ([54e69f6](https://github.com/wakabibrian/JavaScript-Full-Course/commit/54e69f694d10fe46e217c54befee494ba5d2ba8a))
+* Add the window object ([4d4522d](https://github.com/wakabibrian/JavaScript-Full-Course/commit/4d4522d9d330095faafcde3e0c4a0bdd7851873d))
+* Add variable and function hoisting ([96bef19](https://github.com/wakabibrian/JavaScript-Full-Course/commit/96bef19e507021b5ca3ecd2af9bfe710534696e8))
+* Never use an arrow function as a method ([a1f8616](https://github.com/wakabibrian/JavaScript-Full-Course/commit/a1f8616792c2cb49ac61e304c19982654190c221))
+* Use Arrow function inside the method ([958303d](https://github.com/wakabibrian/JavaScript-Full-Course/commit/958303d7aeb22c60edd6989eee7cc4769bdc3947))
+
 ## [1.34.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.33.0...v1.34.0) (2024-07-26)
 
 
