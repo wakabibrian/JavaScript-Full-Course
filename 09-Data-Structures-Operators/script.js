@@ -45,5 +45,16 @@ console.log(x, y, z);
 const [first, second] = restaurant.categories;
 console.log(first, second);
 
-const [main, , secondary] = restaurant.categories;
+let [main, , secondary] = restaurant.categories;
+console.log(main, secondary);
+
+// Switching a variable
+// Without destructuring
+const temp = main;
+main = secondary;
+secondary = temp;
+console.log(main, secondary);
+
+// With destructuring
+[main, secondary] = [secondary, main];
 console.log(main, secondary);
