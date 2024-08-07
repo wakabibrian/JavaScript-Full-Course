@@ -65,3 +65,8 @@ console.log(main, secondary);
 // Receive 2 return values from a function
 const [starter, mainCourse] = restaurant.order(2, 0);
 console.log(starter, mainCourse);
+
+// Destructuring nested
+const nested = [2, 4, [5, 6]];
+const [i, , [j, k]] = nested;
+console.log(i, j, k);
