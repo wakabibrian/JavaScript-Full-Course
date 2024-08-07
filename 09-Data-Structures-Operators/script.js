@@ -27,3 +27,23 @@ const restaurant = {
     },
   },
 };
+
+// ============================= Destructuring Arrays
+// Unpacking values from an array or an object into separate variables
+// Break a complex data structure down into a smaller data structure like a variable
+const arr = [2, 3, 4];
+
+// without destructuring
+const a = arr[0];
+const b = arr[1];
+const c = arr[2];
+
+// with destructuring
+const [x, y, z] = arr;
+console.log(x, y, z);
+
+const [first, second] = restaurant.categories;
+console.log(first, second);
+
+const [main, , secondary] = restaurant.categories;
+console.log(main, secondary);
