@@ -32,6 +32,7 @@ const restaurant = {
 };
 
 // ============================= Destructuring Arrays
+/*
 // Unpacking values from an array or an object into separate variables
 // Break a complex data structure down into a smaller data structure like a variable
 const arr = [2, 3, 4];
@@ -74,3 +75,6 @@ console.log(i, j, k);
 // Default values
 const [p = 1, q = 1, r = 1] = [8, 9];
 console.log(p, q, r);
+*/
+
+// ============================= Destructuring Objects
