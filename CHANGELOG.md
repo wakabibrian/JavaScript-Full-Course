@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.36.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.35.0...v1.36.0) (2024-08-08)
+
+
+### Features
+
+* Add default values - destructuring ([04746d1](https://github.com/wakabibrian/JavaScript-Full-Course/commit/04746d19c08248a258cf396bb81baf7766c1341a))
+* Add receive 2 return values from a function ([44a394c](https://github.com/wakabibrian/JavaScript-Full-Course/commit/44a394c8f1349fe6750247e56db2fc47854cd075))
+* Add switching variables ([92e81a5](https://github.com/wakabibrian/JavaScript-Full-Course/commit/92e81a59b6a6fe69a699a58447eb2be7fa7e4721))
+* Destructuring nested arrays ([f099f5a](https://github.com/wakabibrian/JavaScript-Full-Course/commit/f099f5a3befe21dc6a12ffba8da2be82fdb03a61))
+* skipping a variable ([7b4d865](https://github.com/wakabibrian/JavaScript-Full-Course/commit/7b4d865983f030692e7b40685f430b67b780b03f))
+
 ## [1.35.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.34.0...v1.35.0) (2024-08-02)
 
 
