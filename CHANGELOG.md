@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.37.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.36.0...v1.37.0) (2024-08-08)
+
+
+### Features
+
+* Add creating object and destructure ([493101d](https://github.com/wakabibrian/JavaScript-Full-Course/commit/493101d83d9f845130a4595a3b15f2dbd7d6a1f7))
+* Add default values ([2a82421](https://github.com/wakabibrian/JavaScript-Full-Course/commit/2a824212da97103ebf36fdcdcbc50e23ee232b51))
+* Add fundamental of destructuring objects ([ff2b52b](https://github.com/wakabibrian/JavaScript-Full-Course/commit/ff2b52b6f52e9209764de46d1ee520e918191f68))
+* Add mutating variables ([74ced62](https://github.com/wakabibrian/JavaScript-Full-Course/commit/74ced627f17e984e3775858c1307f0ba87919528))
+* Add Nested objects ([e695507](https://github.com/wakabibrian/JavaScript-Full-Course/commit/e6955077ef9675ee784d7e517f31f9c046a7044a))
+* Add Using new names to variables ([350cd51](https://github.com/wakabibrian/JavaScript-Full-Course/commit/350cd5134836f97490635b4c2edf3b220291d740))
+
 ## [1.36.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.35.0...v1.36.0) (2024-08-08)
 
 
