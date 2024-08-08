@@ -89,6 +89,7 @@ console.log(p, q, r);
 */
 
 // ============================= Destructuring Objects
+/*
 const { name, openingHours, categories } = restaurant;
 console.log(name, openingHours, categories);
 
@@ -124,3 +125,6 @@ restaurant.orderDelivery({
 });
 
 restaurant.orderDelivery({ address: 'Kampala, Uganda', starterIndex: 1 });
+*/
+
+// ============================= The Spread Operator (...)
