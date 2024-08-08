@@ -87,3 +87,6 @@ const {
   categories: tags,
 } = restaurant;
 console.log(restaurantName, hours, tags);
+
+const { menu = [], starterMenu: starters = [] } = restaurant;
+console.log(menu, starters);
