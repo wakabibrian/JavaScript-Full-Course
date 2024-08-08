@@ -78,3 +78,5 @@ console.log(p, q, r);
 */
 
 // ============================= Destructuring Objects
+const { name, openingHours, categories } = restaurant;
+console.log(name, openingHours, categories);
