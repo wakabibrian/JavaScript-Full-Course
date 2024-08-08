@@ -29,6 +29,17 @@ const restaurant = {
       close: 24,
     },
   },
+
+  orderDelivery: function ({
+    starterIndex = 1,
+    mainIndex = 0,
+    time = '20:00',
+    address,
+  }) {
+    console.log(
+      `Order received! ${this.starterMenu[starterIndex]} and ${this.mainMenu[mainIndex]} will be delivered to ${address}, at ${time}`
+    );
+  },
 };
 
 // ============================= Destructuring Arrays
@@ -104,3 +115,12 @@ const {
   fri: { open: o, close: c },
 } = openingHours;
 console.log(o, c);
+
+restaurant.orderDelivery({
+  time: '23:30',
+  address: 'Kampala, Uganda',
+  mainIndex: 2,
+  starterIndex: 2,
+});
+
+restaurant.orderDelivery({ address: 'Kampala, Uganda', starterIndex: 1 });
