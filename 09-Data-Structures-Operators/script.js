@@ -140,3 +140,6 @@ console.log(newMenu);
 
 // Copy Array
 const mainMenuCopy = [...restaurant.mainMenu]; //similar to object.assign
+
+// Join 2 Arrays or more
+const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
