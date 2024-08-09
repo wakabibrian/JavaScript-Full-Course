@@ -134,6 +134,7 @@ restaurant.orderDelivery({ address: 'Kampala, Uganda', starterIndex: 1 });
 */
 
 // ============================= The Spread Operator (...)
+/*
 const arr = [7, 8, 9];
 const newArr = [1, 2, ...arr];
 console.log(newArr);
@@ -175,3 +176,6 @@ const restaurantCopy = { ...restaurant };
 restaurantCopy.name = 'Ristorante Roma';
 console.log(restaurant);
 console.log(restaurantCopy);
+*/
+
+// ============================= Rest Pattern and Parameters
