@@ -148,3 +148,7 @@ const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
 const str = 'Wakabi';
 const letters = [...str, ' ', 's.'];
 console.log(letters);
+
+// Passing values into a function
+console.log(...str);
+console.log('W', 'a');
