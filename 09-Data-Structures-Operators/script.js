@@ -137,3 +137,6 @@ console.log(1, 2, 7, 8, 9);
 
 const newMenu = [...restaurant.mainMenu, 'Gnocci'];
 console.log(newMenu);
+
+// Copy Array
+const mainMenuCopy = [...restaurant.mainMenu]; //similar to object.assign
