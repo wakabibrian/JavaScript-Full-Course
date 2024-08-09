@@ -143,3 +143,8 @@ const mainMenuCopy = [...restaurant.mainMenu]; //similar to object.assign
 
 // Join 2 Arrays or more
 const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
+
+// Iterables: Arrays,strings, maps, sets, NOT objects
+const str = 'Wakabi';
+const letters = [...str, ' ', 's.'];
+console.log(letters);
