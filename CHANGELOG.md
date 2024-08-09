@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.38.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.37.0...v1.38.0) (2024-08-09)
+
+
+### Features
+
+* Add copy an array ([885eb42](https://github.com/wakabibrian/JavaScript-Full-Course/commit/885eb42ce1062a157b298921c386f181124b783a))
+* Add iterables ([39478c0](https://github.com/wakabibrian/JavaScript-Full-Course/commit/39478c014b7bfbd7002431a3edfae842dd35296b))
+* Add objects spread operator ([a2bb520](https://github.com/wakabibrian/JavaScript-Full-Course/commit/a2bb520e053fabb6542de4267e5a1fdfa35413d7))
+* Add real example ([4dc1928](https://github.com/wakabibrian/JavaScript-Full-Course/commit/4dc1928710b0dea2050fe48c5299a399ccff7758))
+* Add spread operator ([8472321](https://github.com/wakabibrian/JavaScript-Full-Course/commit/8472321c1b41cc36e5e3682e3bd1a503af50e30e))
+* Join 2 arrays ([ac47990](https://github.com/wakabibrian/JavaScript-Full-Course/commit/ac4799034cd17030b56ebdca9dedc92b20afd389))
+* Pass values into a function ([634a698](https://github.com/wakabibrian/JavaScript-Full-Course/commit/634a698b29de4aa266f2753bba6bd796615e6b7c))
+
 ## [1.37.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.36.0...v1.37.0) (2024-08-08)
 
 
