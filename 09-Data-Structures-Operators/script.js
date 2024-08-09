@@ -40,6 +40,12 @@ const restaurant = {
       `Order received! ${this.starterMenu[starterIndex]} and ${this.mainMenu[mainIndex]} will be delivered to ${address}, at ${time}`
     );
   },
+
+  orderPasta: function (ing1, ing2, ing3) {
+    console.log(
+      `Here is your delicious pasta with ${ing1}, ${ing2}, and ${ing3}`
+    );
+  },
 };
 
 // ============================= Destructuring Arrays
@@ -152,3 +158,11 @@ console.log(letters);
 // Passing values into a function
 console.log(...str);
 console.log('W', 'a');
+
+// Example
+const ingredients = [
+  prompt("Let's make pasta! Ingredient 1?"),
+  prompt('Ingredient 2?'),
+  prompt('Ingredient 3?'),
+];
+restaurant.orderPasta(...ingredients);
