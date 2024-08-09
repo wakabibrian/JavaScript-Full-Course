@@ -128,3 +128,12 @@ restaurant.orderDelivery({ address: 'Kampala, Uganda', starterIndex: 1 });
 */
 
 // ============================= The Spread Operator (...)
+const arr = [7, 8, 9];
+const newArr = [1, 2, ...arr];
+console.log(newArr);
+
+console.log(...newArr);
+console.log(1, 2, 7, 8, 9);
+
+const newMenu = [...restaurant.mainMenu, 'Gnocci'];
+console.log(newMenu);
