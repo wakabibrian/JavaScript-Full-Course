@@ -186,3 +186,10 @@ const arr = [1, 2, ...[3, 4]]; //spread (On the right hand side of the assignmen
 
 const [a, b, c, ...others] = [1, 2, 3, 4, 5, 6]; //rest because it is on the left hand side of the assignment operator
 console.log(a, b, c, others);
+
+const [pizza, , risotto, ...otherFood] = [
+  ...restaurant.mainMenu,
+  ...restaurant.starterMenu,
+];
+
+console.log(pizza, risotto, otherFood); //It does not include any skipped element. It must always be the last
