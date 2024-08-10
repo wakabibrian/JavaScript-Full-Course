@@ -179,3 +179,10 @@ console.log(restaurantCopy);
 */
 
 // ============================= Rest Pattern and Parameters
+// Helps collect elements and condense them into an array
+// Spread unpacks the array
+// Rest Packs elements into the array
+const arr = [1, 2, ...[3, 4]]; //spread (On the right hand side of the assignment operator)
+
+const [a, b, c, ...others] = [1, 2, 3, 4, 5, 6]; //rest because it is on the left hand side of the assignment operator
+console.log(a, b, c, others);
