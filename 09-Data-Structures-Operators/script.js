@@ -199,3 +199,20 @@ console.log(pizza, risotto, otherFood); //It does not include any skipped elemen
 // Objects
 const { sat, ...weekdays } = restaurant.openingHours;
 console.log(sat, weekdays);
+
+// 2) Functions
+const addNumbers = function (...numbers) {
+  // console.log(numbers); //Packs the numbers into an array (Rest arguments)
+  let sum = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    sum += numbers[i];
+  }
+  console.log(sum);
+};
+
+addNumbers(2, 3);
+addNumbers(5, 3, 7, 2);
+addNumbers(8, 2, 4, 6, 7, 1, 3);
+
+const x = [23, 5, 7];
+addNumbers(...x);
