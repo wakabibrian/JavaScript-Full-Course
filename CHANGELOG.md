@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.39.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.38.0...v1.39.0) (2024-08-11)
+
+
+### Features
+
+* Add objects ([96cbb22](https://github.com/wakabibrian/JavaScript-Full-Course/commit/96cbb22febf1ec111c3993de59b88aed685e29c3))
+* Add REST ([671ba4e](https://github.com/wakabibrian/JavaScript-Full-Course/commit/671ba4e5b5c3574afc4778297ba38d75931ca12c))
+* Add REST example ([27f83b2](https://github.com/wakabibrian/JavaScript-Full-Course/commit/27f83b208c5e1e608f9fb874bde2f069c56840af))
+* Add Rest with Functions ([7af5604](https://github.com/wakabibrian/JavaScript-Full-Course/commit/7af5604d6e98ac9d0c38715276e4e30a857d3b59))
+* Add spread Function example ([4a551af](https://github.com/wakabibrian/JavaScript-Full-Course/commit/4a551afa8e565b665a3b6d30991f93bf53cdec22))
+
 ## [1.38.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.37.0...v1.38.0) (2024-08-09)
 
 
