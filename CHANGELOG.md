@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.41.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.40.0...v1.41.0) (2024-08-11)
+
+
+### Features
+
+* Add The Nullish Coalescing Operator (??) ([cb70c3d](https://github.com/wakabibrian/JavaScript-Full-Course/commit/cb70c3dd6b5ee88d658f950939249d35673ba627))
+
 ## [1.40.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.39.0...v1.40.0) (2024-08-11)
 
 
