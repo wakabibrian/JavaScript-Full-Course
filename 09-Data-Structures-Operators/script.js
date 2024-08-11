@@ -249,3 +249,10 @@ console.log(0 && 'Jonas'); //Returns 0
 console.log(7 && 'Jonas'); //Returns Jonas
 
 console.log('Hello' && 23 && null && 'Jonas'); // Returns null
+
+// Practical example - && operator short-circuiting
+if (restaurant.orderPizza) {
+  restaurant.orderPizza('mushrooms', 'spinach');
+}
+
+restaurant.orderPizza && restaurant.orderPizza('mushrooms', 'spinach');
