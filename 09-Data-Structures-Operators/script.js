@@ -228,6 +228,7 @@ restaurant.orderPizza('mushrooms'); //Others are optional
 */
 
 // ============================= Short Circuiting (&& and ||)
+/*
 // Logic Operators can use ANY datatype, return ANY datatype, and can do short-circuiting
 // || (OR) operator short-circuiting - If the first value is a truth value it will immediately return that truth value
 console.log(3 || 'Jonas'); //Returns 3
@@ -256,3 +257,6 @@ if (restaurant.orderPizza) {
 }
 
 restaurant.orderPizza && restaurant.orderPizza('mushrooms', 'spinach');
+*/
+
+// =============================  The Nullish Coalescing Operator (??)
