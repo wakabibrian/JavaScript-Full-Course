@@ -228,3 +228,11 @@ restaurant.orderPizza('mushrooms'); //Others are optional
 */
 
 // ============================= Short Circuiting (&& and ||)
+// Logic Operators can use ANY datatype, return ANY datatype, and can do short-circuiting
+// || operator short-circuiting - If the first value is a truth value it will immediately return that truth value
+console.log(3 || 'Jonas'); //Returns 3
+console.log('' || 'Jonas'); //Returns Jonas
+console.log(true || 0); //Returns true
+console.log(undefined || null); //Returns null
+
+console.log(undefined || 0 || '' || 'Hello' || 23 || null); //Returns Hello
