@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.40.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.39.0...v1.40.0) (2024-08-11)
+
+
+### Features
+
+* Add && operator short-circuiting ([2d8fb1a](https://github.com/wakabibrian/JavaScript-Full-Course/commit/2d8fb1a15c915e378cfe901313fb9bef64cd88f3))
+* Add || short-circuiting ([edf0ff5](https://github.com/wakabibrian/JavaScript-Full-Course/commit/edf0ff5ae88720b8f131d6ab706c238ddf4404fd))
+* Add practical example - && short-circuiting ([a6132f4](https://github.com/wakabibrian/JavaScript-Full-Course/commit/a6132f49b99cf354eb42b93ddcfccb9878f77d89))
+* Add practical example - || short-circuiting ([8b95a4c](https://github.com/wakabibrian/JavaScript-Full-Course/commit/8b95a4c5959cff9f102745afb32f87b169315485))
+
 ## [1.39.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.38.0...v1.39.0) (2024-08-11)
 
 
