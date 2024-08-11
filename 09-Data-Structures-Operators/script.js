@@ -184,6 +184,7 @@ console.log(restaurantCopy);
 */
 
 // ============================= Rest Pattern and Parameters
+/*
 // Helps collect elements and condense them into an array
 // Spread unpacks the array
 // Rest Packs elements into the array
@@ -224,3 +225,6 @@ addNumbers(...x);
 
 restaurant.orderPizza('mushrooms', 'onions', 'olive', 'spinachi');
 restaurant.orderPizza('mushrooms'); //Others are optional
+*/
+
+// ============================= Short Circuiting (&& and ||)
