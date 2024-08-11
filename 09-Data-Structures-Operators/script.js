@@ -260,3 +260,10 @@ restaurant.orderPizza && restaurant.orderPizza('mushrooms', 'spinach');
 */
 
 // =============================  The Nullish Coalescing Operator (??)
+restaurant.numberGuests = 0;
+const guests = restaurant.numberGuests || 10; // returns 10 but we want 0.
+console.log(guests);
+
+// NUllish: null and undefined (NOT 0 and "") - only nullish values will short-circuit
+const guestsCorrect = restaurant.numberGuests ?? 10; // Works like the || operator but it also short-circuits a 0 and "".
+console.log(guestsCorrect);
