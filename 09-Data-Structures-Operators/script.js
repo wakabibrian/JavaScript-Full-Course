@@ -46,6 +46,11 @@ const restaurant = {
       `Here is your delicious pasta with ${ing1}, ${ing2}, and ${ing3}`
     );
   },
+
+  orderPizza: function (mainIngredient, ...otherIngredients) {
+    console.log(mainIngredient);
+    console.log(otherIngredients);
+  },
 };
 
 // ============================= Destructuring Arrays
@@ -216,3 +221,6 @@ addNumbers(8, 2, 4, 6, 7, 1, 3);
 
 const x = [23, 5, 7];
 addNumbers(...x);
+
+restaurant.orderPizza('mushrooms', 'onions', 'olive', 'spinachi');
+restaurant.orderPizza('mushrooms'); //Others are optional
