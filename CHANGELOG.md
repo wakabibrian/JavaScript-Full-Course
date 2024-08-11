@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.42.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.41.0...v1.42.0) (2024-08-11)
+
+
+### Features
+
+* Add AND assignment operator ([1b1dbd1](https://github.com/wakabibrian/JavaScript-Full-Course/commit/1b1dbd13ba9ed53277aa86949dcf8d48862d1921))
+* Add nullish assignment operator ([f3a7bcc](https://github.com/wakabibrian/JavaScript-Full-Course/commit/f3a7bcc9c5f86e78f6e4178ebf5a6a1debf2e726))
+* Add OR assignment operator ([af44309](https://github.com/wakabibrian/JavaScript-Full-Course/commit/af443097ba52c386077d9f79c74238046a8aeba1))
+
 ## [1.41.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.40.0...v1.41.0) (2024-08-11)
 
 
