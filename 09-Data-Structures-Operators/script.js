@@ -1,5 +1,5 @@
 'use strict';
-
+/*
 // Data needed for a later exercise
 const flights =
   '_Delayed_Departure;fao93766109;txl2133758440;11:25+_Arrival;bru0943384722;fao93766109;11:45+_Delayed_Arrival;hel7439299980;fao93766109;12:05+_Departure;fao93766109;lis2323639855;12:30';
@@ -52,7 +52,7 @@ const restaurant = {
     console.log(otherIngredients);
   },
 };
-
+*/
 // ============================= Destructuring Arrays
 /*
 // Unpacking values from an array or an object into separate variables
@@ -335,3 +335,78 @@ operator.
 Test data for 6.: First, use players 'Davies', 'Muller', 'Lewandowski' and 'Kimmich'.
 Then, call the function again with players from game.scored
 */
+
+// ===================== Solution
+const game = {
+  team1: 'Bayern Munich',
+  team2: 'Borrussia Dortmund',
+  players: [
+    [
+      'Neuer',
+      'Pavard',
+      'Martinez',
+      'Alaba',
+      'Davies',
+      'Kimmich',
+      'Goretzka',
+      'Coman',
+      'Muller',
+      'Gnarby',
+      'Lewandowski',
+    ],
+    [
+      'Burki',
+      'Schulz',
+      'Hummels',
+      'Akanji',
+      'Hakimi',
+      'Weigl',
+      'Witsel',
+      'Hazard',
+      'Brandt',
+      'Sancho',
+      'Gotze',
+    ],
+  ],
+  score: '4:0',
+  scored: ['Lewandowski', 'Gnarby', 'Lewandowski', 'Hummels'],
+  date: 'Nov 9th, 2037',
+  odds: {
+    team1: 1.33,
+    x: 3.25,
+    team2: 6.5,
+  },
+};
+
+// 1.
+const [players1, players2] = game.players;
+
+// 2.
+const [gk, ...fieldPlayers] = players1;
+
+// 3.
+const allPlayers = [...players1, ...players2];
+
+// 4.
+const players1Final = [...players1, 'Thiago', 'Coutinho', 'Perisic'];
+
+// 5.
+// const { team1, x: draw, team2 } = game.odds;
+const {
+  odds: { team1, x: draw, team2 },
+} = game;
+
+// 6.
+const printGoals = function (...players) {
+  console.log(players);
+  console.log(`Total Goals scored: ${players.length}`);
+};
+
+printGoals('Davies', 'Muller', 'Lewandowski', 'Kimmich');
+printGoals(...game.scored);
+
+// 7. The team with the lower odd is more likely to win. Print to the console which
+// team is more likely to win, without using an if/else statement or the ternary
+// operator.
+team1 < team2 && console.log('Bayern Munich/team1 is more likely to win');
+team1 > team2 && console.log('Borrussia Dortmund/team2 is more likely to win');
