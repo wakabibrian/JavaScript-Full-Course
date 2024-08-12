@@ -310,6 +310,7 @@ console.log(rest2);
 We're building a football betting app (soccer for my American friends �)!
 Suppose we get data from a web service about a certain game ('game' variable on
 next page). In this challenge we're gonna work with that data.
+
 Your tasks:
 1. Create one player array for each team (variables 'players1' and
 'players2')
@@ -330,6 +331,7 @@ number of goals that were scored in total (number of player names passed in)
 7. The team with the lower odd is more likely to win. Print to the console which
 team is more likely to win, without using an if/else statement or the ternary
 operator.
+
 Test data for 6.: First, use players 'Davies', 'Muller', 'Lewandowski' and 'Kimmich'.
 Then, call the function again with players from game.scored
 */
