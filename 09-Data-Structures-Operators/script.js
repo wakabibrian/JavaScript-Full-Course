@@ -1,5 +1,5 @@
 'use strict';
-/*
+
 // Data needed for a later exercise
 const flights =
   '_Delayed_Departure;fao93766109;txl2133758440;11:25+_Arrival;bru0943384722;fao93766109;11:45+_Delayed_Arrival;hel7439299980;fao93766109;12:05+_Departure;fao93766109;lis2323639855;12:30';
@@ -52,7 +52,7 @@ const restaurant = {
     console.log(otherIngredients);
   },
 };
-*/
+
 // ============================= Destructuring Arrays
 /*
 // Unpacking values from an array or an object into separate variables
@@ -414,3 +414,16 @@ team1 > team2 && console.log('Borrussia Dortmund/team2 is more likely to win');
 */
 
 // ===================== Looping Arrays: The for-of Loop
+// element only
+const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
+for (const item of menu) console.log(item);
+
+// element with index (without destructuring)
+// for (const item of menu.entries()) {
+//   console.log(`${item[0] + 1}: ${item[1]}`);
+// }
+
+// element with index (with destructuring)
+for (const [i, el] of menu.entries()) {
+  console.log(`${i + 1}: ${el}`);
+}
