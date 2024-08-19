@@ -432,3 +432,10 @@ for (const [i, el] of menu.entries()) {
 */
 
 // ===================== Enhanced Object Literals
+
+// ===================== Optional Chaining (?.)
+if (restaurant.openingHours.mon) console.log(restaurant.openingHours.mon.open);
+
+// With optional chaining
+console.log(restaurant.openingHours.mon?.open);
+console.log(restaurant.openingHours?.mon?.open);
