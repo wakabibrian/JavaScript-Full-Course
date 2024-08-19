@@ -337,6 +337,7 @@ Then, call the function again with players from game.scored
 */
 
 // ===================== Solution
+/*
 const game = {
   team1: 'Bayern Munich',
   team2: 'Borrussia Dortmund',
@@ -410,3 +411,6 @@ printGoals(...game.scored);
 // operator.
 team1 < team2 && console.log('Bayern Munich/team1 is more likely to win');
 team1 > team2 && console.log('Borrussia Dortmund/team2 is more likely to win');
+*/
+
+// ===================== Looping Arrays: The for-of Loop
