@@ -451,3 +451,11 @@ for (const day of days) {
 // Methods
 console.log(restaurant.order?.(0, 1) ?? 'Method does not exist');
 console.log(restaurant.orderRisotto?.(0, 1) ?? 'Method does not exist');
+
+// Array - check if an array is empty
+const users = [{ name: 'Wakabi', email: 'wakabi@gmail.com' }];
+console.log(users[0]?.name ?? 'User array empty');
+
+// Without optional chaining
+if (users.length > 0) console.log(users[0].name);
+else console.log('User array empty');
