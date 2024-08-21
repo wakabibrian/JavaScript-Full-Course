@@ -434,6 +434,7 @@ for (const [i, el] of menu.entries()) {
 // ===================== Enhanced Object Literals
 
 // ===================== Optional Chaining (?.)
+/*
 if (restaurant.openingHours.mon) console.log(restaurant.openingHours.mon.open);
 
 // With optional chaining
@@ -459,3 +460,6 @@ console.log(users[0]?.name ?? 'User array empty');
 // Without optional chaining
 if (users.length > 0) console.log(users[0].name);
 else console.log('User array empty');
+*/
+
+// ===================== Looping Objects: Object Keys, Values, and Entries
