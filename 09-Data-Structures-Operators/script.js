@@ -474,3 +474,7 @@ for (const day of Object.keys(openingHours)) {
 }
 
 console.log(openStr);
+
+// Property VALUES
+const values = Object.values(openingHours);
+console.log(values);
