@@ -478,3 +478,12 @@ console.log(openStr);
 // Property VALUES
 const values = Object.values(openingHours);
 console.log(values);
+
+// Entire object - Entries
+const entries = Object.entries(openingHours);
+// console.log(entries);
+
+// [key, value]
+for (const [day, { open, close }] of entries) {
+  console.log(`On ${day}, we're open from ${open} to ${close}`);
+}
