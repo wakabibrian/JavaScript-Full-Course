@@ -463,6 +463,7 @@ else console.log('User array empty');
 */
 
 // ===================== Looping Objects: Object Keys, Values, and Entries
+/*
 // Property names
 const properties = Object.keys(openingHours);
 console.log(properties);
@@ -487,3 +488,6 @@ const entries = Object.entries(openingHours);
 for (const [day, { open, close }] of entries) {
   console.log(`On ${day}, we're open from ${open} to ${close}`);
 }
+*/
+
+// ===================== Coding Challenge #2
