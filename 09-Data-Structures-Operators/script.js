@@ -554,3 +554,17 @@ console.log(scorers);
 */
 
 // ===================== sets
+// A collection of unique values
+// Can never have any duplicates
+// Order is irrelevant
+const ordersSet = new Set([
+  'Pasta',
+  'Pizza',
+  'Pizza',
+  'Risotto',
+  'Pasta',
+  'Pizza',
+]);
+console.log(ordersSet);
+
+console.log(new Set('Wakabi'));
