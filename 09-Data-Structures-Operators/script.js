@@ -568,3 +568,6 @@ const ordersSet = new Set([
 console.log(ordersSet);
 
 console.log(new Set('Wakabi'));
+
+// Size of set
+console.log(ordersSet.size);
