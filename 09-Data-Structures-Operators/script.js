@@ -338,7 +338,7 @@ Then, call the function again with players from game.scored
 */
 
 // ===================== Solution
-
+/*
 const game = {
   team1: 'Bayern Munich',
   team2: 'Borrussia Dortmund',
@@ -379,6 +379,7 @@ const game = {
     team2: 6.5,
   },
 };
+*/
 
 /*
 // 1.
@@ -519,6 +520,7 @@ game, it will look like this:
 */
 
 // Solution
+/*
 // 1
 for (const [i, player] of game.scored.entries())
   console.log(`Goal ${i + 1}: ${player}`);
@@ -542,17 +544,6 @@ for (const [team, odd] of Object.entries(game.odds)) {
 }
 
 // 4
-/*
-4. Bonus: Create an object called 'scorers' which contains the names of the
-players who scored as properties, and the number of goals as the value. In this
-game, it will look like this:
-{
- Gnarby: 1,
- Hummels: 1,
- Lewandowski: 2
-}
- */
-
 const scorers = {};
 
 for (const player of game.scored) {
@@ -560,3 +551,6 @@ for (const player of game.scored) {
 }
 
 console.log(scorers);
+*/
+
+// ===================== sets
