@@ -575,3 +575,8 @@ console.log(ordersSet.size); //similar to length
 // Element is in a set
 console.log(ordersSet.has('Pizza')); //similar to includes
 console.log(ordersSet.has('Bread'));
+
+// Add new elements to a set
+ordersSet.add('Garlic Bread');
+ordersSet.add('Garlic Bread'); // Not added
+console.log(ordersSet);
