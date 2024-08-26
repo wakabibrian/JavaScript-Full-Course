@@ -582,5 +582,8 @@ ordersSet.add('Garlic Bread'); // Not added
 
 // Delete element from a set
 ordersSet.delete('Risotto');
-
 console.log(ordersSet);
+
+// Retrieving value from a set
+// There is no need of retrieving element from a set because they are unique
+// If you wanted to retrieve, you would have used arrays
