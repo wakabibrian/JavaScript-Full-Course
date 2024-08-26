@@ -570,4 +570,8 @@ console.log(ordersSet);
 console.log(new Set('Wakabi'));
 
 // Size of set
-console.log(ordersSet.size);
+console.log(ordersSet.size); //similar to length
+
+// Element is in a set
+console.log(ordersSet.has('Pizza')); //similar to includes
+console.log(ordersSet.has('Bread'));
