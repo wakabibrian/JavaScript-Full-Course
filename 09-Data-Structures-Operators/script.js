@@ -589,5 +589,8 @@ console.log(ordersSet);
 // If you wanted to retrieve, you would have used arrays
 
 // Delete all elements from a set
-ordersSet.clear();
-console.log(ordersSet);
+// ordersSet.clear();
+// console.log(ordersSet);
+
+// Looping elements in a set
+for (const order of ordersSet) console.log(order);
