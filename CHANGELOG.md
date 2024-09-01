@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.45.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.44.0...v1.45.0) (2024-09-01)
+
+
+### Features
+
+* Add clear and size methods of a map ([3c279c8](https://github.com/wakabibrian/JavaScript-Full-Course/commit/3c279c8542b0eab406fefba44b4655b7f387c282))
+* Add dom as key ([108e0e0](https://github.com/wakabibrian/JavaScript-Full-Course/commit/108e0e05fb0e8ab510eeb0fa14440802a040cac1))
+* Add has and delete methods to map ([2816166](https://github.com/wakabibrian/JavaScript-Full-Course/commit/28161663005d6caf8cbdd364ca161eb18d81d491))
+* Add set/add and get data from a map ([bce761c](https://github.com/wakabibrian/JavaScript-Full-Course/commit/bce761c63f055094e2f20483d87c99f6f0ff4826))
+* Add using objects/arrays as map keys ([c2416be](https://github.com/wakabibrian/JavaScript-Full-Course/commit/c2416beb1016c7bd48f2a387f3a381f57e98a22e))
+
 ## [1.44.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.43.0...v1.44.0) (2024-09-01)
 
 
