@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.46.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.45.0...v1.46.0) (2024-09-01)
+
+
+### Features
+
+* Add better way of writing new map ([525e4ca](https://github.com/wakabibrian/JavaScript-Full-Course/commit/525e4ca9a0a927d0065fff30705931c8ea7fc8fb))
+* Add convert objects to map ([983988a](https://github.com/wakabibrian/JavaScript-Full-Course/commit/983988afcaa460759025f41e8a880feecfc0ab49))
+* Add converting map to array ([317ef3c](https://github.com/wakabibrian/JavaScript-Full-Course/commit/317ef3c49bcfab3e5c12f76a05f0e651b4f0f2c1))
+* Add entries, keys and values methods of a map ([a22bdd0](https://github.com/wakabibrian/JavaScript-Full-Course/commit/a22bdd0fa00dd7a500305c05897ec0e9b66fc505))
+* Add quiz app ([184cc68](https://github.com/wakabibrian/JavaScript-Full-Course/commit/184cc68afd1b4b20cb459c82248017751a920270))
+* Add using spread operator to remove iteration word ([80f256a](https://github.com/wakabibrian/JavaScript-Full-Course/commit/80f256a89fb24432f1856b8ed8521b2ef2d54a8a))
+
 ## [1.45.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.44.0...v1.45.0) (2024-09-01)
 
 
