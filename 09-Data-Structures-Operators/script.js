@@ -633,7 +633,9 @@ console.log(rest.has('categories'));
 rest.delete(2);
 // rest.clear();
 const arr = [1, 2];
-console.log(rest.set(arr, 'test'));
+rest.set(arr, 'test');
+rest.set(document.querySelector('h1'), 'Heading');
+
 console.log(rest);
 console.log(rest.size);
 console.log(rest.get(arr));
