@@ -609,6 +609,7 @@ console.log(new Set('wakabibrian').size);
 */
 
 // ===================== Maps: Fundamentals
+/*
 // A map is a data structure that we use to map values to keys
 // In a map, the keys can have any data type while in objects they are always strings
 const rest = new Map(); // New map
@@ -639,3 +640,6 @@ rest.set(document.querySelector('h1'), 'Heading');
 console.log(rest);
 console.log(rest.size);
 console.log(rest.get(arr));
+*/
+
+// ===================== Maps: Iteration
