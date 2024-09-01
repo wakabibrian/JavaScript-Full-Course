@@ -671,6 +671,6 @@ console.log(question.get(answer === question.get('correct')));
 
 // Convert map to Array
 console.log([...question]);
-console.log(question.entries());
-console.log(question.keys());
-console.log(question.values());
+// console.log(question.entries());
+console.log([...question.keys()]);
+console.log([...question.values()]);
