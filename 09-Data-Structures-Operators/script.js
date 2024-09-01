@@ -554,6 +554,7 @@ console.log(scorers);
 */
 
 // ===================== sets
+/*
 // A collection of unique values
 // Can never have any duplicates
 // Order is irrelevant
@@ -605,3 +606,6 @@ console.log(
 );
 
 console.log(new Set('wakabibrian').size);
+*/
+
+// ===================== Maps: Fundamentals
