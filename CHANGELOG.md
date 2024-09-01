@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.44.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.43.0...v1.44.0) (2024-09-01)
+
+
+### Features
+
+* Add clearing all elements from a set ([f74f433](https://github.com/wakabibrian/JavaScript-Full-Course/commit/f74f4339d4a8f8c2b0795b77974746b100637d00))
+* Add coding challenge 2 ([71dc871](https://github.com/wakabibrian/JavaScript-Full-Course/commit/71dc871c18ad6ec20827b225ed4c39e14f236001))
+* Add Enhanced Object Literals ([242839a](https://github.com/wakabibrian/JavaScript-Full-Course/commit/242839a6574b0d1fc4ab107ffbbb41f77e317efd))
+* Add entries ([98b176c](https://github.com/wakabibrian/JavaScript-Full-Course/commit/98b176c12a98718ef6dd2edfc2764b7b823f1511))
+* Add example ([24949ad](https://github.com/wakabibrian/JavaScript-Full-Course/commit/24949ad4f16a78065d95e26d6ea138de6b76ae1d))
+* Add for-of loop ([7a7e89c](https://github.com/wakabibrian/JavaScript-Full-Course/commit/7a7e89c8aac3832fe4cb307c7327509d22f9fc32))
+* Add intro to sets ([3830a70](https://github.com/wakabibrian/JavaScript-Full-Course/commit/3830a7051cbf740aa11b5d15c37ca4f744e49315))
+* Add looping in the set ([934752d](https://github.com/wakabibrian/JavaScript-Full-Course/commit/934752d803548a5daa56b40b868639914cdbdf1e))
+* Add new element to a set ([2b73570](https://github.com/wakabibrian/JavaScript-Full-Course/commit/2b73570745cdd79cb3cbdbc672e0d52d18c74355))
+* Add optional chaining ([c3ad308](https://github.com/wakabibrian/JavaScript-Full-Course/commit/c3ad308719e96a185e234c5155b50916328d4ce8))
+* Add optional chaining on Arrays ([a3ab5b2](https://github.com/wakabibrian/JavaScript-Full-Course/commit/a3ab5b2b5b41465821d8818610b1c74a1264e754))
+* Add optional chaining on methods ([3f01dfe](https://github.com/wakabibrian/JavaScript-Full-Course/commit/3f01dfef268f32b61ba7ddbf3b83b9cf331611b7))
+* Add property names ([5075aeb](https://github.com/wakabibrian/JavaScript-Full-Course/commit/5075aeb93c87933faa97e89c9449369b525702a9))
+* Add property values ([31d33b1](https://github.com/wakabibrian/JavaScript-Full-Course/commit/31d33b11b5c2f338fc204f7655fc06d1c5e53ea3))
+* Add retrieving elements from a set ([5ded792](https://github.com/wakabibrian/JavaScript-Full-Course/commit/5ded792bbd3dd47b0e91a6900e1998e19154af8d))
+* Add sets example ([c8c4c4e](https://github.com/wakabibrian/JavaScript-Full-Course/commit/c8c4c4eac9247eb6b05dc49cdad5cc5fbb8912ac))
+* Add size of a set ([3489572](https://github.com/wakabibrian/JavaScript-Full-Course/commit/34895725c37eabf4b0d67ac85ba0e6a2c440f429))
+* Check element is in a set ([fef9526](https://github.com/wakabibrian/JavaScript-Full-Course/commit/fef952651d3f30f6047ea986940ae3db8462c688))
+* Delete element from a set ([064a5c5](https://github.com/wakabibrian/JavaScript-Full-Course/commit/064a5c53f77a44d5d6d40bdb532bf8c13c13e736))
+
 ## [1.43.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.42.0...v1.43.0) (2024-08-12)
 
 
