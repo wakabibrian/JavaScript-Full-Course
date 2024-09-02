@@ -782,3 +782,13 @@ const airline = 'TAP Air Portugal';
 console.log(airline.toLowerCase());
 console.log(airline.toUpperCase());
 console.log('Brian'.toUpperCase());
+
+// Fix capitalization in name
+const capitalizeName = function (name) {
+  const nameLower = name.toLowerCase();
+  const nameCorrect = nameLower[0].toUpperCase() + nameLower.slice(1);
+  console.log(nameCorrect);
+};
+
+capitalizeName('briaN');
+capitalizeName('jOnAs');
