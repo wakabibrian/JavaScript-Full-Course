@@ -737,6 +737,7 @@ for (const [minutes, event] of gameEvents.entries()) {
 */
 
 // ===================== Working With Strings - Part 1
+/*
 const airline = 'TAP Air Portugal';
 const plane = 'A320';
 console.log(plane[0]);
@@ -773,3 +774,6 @@ const checkMiddleSeat = function (seat) {
 checkMiddleSeat('11B');
 checkMiddleSeat('21C');
 checkMiddleSeat('3E');
+*/
+
+// ===================== Working With Strings - Part 2
