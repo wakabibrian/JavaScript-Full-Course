@@ -801,3 +801,13 @@ const checkEmail = function (registeredEmail, loggedEmail) {
 
 checkEmail('wakabibrian@gmail.com', '    Wakabibrian@Gmail.com \n');
 checkEmail('miracle@gmail.com', 'Mirracle@gmail.com ');
+
+// Replacing
+const priceSH = '288,97/=';
+const priceUS = priceSH.replace('/=', '$').replace(',', '.');
+console.log(priceUS);
+
+const announcement =
+  'All passengers come to boarding door 23. Boarding door 23!';
+
+console.log(announcement.replaceAll('door', 'gate'));
