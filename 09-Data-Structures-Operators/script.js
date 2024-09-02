@@ -777,3 +777,8 @@ checkMiddleSeat('3E');
 */
 
 // ===================== Working With Strings - Part 2
+const airline = 'TAP Air Portugal';
+
+console.log(airline.toLowerCase());
+console.log(airline.toUpperCase());
+console.log('Brian'.toUpperCase());
