@@ -695,7 +695,7 @@ average, every 9 minutes" (keep in mind that a game has 90 minutes)
 whether it's in the first half or second half (after 45 min) of the game, like this:
 [FIRST HALF] 17: ⚽ GOAL
 */
-
+/*
 const gameEvents = new Map([
   [17, '⚽ GOAL'],
   [36, '� Substitution'],
@@ -734,3 +734,6 @@ for (const [minutes, event] of gameEvents.entries()) {
   const half = minutes > 45 ? 'SECOND' : 'FIRST';
   console.log(`[${half} HALF] ${minutes}: ${event}`);
 }
+*/
+
+// ===================== Working With Strings - Part 1
