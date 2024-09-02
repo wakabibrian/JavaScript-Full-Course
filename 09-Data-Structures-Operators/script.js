@@ -792,3 +792,12 @@ const capitalizeName = function (name) {
 
 capitalizeName('briaN');
 capitalizeName('jOnAs');
+
+// Check email
+const checkEmail = function (registeredEmail, loggedEmail) {
+  const normalizeEmail = loggedEmail.toLowerCase().trim();
+  console.log(normalizeEmail === registeredEmail);
+};
+
+checkEmail('wakabibrian@gmail.com', '    Wakabibrian@Gmail.com \n');
+checkEmail('miracle@gmail.com', 'Mirracle@gmail.com ');
