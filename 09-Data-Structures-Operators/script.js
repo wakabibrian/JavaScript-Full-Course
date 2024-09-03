@@ -777,6 +777,7 @@ checkMiddleSeat('3E');
 */
 
 // ===================== Working With Strings - Part 2
+/*
 const airline = 'TAP Air Portugal';
 
 console.log(airline.toLowerCase());
@@ -834,3 +835,6 @@ const checkBaggage = function (items) {
 checkBaggage('I have a laptop, some Food and a pocket Knife');
 checkBaggage('Socks and camera');
 checkBaggage('Got some snacks and a gun for protection');
+*/
+
+// ===================== Working With Strings - Part 3
