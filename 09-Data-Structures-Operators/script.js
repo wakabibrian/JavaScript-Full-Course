@@ -838,3 +838,26 @@ checkBaggage('Got some snacks and a gun for protection');
 */
 
 // ===================== Working With Strings - Part 3
+// split and join
+console.log('a+very+nice+string'.split('+'));
+console.log('Wakabi Brian'.split(' '));
+
+const [firstName, lastName] = 'Wakabi Brian'.split(' ');
+
+const newName = ['Mr.', firstName, lastName.toUpperCase()].join(' ');
+console.log(newName);
+
+const capitalizeName = function (name) {
+  const names = name.split(' ');
+  const namesUpper = [];
+
+  for (const n of names) {
+    // namesUpper.push(n[0].toUpperCase() + n.slice(1));
+    namesUpper.push(n.replace(n[0], n[0].toUpperCase()));
+  }
+
+  console.log(namesUpper);
+};
+
+capitalizeName('jessica ann smith davis');
+capitalizeName('wakabi brian');
