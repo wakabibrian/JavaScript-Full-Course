@@ -29,6 +29,7 @@ createBooking('LH123', undefined, 1000);
 */
 
 // =============================  How Passing Arguments Works: Value vs. Reference
+/*
 const flight = 'LH1234';
 const wakabi = {
   name: 'Wakabi Brian',
@@ -63,3 +64,15 @@ const newPassport = function (person) {
 
 newPassport(wakabi);
 checkIn(flight, wakabi);
+
+// Javascript has only passing by value
+*/
+
+// =============================  First-Class and Higher-Order Functions
+// First-Class Functions
+// In JS functions are simply values
+// functions are another type of objects
+// We can return functions from other functions
+
+// Higher-Order Functions
+// A function that receives another function as an argument, returns a new function, or both
