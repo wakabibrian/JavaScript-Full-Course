@@ -76,3 +76,5 @@ checkIn(flight, wakabi);
 
 // Higher-Order Functions
 // A function that receives another function as an argument, returns a new function, or both
+
+// =============================  Functions Accepting Callback Functions
