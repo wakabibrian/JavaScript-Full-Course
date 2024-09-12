@@ -110,3 +110,12 @@ document.body.addEventListener('click', high5);
 */
 
 // =============================  Functions Returning Functions
+const greet = function (greeting) {
+  return function (name) {
+    console.log(`${greeting} ${name}`);
+  };
+};
+
+const greeterHey = greet('Hey');
+greeterHey('Wakabi');
+greeterHey('Steven');
