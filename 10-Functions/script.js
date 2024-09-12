@@ -119,3 +119,12 @@ const greet = function (greeting) {
 const greeterHey = greet('Hey');
 greeterHey('Wakabi');
 greeterHey('Steven');
+
+greet('Hello')('Wakabi');
+
+// Arrow functions
+const greetArr = greeting => name => {
+  console.log(`${greeting} ${name}`);
+};
+
+greetArr('Hi')('Wakabi');
