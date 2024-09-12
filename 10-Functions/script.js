@@ -78,6 +78,7 @@ checkIn(flight, wakabi);
 // A function that receives another function as an argument, returns a new function, or both
 
 // =============================  Functions Accepting Callback Functions
+/*
 // Functions that accept other functions as inputs
 const oneWord = function (str) {
   return str.replaceAll(' ', '').toLowerCase();
@@ -106,3 +107,6 @@ const high5 = function () {
 
 document.body.addEventListener('click', high5);
 ['Jonas', 'Martha', 'Adam'].forEach(high5);
+*/
+
+// =============================  Functions Returning Functions
