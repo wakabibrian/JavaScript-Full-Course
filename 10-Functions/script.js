@@ -2,10 +2,14 @@
 // ============================= Default Parameters
 const bookings = [];
 
-const createBooking = function (flightNum, numPassengers, price) {
+const createBooking = function (
+  flightNum,
+  numPassengers = 1,
+  price = 199 * numPassengers
+) {
   // Default parameters : Old way (ES5)
-  numPassengers = numPassengers || 1;
-  price = price || 199;
+  //   numPassengers = numPassengers || 1;
+  //   price = price || 199;
 
   const booking = {
     flightNum,
@@ -17,3 +21,6 @@ const createBooking = function (flightNum, numPassengers, price) {
 };
 
 createBooking('LH123');
+createBooking('LH123', 2, 800);
+createBooking('LH123', 2);
+createBooking('LH123', 5);
