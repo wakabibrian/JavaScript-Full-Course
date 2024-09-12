@@ -29,3 +29,30 @@ createBooking('LH123', undefined, 1000);
 */
 
 // =============================  How Passing Arguments Works: Value vs. Reference
+const flight = 'LH1234';
+const wakabi = {
+  name: 'Wakabi Brian',
+  passport: 236573834322,
+};
+
+const checkIn = function (flightNum, passenger) {
+  flightNum = 'LH999';
+  passenger.name = 'Mr. ' + passenger.name;
+
+  if (passenger.passport === 236573834322) {
+    alert('Checked in');
+  } else {
+    alert('Wrong passport!');
+  }
+};
+
+checkIn(flight, wakabi);
+console.log(flight);
+console.log(wakabi);
+
+// Is the same as doing
+const flightNum = flight;
+const passenger = wakabi; // copying the reference to the object in the memory heap but both point to the same object (both are manipulated)
+
+// Passing a Primitive type in a function like string above just creates a copy
+// Passing an object in a function like copying an object
