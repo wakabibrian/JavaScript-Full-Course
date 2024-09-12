@@ -46,13 +46,20 @@ const checkIn = function (flightNum, passenger) {
   }
 };
 
-checkIn(flight, wakabi);
-console.log(flight);
-console.log(wakabi);
+// checkIn(flight, wakabi);
+// console.log(flight);
+// console.log(wakabi);
 
 // Is the same as doing
-const flightNum = flight;
-const passenger = wakabi; // copying the reference to the object in the memory heap but both point to the same object (both are manipulated)
+// const flightNum = flight;
+// const passenger = wakabi; // copying the reference to the object in the memory heap but both point to the same object (both are manipulated)
 
 // Passing a Primitive type in a function like string above just creates a copy
 // Passing an object in a function like copying an object
+
+const newPassport = function (person) {
+  person.passport = Math.trunc(Math.random() * 10000000000000);
+};
+
+newPassport(wakabi);
+checkIn(flight, wakabi);
