@@ -148,7 +148,7 @@ lufthansa.book(239, 'Wakabi Brian');
 lufthansa.book(635, 'John Smith');
 
 const eurowings = {
-  airline: 'eurowings',
+  airline: 'Eurowings',
   iataCode: 'EW',
   bookings: [],
 };
@@ -158,8 +158,18 @@ const book = lufthansa.book;
 // Does NOT work
 // book(23, 'Sarah Williams');
 
+// Call method
 book.call(eurowings, 23, 'Sarah Williams'); // Manipulates the this keyword
 console.log(eurowings);
 
 book.call(lufthansa, 342, 'Opion Jordan');
 console.log(lufthansa);
+
+const swiss = {
+  airline: 'Swiss Air Lines',
+  iataCode: 'LX',
+  bookings: [],
+};
+
+book.call(swiss, 343, 'Britney Keyla');
+console.log(swiss);
