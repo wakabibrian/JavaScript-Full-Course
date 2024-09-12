@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.47.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.46.0...v1.47.0) (2024-09-12)
+
+
+### Features
+
+* Add Booleans string metjod ([a9dc004](https://github.com/wakabibrian/JavaScript-Full-Course/commit/a9dc004f84bee63f141649de68cf3aff83f359f3))
+* Add check email example ([59d7426](https://github.com/wakabibrian/JavaScript-Full-Course/commit/59d742638535e6d9360bf349164116f22df7f804))
+* Add coding challenge 3 ([683b9e0](https://github.com/wakabibrian/JavaScript-Full-Course/commit/683b9e02bea5194791981d6947af91a8d6e15d6c))
+* Add Fix capiatalization example ([640907e](https://github.com/wakabibrian/JavaScript-Full-Course/commit/640907e56bd416fb1d6d0a14a5fad043e4170feb))
+* Add introduction to strings ([d2b27b4](https://github.com/wakabibrian/JavaScript-Full-Course/commit/d2b27b4f00ed6406f5f75f8440af5e1b2a17c905))
+* Add more string methods ([e17896c](https://github.com/wakabibrian/JavaScript-Full-Course/commit/e17896c665e490ee5754c38b9830b5031f17cbd3))
+* Add padding a string ([44e4879](https://github.com/wakabibrian/JavaScript-Full-Course/commit/44e48794a3f3ac1029e570978ec86b0e3522bd18))
+* Add practice exercise ([b32eff6](https://github.com/wakabibrian/JavaScript-Full-Course/commit/b32eff697a7d09eab0146833bf6e0e4f7cfd40fc))
+* Add repeat method ([9581b5b](https://github.com/wakabibrian/JavaScript-Full-Course/commit/9581b5ba869d260a093b2b5fe09cca5bbb83b17c))
+* Add replace (string method) ([fdbbbaa](https://github.com/wakabibrian/JavaScript-Full-Course/commit/fdbbbaa6fad495f8a3589aaa18e649352bc9ff38))
+* Add split and join ([6ac4959](https://github.com/wakabibrian/JavaScript-Full-Course/commit/6ac49596f2fb548d7dc33f5df30d7c7df4c2f2d2))
+* Add string example ([2964c2b](https://github.com/wakabibrian/JavaScript-Full-Course/commit/2964c2b4d0df74bacbf576efb8bf8146bb7ed1f9))
+* Add string method practice exercise ([7fd835d](https://github.com/wakabibrian/JavaScript-Full-Course/commit/7fd835d2bb8b763fb53fe7a8b4f75247e0250132))
+* Add string methods ([33eae25](https://github.com/wakabibrian/JavaScript-Full-Course/commit/33eae2566069fb81437ad7f0e6dc137341d3075e))
+
 ## [1.46.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.45.0...v1.46.0) (2024-09-01)
 
 
