@@ -132,3 +132,34 @@ greetArr('Hi')('Wakabi');
 */
 
 // =============================  The call and apply Methods
+const lufthansa = {
+  airline: 'lufthansa',
+  iataCode: 'LH',
+  bookings: [],
+  book(flightNum, name) {
+    console.log(
+      `${name} booked a seat on ${this.airline} flight ${this.iataCode}${flightNum}`
+    );
+    this.bookings.push({ flight: `${this.iataCode}${flightNum}`, name });
+  },
+};
+
+lufthansa.book(239, 'Wakabi Brian');
+lufthansa.book(635, 'John Smith');
+
+const eurowings = {
+  airline: 'eurowings',
+  iataCode: 'EW',
+  bookings: [],
+};
+
+const book = lufthansa.book;
+
+// Does NOT work
+// book(23, 'Sarah Williams');
+
+book.call(eurowings, 23, 'Sarah Williams'); // Manipulates the this keyword
+console.log(eurowings);
+
+book.call(lufthansa, 342, 'Opion Jordan');
+console.log(lufthansa);
