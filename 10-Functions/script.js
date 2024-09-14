@@ -132,6 +132,7 @@ greetArr('Hi')('Wakabi');
 */
 
 // =============================  The call and apply Methods
+/*
 const lufthansa = {
   airline: 'lufthansa',
   iataCode: 'LH',
@@ -180,3 +181,6 @@ book.apply(swiss, flightData);
 console.log(swiss);
 
 book.call(swiss, ...flightData);
+*/
+
+// =============================  The bind Method
