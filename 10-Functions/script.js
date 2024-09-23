@@ -246,8 +246,7 @@ Your tasks:
     (Write option number)
 
   1.2. Based on the input number, update the 'answers' array property. For example, if the option is 3, increase the
-      value at position 3 of the array by
-      1. Make sure to check if the input is a number and if the number makes sense (e.g. answer 52 wouldn't make sense, right?)
+      value at position 3 of the array by 1. Make sure to check if the input is a number and if the number makes sense (e.g. answer 52 wouldn't make sense, right?)
 
 2. Call this method whenever the user clicks the "Answer poll" button.
 
@@ -270,7 +269,39 @@ Hints: Use many of the tools you learned about in this and the last section
 
 const poll = {
   question: 'What is your favorite programming language?',
-  options: ['0: JavaScript', '1: Python', '2: Rust', '3:C++'],
+  options: ['0: JavaScript', '1: Python', '2: Rust', '3: C++'],
   // This generates [0, 0, 0, 0]. More in the next section!
   answers: new Array(4).fill(0),
+  registerNewAnswer() {
+    // Get the answer
+    const answer = Number(
+      prompt(
+        `${this.question}\n${this.options.join('\n')}\n(Write option number)`
+      )
+    );
+    console.log(answer);
+
+    // Register the answer
+    typeof answer === 'number' &&
+      answer < this.answers.length &&
+      this.answers[answer]++;
+
+    this.displayResults();
+    this.displayResults('string');
+  },
+
+  displayResults(type = 'array') {
+    if (type === 'array') {
+      console.log(this.answers);
+    } else if (type === 'string') {
+      console.log(`Poll results are ${this.answers.join(', ')}`);
+    }
+  },
 };
+
+document
+  .querySelector('.poll')
+  .addEventListener('click', poll.registerNewAnswer.bind(poll));
+
+poll.displayResults.call({ answers: [5, 2, 3] });
+poll.displayResults.call({ answers: [1, 5, 3, 9, 6, 1] }, 'string');
