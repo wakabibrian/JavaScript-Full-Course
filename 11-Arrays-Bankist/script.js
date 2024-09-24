@@ -155,3 +155,6 @@ movements.forEach(function (mov, i, arr) {
 // 1: function(450)
 // 2: function(400)
 // ...
+
+// Difference
+// You can not breakout of the foreach loop; continue and break statements do not work
