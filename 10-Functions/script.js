@@ -337,6 +337,7 @@ console.log(isNotPrivate);
 */
 
 // =============================  Closures
+/*
 const secureBooking = function () {
   let passengerCount = 0;
 
@@ -368,3 +369,6 @@ booker();
 // 4. A closure is like a backpack that a function carries around wherever it goes. This backpack has all the variables that were present in the environment where the function was created
 
 console.dir(booker);
+*/
+
+// =============================  More Closure Examples
