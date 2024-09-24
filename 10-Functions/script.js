@@ -357,3 +357,6 @@ booker();
 // A function will always have access to the variable environment of the execution context in which it was created even if after that execution context is gone.
 // The closure is the variable environment attached to the function
 // Even if after the execution context has been destroyed, the variable environment lives somewhere in the engine.
+
+// Explanation on the booker()
+// booker() tries to increase the passengerCount function, but the secureBooking() is off the execution stack, therefore the booker() will look into the closure even before it looks in the scope chain.
