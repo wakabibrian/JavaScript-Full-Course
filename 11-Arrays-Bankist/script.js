@@ -129,6 +129,7 @@ console.log('wakabi'.at(-1));
 */
 
 // =============================  Looping Arrays: forEach
+/*
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
 // for-of
@@ -158,3 +159,6 @@ movements.forEach(function (mov, i, arr) {
 
 // Difference
 // You can not breakout of the foreach loop; continue and break statements do not work
+*/
+
+// =============================  forEach With Maps and Sets
