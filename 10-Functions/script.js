@@ -372,3 +372,30 @@ console.dir(booker);
 */
 
 // =============================  More Closure Examples
+// Example 1
+let f;
+
+const g = function () {
+  const a = 23;
+
+  f = function () {
+    console.log(a * 2);
+  };
+};
+
+const h = function () {
+  const b = 777;
+
+  f = function () {
+    console.log(b * 2);
+  };
+};
+
+g();
+f(); //f value closes the execution context in which it was defined. a variable is inside of the f back pack
+console.dir(f); //closure(g) - a: 23
+
+// Re-assigning f function
+h();
+f(); //f closes the variable environment of h
+console.dir(f); //closure(h) - b: 777
