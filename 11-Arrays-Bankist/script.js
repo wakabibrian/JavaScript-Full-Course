@@ -132,21 +132,22 @@ console.log('wakabi'.at(-1));
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
 // for-of
-for (const movement of movements) {
+// for (const movement of movements) {
+for (const [i, movement] of movements.entries()) {
   if (movement > 0) {
-    console.log(`You deposited ${movement}`);
+    console.log(`Movement ${i + 1}: You deposited ${movement}`);
   } else {
-    console.log(`You withdrew ${Math.abs(movement)}`);
+    console.log(`Movement ${i + 1}: You withdrew ${Math.abs(movement)}`);
   }
 }
 
-console.log('------FOREACH-----');
-// forEach
-movements.forEach(function (movement) {
-  if (movement > 0) {
-    console.log(`You deposited ${movement}`);
+console.log('\n------FOREACH-----');
+// mov - current element, i - current index, arr - entire array
+movements.forEach(function (mov, i, arr) {
+  if (mov > 0) {
+    console.log(`Movement ${i + 1}: You deposited ${mov}`);
   } else {
-    console.log(`You withdrew ${Math.abs(movement)}`);
+    console.log(`Movement ${i + 1}: You withdrew ${Math.abs(mov)}`);
   }
 });
 
