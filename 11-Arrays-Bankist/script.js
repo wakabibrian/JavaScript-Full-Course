@@ -77,7 +77,7 @@ const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
 // =============================  Simple Array Methods
 
-// slice
+// slice - does not mutate the original array
 let arr = ['a', 'b', 'c', 'd', 'e'];
 
 console.log(arr.slice(2)); //c-e
@@ -87,3 +87,9 @@ console.log(arr.slice(-1)); //e
 console.log(arr.slice(1, -2)); //b-c
 console.log(arr.slice()); //shallow copy
 console.log([...arr]); //shallow copy 2
+
+// splice - mutates the original array
+// console.log(arr.splice(2)); //c-e (not important values)
+arr.splice(-1);
+console.log(arr.splice(1, 2)); // b-c
+console.log(arr); //a,d (more important values)
