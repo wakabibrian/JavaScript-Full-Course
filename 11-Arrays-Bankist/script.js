@@ -76,7 +76,7 @@ const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 /////////////////////////////////////////////////
 
 // =============================  Simple Array Methods
-
+/*
 // slice - does not mutate the original array
 let arr = ['a', 'b', 'c', 'd', 'e'];
 
@@ -110,3 +110,6 @@ console.log(letters.join(' - '));
 
 // Other methods
 // Push, Shift, unshift etc
+*/
+
+// =============================  The new at Method
