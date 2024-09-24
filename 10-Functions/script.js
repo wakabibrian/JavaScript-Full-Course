@@ -399,3 +399,18 @@ console.dir(f); //closure(g) - a: 23
 h();
 f(); //f closes the variable environment of h
 console.dir(f); //closure(h) - b: 777
+
+// Example 2
+const boardPassengers = function (n, wait) {
+  const perGroup = n / 3;
+
+  setTimeout(function () {
+    console.log(`We are now boarding all ${n} passengers`);
+    console.log(`There are 3 groups each with ${perGroup} passengers`);
+  }, wait * 1000); // Call back function is used later but uses all the variables (n and per group) that were created (closes)
+
+  console.log(`Will start boarding in ${wait} seconds`);
+};
+
+const perGroup = 1000; // Not considered because closure has priority over scope chain
+boardPassengers(180, 3);
