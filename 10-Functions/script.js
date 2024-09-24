@@ -309,6 +309,7 @@ poll.displayResults.call({ answers: [1, 5, 3, 9, 6, 1] }, 'string');
 */
 
 // =============================  Immediately Invoked Function Expressions (IIFE)
+/*
 // These are functions only executed once and immediately disappear
 // Mainly used in async await.
 
@@ -333,3 +334,6 @@ runOnce();
 
 // console.log(isPrivate); //No need of IIFE
 console.log(isNotPrivate);
+*/
+
+// =============================  Closures
