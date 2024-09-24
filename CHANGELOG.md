@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.49.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.48.0...v1.49.0) (2024-09-24)
+
+
+### Features
+
+* Add concat method ([37e77f9](https://github.com/wakabibrian/JavaScript-Full-Course/commit/37e77f9734818cce89ff1dcbe8cd73c796d1fcea))
+* Add join method ([e07e707](https://github.com/wakabibrian/JavaScript-Full-Course/commit/e07e707e2be0ad6542858ce395e4df646a790268))
+* Add other array methods ([27726ea](https://github.com/wakabibrian/JavaScript-Full-Course/commit/27726ead138c57fd104e3a3d4dc8c477736b3158))
+* Add reverse method ([5558eb0](https://github.com/wakabibrian/JavaScript-Full-Course/commit/5558eb0a3ddc659f33147134bb593dceb33cbe80))
+* Add slice method ([9d39b07](https://github.com/wakabibrian/JavaScript-Full-Course/commit/9d39b0752e88076393ff01445bf358f1f342aef7))
+* Add splice method ([caaf7c5](https://github.com/wakabibrian/JavaScript-Full-Course/commit/caaf7c579395df340735f5b21c185c985a64b059))
+
 ## [1.48.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.47.0...v1.48.0) (2024-09-24)
 
 
