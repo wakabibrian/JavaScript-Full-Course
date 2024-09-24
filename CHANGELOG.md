@@ -2,6 +2,39 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.48.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.47.0...v1.48.0) (2024-09-24)
+
+
+### Features
+
+* Add a Higher-order function ([ed9d2b9](https://github.com/wakabibrian/JavaScript-Full-Course/commit/ed9d2b9916e80579eed5385e7b0c705c7c37ee6e))
+* Add apply method ([b14c44b](https://github.com/wakabibrian/JavaScript-Full-Course/commit/b14c44b14fcc6d454ac7b7554640916f879467f9))
+* Add bind method with partial application ([96eba6b](https://github.com/wakabibrian/JavaScript-Full-Course/commit/96eba6b7f2222b5662e1dc96f37c61bffba4478a))
+* Add bind with Event listeners ([6f51bcd](https://github.com/wakabibrian/JavaScript-Full-Course/commit/6f51bcdd4e78b1a579891638292f7db36540e5b5))
+* Add closure definitions ([2e33b1d](https://github.com/wakabibrian/JavaScript-Full-Course/commit/2e33b1db48f9f36821bae3e7efdb130cc76b63fc))
+* Add closure example 1 ([8f495df](https://github.com/wakabibrian/JavaScript-Full-Course/commit/8f495df136e52675b8136d9b04430a56cf5f226f))
+* Add closure example 2 ([11a0319](https://github.com/wakabibrian/JavaScript-Full-Course/commit/11a031944af592cd403c2dcf38c103ae46ce6b55))
+* Add coding challenge ([4b02029](https://github.com/wakabibrian/JavaScript-Full-Course/commit/4b02029dc0bf8a47628398c7796b1292174f25d9))
+* Add coding challenge ([0968bd6](https://github.com/wakabibrian/JavaScript-Full-Course/commit/0968bd6fd615e40752ffe0a8af3cd98ea543b667))
+* Add console.dir() - shows the closure of a function ([2f9af9d](https://github.com/wakabibrian/JavaScript-Full-Course/commit/2f9af9de7f657daa5014bbae3eb97754fce58e11))
+* Add convert to returning functions ([66f67f7](https://github.com/wakabibrian/JavaScript-Full-Course/commit/66f67f751c77a3c5b0ee0ed571d3cd5769d70fbe))
+* Add Default parameters (old way) ([29299a0](https://github.com/wakabibrian/JavaScript-Full-Course/commit/29299a0152648c9bb520bd8d73d218c3fdef9e9f))
+* Add default parameters ES6 way ([55faab3](https://github.com/wakabibrian/JavaScript-Full-Course/commit/55faab38e8166536e7814487c0ec07112f38d5f4))
+* Add explanation for First-Class and Higher-Order function ([74e77b1](https://github.com/wakabibrian/JavaScript-Full-Course/commit/74e77b1dbe94d1eefb663b1a238b7e5640e03741))
+* Add explanation for the closure function ([8fee0b9](https://github.com/wakabibrian/JavaScript-Full-Course/commit/8fee0b91a08371af9523cd422284ecc524a2d7bb))
+* Add function returning other functions ([1e9cb80](https://github.com/wakabibrian/JavaScript-Full-Course/commit/1e9cb80414403d45ec04d507e1b32fdbf1d3ebe2))
+* Add functions returning other functions with Arrow functions ([b7cfc64](https://github.com/wakabibrian/JavaScript-Full-Course/commit/b7cfc649cdf99fe395e0de7be8f320cc79a741c8))
+* Add Immediately Invoked Function Expressions intro ([444da94](https://github.com/wakabibrian/JavaScript-Full-Course/commit/444da948e13fb87a13d9ed1b47b6d8be251e15c7))
+* Add intro to closures ([efde7ca](https://github.com/wakabibrian/JavaScript-Full-Course/commit/efde7ca2c20c08bd80744fc20ad51d838a91e0c7))
+* Add more call method examples ([6c2da6f](https://github.com/wakabibrian/JavaScript-Full-Course/commit/6c2da6fe20f24fb49ebd656c446c30551ce2422f))
+* Add more explanation on closure ([fe15037](https://github.com/wakabibrian/JavaScript-Full-Course/commit/fe1503764653573ad6567a0b70002bc9dc7711b4))
+* Add partial Application example ([be57ec3](https://github.com/wakabibrian/JavaScript-Full-Course/commit/be57ec31010db1dcbe4aca10e776fca46078bbce))
+* Add pass by reference example ([c9011dd](https://github.com/wakabibrian/JavaScript-Full-Course/commit/c9011ddac413ce390ba85c7649b848313d97d550))
+* Add passing a primitive type and object type in a function ([0d1f8f9](https://github.com/wakabibrian/JavaScript-Full-Course/commit/0d1f8f95b8516061892c307edbd59b78272283fc))
+* Add skipping a parameter in ES6 ([23edce7](https://github.com/wakabibrian/JavaScript-Full-Course/commit/23edce74e0533b4da1ac9dd51070e3d2c54dd1ba))
+* Add the call method on functions ([fe8af5f](https://github.com/wakabibrian/JavaScript-Full-Course/commit/fe8af5f31c305efa7059b5ed2d4dbdb6f0d113ae))
+* No need of IIFE ([24a0b10](https://github.com/wakabibrian/JavaScript-Full-Course/commit/24a0b1061baa9fdb87e9d388693ccae0a960cb25))
+
 ## [1.47.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.46.0...v1.47.0) (2024-09-12)
 
 
