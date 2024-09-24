@@ -314,8 +314,10 @@ poll.displayResults.call({ answers: [1, 5, 3, 9, 6, 1] }, 'string');
 
 const runOnce = function () {
   console.log('This will only run once');
+  const isPrivate = 23;
 };
 runOnce();
+// console.log(isPrivate);
 
 // IIFE
 (function () {
@@ -323,3 +325,11 @@ runOnce();
 })();
 
 (() => console.log('This will ALSO never run again'))();
+
+{
+  const isPrivate = 23;
+  var isNotPrivate = 46;
+}
+
+// console.log(isPrivate); //No need of IIFE
+console.log(isNotPrivate);
