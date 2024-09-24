@@ -93,3 +93,9 @@ console.log([...arr]); //shallow copy 2
 arr.splice(-1);
 console.log(arr.splice(1, 2)); // b-c
 console.log(arr); //a,d (more important values)
+
+// Reverse - Reverse the array (mutates the original array)
+arr = ['a', 'b', 'c', 'd', 'e'];
+const arr2 = ['j', 'i', 'h', 'g', 'f'];
+console.log(arr2.reverse());
+console.log(arr2);
