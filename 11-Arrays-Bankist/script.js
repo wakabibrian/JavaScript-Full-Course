@@ -107,3 +107,6 @@ console.log([...arr, ...arr2]);
 
 // join
 console.log(letters.join(' - '));
+
+// Other methods
+// Push, Shift, unshift etc
