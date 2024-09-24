@@ -309,3 +309,17 @@ poll.displayResults.call({ answers: [1, 5, 3, 9, 6, 1] }, 'string');
 */
 
 // =============================  Immediately Invoked Function Expressions (IIFE)
+// These are functions only executed once and immediately disappear
+// Mainly used in async await.
+
+const runOnce = function () {
+  console.log('This will only run once');
+};
+runOnce();
+
+// IIFE
+(function () {
+  console.log('This will only run once');
+})();
+
+(() => console.log('This will ALSO never run again'))();
