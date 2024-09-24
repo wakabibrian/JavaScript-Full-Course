@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.50.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.49.0...v1.50.0) (2024-09-24)
+
+
+### Features
+
+* Add accessing index and value in forEach method ([82774d9](https://github.com/wakabibrian/JavaScript-Full-Course/commit/82774d9be8336b36ac13bda9e79cedeb07b2d4cb))
+* Add at method ([2bd9589](https://github.com/wakabibrian/JavaScript-Full-Course/commit/2bd9589be03d22464f35de16d20fc5103a653303))
+* Add difference between forEach and for-of ([480551a](https://github.com/wakabibrian/JavaScript-Full-Course/commit/480551aa3394711290128459c256c5043a37251e))
+* Add forEach vs for-of ([579dea8](https://github.com/wakabibrian/JavaScript-Full-Course/commit/579dea8b76e11d840795a7b2f30637f743be5821))
+* Add forEach with a Map ([142bb9f](https://github.com/wakabibrian/JavaScript-Full-Course/commit/142bb9fec85b59b48eefb8389db1f256a042496f))
+* Add forEach with a set ([72a4523](https://github.com/wakabibrian/JavaScript-Full-Course/commit/72a45232912f9f24081ee91d90d5f3761dac1ab1))
+* Add forEach with Sets and Maps ([fbd79d5](https://github.com/wakabibrian/JavaScript-Full-Course/commit/fbd79d5474692bb5c6564183bdb05a131b9a1fc1))
+
 ## [1.49.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.48.0...v1.49.0) (2024-09-24)
 
 
