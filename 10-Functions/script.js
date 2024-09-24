@@ -337,3 +337,19 @@ console.log(isNotPrivate);
 */
 
 // =============================  Closures
+const secureBooking = function () {
+  let passengerCount = 0;
+
+  return function () {
+    passengerCount++;
+    console.log(`${passengerCount} passengers`);
+  };
+};
+
+const booker = secureBooking();
+
+booker();
+booker();
+booker();
+
+// A closure makes a function remember all the variables that existed at a function's birth place
