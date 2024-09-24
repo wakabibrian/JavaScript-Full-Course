@@ -113,6 +113,7 @@ console.log(letters.join(' - '));
 */
 
 // =============================  The new at Method
+/*
 const arr = [23, 11, 64];
 console.log(arr[0]);
 console.log(arr.at(0));
@@ -125,3 +126,6 @@ console.log(arr.at(-2)); //11;
 
 console.log('wakabi'.at(0));
 console.log('wakabi'.at(-1));
+*/
+
+// =============================  Looping Arrays: forEach
