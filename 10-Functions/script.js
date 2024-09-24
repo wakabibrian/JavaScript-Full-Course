@@ -348,8 +348,12 @@ const secureBooking = function () {
 
 const booker = secureBooking();
 
-booker();
+booker(); //The booker function closed over it's parent scope/over it's parent variable environment includes all function arguments. The attached/closed variables stays with the function forever.
 booker();
 booker();
 
 // A closure makes a function remember all the variables that existed at a function's birth place
+// The booker function was created in the execution context of the secureBooking function which was popped off, hence it remembers it's variable environment (passenger count).
+// A function will always have access to the variable environment of the execution context in which it was created even if after that execution context is gone.
+// The closure is the variable environment attached to the function
+// Even if after the execution context has been destroyed, the variable environment lives somewhere in the engine.
