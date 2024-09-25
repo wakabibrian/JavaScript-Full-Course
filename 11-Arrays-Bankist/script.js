@@ -215,6 +215,7 @@ Test data:
 § Data 2: Julia's data [9, 16, 6, 8, 3], Kate's data [10, 5, 6, 1, 4]
 */
 
+/*
 const checkDogs = function (arr1, arr2) {
   // console.log(arr1, arr2);
   const arr1Copy = arr1.slice();
@@ -234,3 +235,6 @@ const checkDogs = function (arr1, arr2) {
 };
 checkDogs([3, 5, 2, 12, 7], [4, 1, 15, 8, 3]);
 checkDogs([9, 16, 6, 8, 3], [10, 5, 6, 1, 4]);
+*/
+
+// =============================  The map Method
