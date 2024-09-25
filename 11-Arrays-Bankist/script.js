@@ -238,6 +238,7 @@ checkDogs([9, 16, 6, 8, 3], [10, 5, 6, 1, 4]);
 */
 
 // =============================  The map Method
+/*
 // The map method gives us a brand new array
 // Gives a result in each position from the applied callback function
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
@@ -264,3 +265,4 @@ const movementsDescriptions = movements.map(
 );
 
 console.log(movementsDescriptions);
+*/
