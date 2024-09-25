@@ -238,3 +238,21 @@ checkDogs([9, 16, 6, 8, 3], [10, 5, 6, 1, 4]);
 */
 
 // =============================  The map Method
+// The map method gives us a brand new array
+// Gives a result in each position from the applied callback function
+const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+
+const euroToUSD = 1.1;
+// const movementsUSD = movements.map(function (mov) {
+//   return mov * euroToUSD;
+// });
+const movementsUSD = movements.map(mov => mov * euroToUSD);
+
+console.log(movementsUSD);
+
+const movementsUSD2 = [];
+for (const mov of movements) {
+  movementsUSD2.push(mov * euroToUSD);
+}
+
+console.log(movementsUSD2);
