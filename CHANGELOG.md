@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.51.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.50.0...v1.51.0) (2024-09-25)
+
+
+### Features
+
+* Add Empty the html with innerHTML ([206c579](https://github.com/wakabibrian/JavaScript-Full-Course/commit/206c579883a78831a67a1b6fb726c0ee6ccb2365))
+* Add movements to html ([a346597](https://github.com/wakabibrian/JavaScript-Full-Course/commit/a346597e460cdf95452aded415774e30b9b50e0e))
+
 ## [1.50.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.49.0...v1.50.0) (2024-09-24)
 
 
