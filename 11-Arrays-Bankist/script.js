@@ -281,3 +281,18 @@ console.log(movementsDescriptions);
 */
 
 // =============================  The filter Method
+// It is used to filter elements that satisfy a certain condition
+const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+const deposits = movements.filter(function (mov) {
+  return mov > 0;
+});
+console.log(deposits);
+
+const deposits2 = [];
+for (const mov of movements) {
+  if (mov > 0) {
+    deposits2.push(mov);
+  }
+}
+console.log(deposits2);
+// The advantage of using the methods instead of the for loop is because you can chain the methods
