@@ -296,3 +296,7 @@ for (const mov of movements) {
 }
 console.log(deposits2);
 // The advantage of using the methods instead of the for loop is because you can chain the methods
+
+// challenge - withdraws
+const withdrawals = movements.filter(mov => mov < 0);
+console.log(withdrawals);
