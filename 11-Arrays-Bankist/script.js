@@ -304,3 +304,11 @@ console.log(withdrawals);
 */
 
 // =============================  The reduce Method
+// Used to boil down all elements in an array to 1 single value
+const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+// Accumulator, acc - SNOWBALL
+const balance = movements.reduce(function (acc, cur, i, array) {
+  console.log(`Iteration ${i + 1}: acc:${acc} cur:${cur}`);
+  return acc + cur; // acc and cur keep changing/updating in each iteration
+}, 0); //0 - the first accumulator value in the first iteration
+console.log(balance);
