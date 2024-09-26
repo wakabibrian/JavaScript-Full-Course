@@ -312,3 +312,10 @@ const balance = movements.reduce(function (acc, cur, i, array) {
   return acc + cur; // acc and cur keep changing/updating in each iteration
 }, 0); //0 - the first accumulator value in the first iteration
 console.log(balance);
+
+let balance2 = 0;
+for (const mov of movements) {
+  balance2 += mov;
+}
+console.log(balance2);
+// You need an extra variable which is a disadvantage
