@@ -406,3 +406,6 @@ const totalDepositUSD = movements
   // .map(mov => mov * euroToUSD)
   .reduce((acc, mov) => acc + mov, 0);
 console.log(totalDepositUSD);
+
+// Don't chain many methods in bigger applications, it will cause performance issues
+// Don't chain methods which can mutate the original array like the splice, reverse etc
