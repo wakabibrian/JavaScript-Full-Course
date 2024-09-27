@@ -376,6 +376,10 @@ const euroToUSD = 1.1;
 // PIPELINE
 const totalDepositUSD = movements
   .filter(mov => mov > 0)
-  .map(mov => mov * euroToUSD)
+  .map((mov, i, arr) => {
+    console.log(arr);
+    return mov * euroToUSD;
+  })
+  // .map(mov => mov * euroToUSD)
   .reduce((acc, mov) => acc + mov, 0);
 console.log(totalDepositUSD);
