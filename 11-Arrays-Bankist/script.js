@@ -370,3 +370,12 @@ calcAverageHumanAge([16, 6, 10, 5, 6, 1, 4]);
 */
 
 // =============================  The Magic of Chaining Methods
+const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+const euroToUSD = 1.1;
+
+// PIPELINE
+const totalDepositUSD = movements
+  .filter(mov => mov > 0)
+  .map(mov => mov * euroToUSD)
+  .reduce((acc, mov) => acc + mov, 0);
+console.log(totalDepositUSD);
