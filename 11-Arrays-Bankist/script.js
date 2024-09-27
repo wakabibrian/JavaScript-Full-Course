@@ -75,12 +75,16 @@ const addMovements = function (movements) {
         </div>
     `;
 
-    // console.log(html);
     containerMovements.insertAdjacentHTML('afterbegin', html);
   });
 };
-
 addMovements(account1.movements);
+
+const calcDisplayBalance = function (movements) {
+  const balance = movements.reduce((acc, mov) => acc + mov, 0);
+  labelBalance.textContent = `${balance} EUR`;
+};
+calcDisplayBalance(account1.movements);
 
 const createUsername = function (accs) {
   accs.forEach(function (acc) {
