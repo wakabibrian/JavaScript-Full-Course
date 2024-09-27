@@ -325,3 +325,10 @@ for (const mov of movements) {
 }
 console.log(balance2);
 // You need an extra variable which is a disadvantage
+
+// Maximum value
+const max = movements.reduce(
+  (acc, mov) => (acc > mov ? acc : mov),
+  movements[0]
+);
+console.log(max);
