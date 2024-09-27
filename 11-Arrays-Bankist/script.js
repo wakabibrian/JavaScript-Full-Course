@@ -101,7 +101,7 @@ const calcDisplaySummary = function (movements) {
     .filter(mov => mov > 0)
     .map(deposit => (deposit * 1.2) / 100)
     .filter((int, i, arr) => {
-      console.log(arr);
+      // console.log(arr);
       return int >= 1;
     })
     .reduce((acc, mov) => acc + mov, 0);
@@ -393,6 +393,7 @@ calcAverageHumanAge([16, 6, 10, 5, 6, 1, 4]);
 */
 
 // =============================  The Magic of Chaining Methods
+/*
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 const euroToUSD = 1.1;
 
@@ -409,3 +410,13 @@ console.log(totalDepositUSD);
 
 // Don't chain many methods in bigger applications, it will cause performance issues
 // Don't chain methods which can mutate the original array like the splice, reverse etc
+*/
+
+// =============================  Coding Challenge #3
+/*
+Rewrite the 'calcAverageHumanAge' function from Challenge #2, but this time as an arrow function, and using chaining!
+
+Test data:
+§ Data 1: [5, 2, 4, 1, 15, 8, 3]
+§ Data 2: [16, 6, 10, 5, 6, 1, 4]
+*/
