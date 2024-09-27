@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.53.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.52.0...v1.53.0) (2024-09-27)
+
+
+### Features
+
+* Add calculate and display balance ([ddacfef](https://github.com/wakabibrian/JavaScript-Full-Course/commit/ddacfef9869c910f6c27d0839d6b165080f73ec8))
+* Add chaining filter, map and reduce methods ([4d9abd8](https://github.com/wakabibrian/JavaScript-Full-Course/commit/4d9abd8e390a85bd9a968dc8297e010637ba8bb3))
+* Add challenge - filter with arrow function ([26e6b5a](https://github.com/wakabibrian/JavaScript-Full-Course/commit/26e6b5a96322fb95ccca2a3fd3fb9847a9370f7f))
+* Add coding challenge ([56ef019](https://github.com/wakabibrian/JavaScript-Full-Course/commit/56ef0199b11a9ed1c69078f004434bd24b0628fe))
+* Add coding challenge 3 ([4cd3856](https://github.com/wakabibrian/JavaScript-Full-Course/commit/4cd3856dbb4e6e9602effc5930b2f4fc2f2de531))
+* Add filter method intro ([db078ad](https://github.com/wakabibrian/JavaScript-Full-Course/commit/db078ad7471a7a7e22514c34872d53aa8b472f33))
+* Add get maximum value with reduce ([cf8ebb4](https://github.com/wakabibrian/JavaScript-Full-Course/commit/cf8ebb440709daa8ff5f2ec0144a9814dc1b7c8a))
+* Add map method example ([d9fc642](https://github.com/wakabibrian/JavaScript-Full-Course/commit/d9fc64212562901db52bb764453ee0ae36d4880e))
+* Add map method intro ([87cddbf](https://github.com/wakabibrian/JavaScript-Full-Course/commit/87cddbf7f62086283f6bb0a0a3d7001026d80283))
+* Add reduce method intro ([ac0951f](https://github.com/wakabibrian/JavaScript-Full-Course/commit/ac0951fa2e54734a12892dddb117400752d9953b))
+* Add reduce method with arrow function ([bbaf92d](https://github.com/wakabibrian/JavaScript-Full-Course/commit/bbaf92db8a11c54bad0c35e798c67f38f7e4dcf9))
+* Add rules of chaining ([04d3e42](https://github.com/wakabibrian/JavaScript-Full-Course/commit/04d3e42726295702846a0f819678197f0266ed3a))
+* Add summary - total incomes, out, and interest ([6a379a5](https://github.com/wakabibrian/JavaScript-Full-Course/commit/6a379a53f45f9c591c6fd127fe31179584bbf2e9))
+* Compare for loop with reduce method ([80269d9](https://github.com/wakabibrian/JavaScript-Full-Course/commit/80269d96697e9ec9773b44c709b1559881f2c0e4))
+* Create usernames for the different accounts ([713ea2c](https://github.com/wakabibrian/JavaScript-Full-Course/commit/713ea2c05c6a58b15d23c8e9920f9785b3e6e1f6))
+* Debugging - checking out intermediate values ([ecf376d](https://github.com/wakabibrian/JavaScript-Full-Course/commit/ecf376defe8ab0270fe83098b36f8c8ad5f80f42))
+
 ## [1.52.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.51.0...v1.52.0) (2024-09-25)
 
 
