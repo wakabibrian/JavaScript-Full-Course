@@ -442,3 +442,7 @@ console.log(firstWithdrawal);
 // Difference
 // Filter returns all the elements that satisfy the condition while find returns only the first condition
 // Filter returns a new array while find returns an element and not an array
+
+console.log(accounts);
+const jd = accounts.find(acc => acc.owner === 'Jessica Davis');
+console.log(jd);
