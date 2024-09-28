@@ -120,6 +120,18 @@ const createUsername = function (accs) {
 };
 createUsername(accounts);
 
+// Event Listeners
+let currentAccount;
+btnLogin.addEventListener('click', function (e) {
+  // Prevent form from submitting
+  e.preventDefault();
+  console.log('LOGIN');
+
+  currentAccount = accounts.find(
+    acc => acc.username === inputLoginUsername.value
+  );
+  console.log(currentAccount);
+});
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
 // LECTURES
@@ -434,6 +446,7 @@ console.log(avg1, avg2);
 */
 
 // =============================  The find Method
+/*
 // Used to retrieve one element of an array based on a condition
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 const firstWithdrawal = movements.find(mov => mov < 0); // Returns the first element in the array that satisfies the condition
@@ -452,3 +465,4 @@ for (const acc of accounts) {
   if (acc.owner === 'Jessica Davis') account = acc;
 }
 console.log(account);
+*/
