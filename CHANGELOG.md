@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.54.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.53.0...v1.54.0) (2024-09-28)
+
+
+### Features
+
+* Add create current account ([fc7f685](https://github.com/wakabibrian/JavaScript-Full-Course/commit/fc7f685da04e93723ba265ae25a0627511de9cc3))
+* Add find method example ([10d0f9d](https://github.com/wakabibrian/JavaScript-Full-Course/commit/10d0f9da14c1c7fe392f211dbfc09ef13eaedb7c))
+* Add for-of & find methods comparison ([7fd79b8](https://github.com/wakabibrian/JavaScript-Full-Course/commit/7fd79b8d17eaf2946d77a19eb14fca1c33624904))
+* Add movements, balance and summary after login ([5bfb79e](https://github.com/wakabibrian/JavaScript-Full-Course/commit/5bfb79e9feb6638d188a806f13b47baac0514488))
+* Add the find method ([d477ba2](https://github.com/wakabibrian/JavaScript-Full-Course/commit/d477ba28660132d2536da0929ba24a365ad35d7a))
+* Implement clearing username and pin fields after login ([0041ffa](https://github.com/wakabibrian/JavaScript-Full-Course/commit/0041ffa707c6a017da25409983b61063fc9d9587))
+* Implement interest rate ([b9a7eb4](https://github.com/wakabibrian/JavaScript-Full-Course/commit/b9a7eb43e6ced8af15b11ca5a36c7e4eccc4041c))
+* Implement UI display and welcome message ([46d6aa9](https://github.com/wakabibrian/JavaScript-Full-Course/commit/46d6aa9ee244a3a9fb4c1dd42f2c204fce718e99))
+
 ## [1.53.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.52.0...v1.53.0) (2024-09-27)
 
 
