@@ -434,3 +434,11 @@ console.log(avg1, avg2);
 */
 
 // =============================  The find Method
+// Used to retrieve one element of an array based on a condition
+const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+const firstWithdrawal = movements.find(mov => mov < 0); // Returns the first element in the array that satisfies the condition
+console.log(firstWithdrawal);
+
+// Difference
+// Filter returns all the elements that satisfy the condition while find returns only the first condition
+// Filter returns a new array while find returns an element and not an array
