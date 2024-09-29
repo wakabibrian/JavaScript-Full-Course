@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.55.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.54.0...v1.55.0) (2024-09-29)
+
+
+### Features
+
+* Add balance to the accounts object ([75588ee](https://github.com/wakabibrian/JavaScript-Full-Course/commit/75588eec10c1e4d8766b3f8ef1d0040b7745c3a5))
+* Add clear fields ([71c10fe](https://github.com/wakabibrian/JavaScript-Full-Course/commit/71c10fec617857089e6b073a7b3f0ea18c0382ac))
+* Pushing movements affter transfer ([313e3aa](https://github.com/wakabibrian/JavaScript-Full-Course/commit/313e3aaa8b6ea2bc2d6f285023d684447b9789da))
+* Update UI ([a052d6d](https://github.com/wakabibrian/JavaScript-Full-Course/commit/a052d6d3321494f53b1628f40d00ecf3ddfcd88b))
+
 ## [1.54.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.53.0...v1.54.0) (2024-09-28)
 
 
