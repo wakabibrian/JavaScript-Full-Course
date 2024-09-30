@@ -520,3 +520,4 @@ console.log(account);
 */
 
 // =============================  The The findIndex Method
+// Returns the index of the found element & not the element itself
