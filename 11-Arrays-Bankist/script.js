@@ -618,3 +618,6 @@ console.log(overallBalance2);
 */
 
 // =============================  Sorting Arrays
+const owners = ['Jonas', 'Brian', 'Mark', 'Martha'];
+console.log(owners.sort());
+console.log(owners); //Mutates original array
