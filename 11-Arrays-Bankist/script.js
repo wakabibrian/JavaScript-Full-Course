@@ -560,6 +560,7 @@ console.log(account);
 // Returns the index of the found element & not the element itself
 
 // =============================  some and every methods
+/*
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
 console.log(movements);
@@ -584,3 +585,6 @@ const deposit = mov => mov > 0;
 console.log(movements.some(deposit));
 console.log(movements.every(deposit));
 console.log(movements.filter(deposit));
+*/
+
+// =============================  flat and flatMap
