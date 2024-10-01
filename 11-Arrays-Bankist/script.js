@@ -602,3 +602,9 @@ const arrDeep = [
 ];
 
 console.log(arrDeep.flat(2));
+
+const overallBalance = accounts
+  .map(acc => acc.movements)
+  .flat()
+  .reduce((acc, mov) => mov + acc, 0);
+console.log(overallBalance);
