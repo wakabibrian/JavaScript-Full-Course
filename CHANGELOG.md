@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.56.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.55.0...v1.56.0) (2024-10-01)
+
+
+### Features
+
+* Add every method ([22ead7b](https://github.com/wakabibrian/JavaScript-Full-Course/commit/22ead7bdf5d77ca2a6814923b7bfed891f34dba5))
+* Add findIndex method explanation ([1b62cf1](https://github.com/wakabibrian/JavaScript-Full-Course/commit/1b62cf1b231b6002e7f41614d1936594d4f5d972))
+* Add flat 2 levels deep ([fb51cdb](https://github.com/wakabibrian/JavaScript-Full-Course/commit/fb51cdb08317cceafab6bd4dde88d51c5bdf0475))
+* Add flat method ([20da500](https://github.com/wakabibrian/JavaScript-Full-Course/commit/20da50032e74333f7faec808655dbfc5ac910f35))
+* Add flatMap method ([017d39b](https://github.com/wakabibrian/JavaScript-Full-Course/commit/017d39b068e21cee185e4c8803cfe8a7578a9416))
+* Add separating callbacks ([f9682b9](https://github.com/wakabibrian/JavaScript-Full-Course/commit/f9682b9cd1d8a6eef8870c6c541691c53df024b2))
+* Add some method ([da3e37f](https://github.com/wakabibrian/JavaScript-Full-Course/commit/da3e37f505bd47e748a00f8b28292d4c513a41e6))
+* Add the includes method ([12b3169](https://github.com/wakabibrian/JavaScript-Full-Course/commit/12b3169269f0b25b5045747cb814e5371770b7f2))
+* Calculate overall balance with flat method ([d4e2633](https://github.com/wakabibrian/JavaScript-Full-Course/commit/d4e2633837fabc4215e9186e0c40b2de42175204))
+* Implement Request Loan ([20f39f9](https://github.com/wakabibrian/JavaScript-Full-Course/commit/20f39f958b7acd84d9aa0c4723e0471341534955))
+* Implement the close account ([bad48dd](https://github.com/wakabibrian/JavaScript-Full-Course/commit/bad48ddbf7a2f11032be511e0aa1a7b0c628d17d))
+
 ## [1.55.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.54.0...v1.55.0) (2024-09-29)
 
 
