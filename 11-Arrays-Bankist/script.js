@@ -545,3 +545,7 @@ console.log(account);
 // Returns the index of the found element & not the element itself
 
 // =============================  some and every methods
+const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+
+console.log(movements);
+console.log(movements.includes(-130)); //Includes tests for equality, if any value in the array is equal -130
