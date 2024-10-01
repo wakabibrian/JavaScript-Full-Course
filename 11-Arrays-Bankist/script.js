@@ -588,6 +588,7 @@ console.log(movements.filter(deposit));
 */
 
 // =============================  flat and flatMap
+/*
 // flat
 const arr = [[1, 2, 3], [4, 5, 6], 7, 8];
 console.log(arr.flat());
@@ -614,3 +615,6 @@ const overallBalance2 = accounts
   .flatMap(acc => acc.movements)
   .reduce((acc, mov) => mov + acc, 0);
 console.log(overallBalance2);
+*/
+
+// =============================  Sorting Arrays
