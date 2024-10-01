@@ -608,3 +608,9 @@ const overallBalance = accounts
   .flat()
   .reduce((acc, mov) => mov + acc, 0);
 console.log(overallBalance);
+
+// flatMap() - combines a map and flat method (Only one level deep)
+const overallBalance2 = accounts
+  .flatMap(acc => acc.movements)
+  .reduce((acc, mov) => mov + acc, 0);
+console.log(overallBalance2);
