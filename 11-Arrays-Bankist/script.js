@@ -184,6 +184,21 @@ btnTransfer.addEventListener('click', function (e) {
   }
 });
 
+btnLoan.addEventListener('click', function (e) {
+  e.preventDefault();
+
+  const amount = Number(inputLoanAmount.value);
+  if (amount > 0 && currentAccount.movements.some(mov => mov >= amount * 0.1)) {
+    // Add movement
+    currentAccount.movements.push(amount);
+
+    // Update UI
+    updateUI(currentAccount);
+  }
+  inputLoanAmount.value = '';
+  inputLoanAmount.blur();
+});
+
 btnClose.addEventListener('click', function (e) {
   e.preventDefault();
 
@@ -551,8 +566,8 @@ console.log(movements);
 console.log(movements.includes(-130)); //Includes tests for equality, if any value in the array is equal -130
 
 // some method - Tests for a condition
+console.log(movements.some(mov => mov === -130));
 // Example checking if there has been any deposits on the the account (Any positive movements)
-
 const anyDeposits = movements.some(mov => mov > 0);
 console.log(anyDeposits);
 
