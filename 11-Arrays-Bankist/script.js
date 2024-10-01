@@ -549,3 +549,13 @@ const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
 console.log(movements);
 console.log(movements.includes(-130)); //Includes tests for equality, if any value in the array is equal -130
+
+// some method - Tests for a condition
+// Example checking if there has been any deposits on the the account (Any positive movements)
+
+const anyDeposits = movements.some(mov => mov > 0);
+console.log(anyDeposits);
+
+// checking if there has been any deposits above 5000
+const anyBigDeposits = movements.some(mov => mov > 5000);
+console.log(anyBigDeposits);
