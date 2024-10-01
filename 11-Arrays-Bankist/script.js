@@ -578,3 +578,9 @@ console.log(anyBigDeposits);
 // EVERY method - Returns true if all the elements in the array satisfies the condition
 console.log(movements.every(mov => mov > 0));
 console.log(account4.movements.every(mov => mov > 0));
+
+// Separate callback
+const deposit = mov => mov > 0;
+console.log(movements.some(deposit));
+console.log(movements.every(deposit));
+console.log(movements.filter(deposit));
