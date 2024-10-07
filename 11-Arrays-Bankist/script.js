@@ -627,6 +627,7 @@ console.log(overallBalance2);
 */
 
 // =============================  Sorting Arrays
+/*
 // strings
 const owners = ['Jonas', 'Brian', 'Mark', 'Martha'];
 console.log(owners.sort());
@@ -691,3 +692,6 @@ nums.sort((m, n) => m - n);
 console.log(nums);
 nums.sort((m, n) => n - m);
 console.log(nums);
+*/
+
+// =============================  More Ways of Creating and Filling Arrays
