@@ -622,3 +622,56 @@ console.log(overallBalance2);
 const owners = ['Jonas', 'Brian', 'Mark', 'Martha'];
 console.log(owners.sort());
 console.log(owners); //Mutates original array
+
+//numbers
+const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+console.log(movements);
+
+// return <0; a , b
+// return >0; b , a
+// return 0, position remains unchanged
+// movements.sort((a, b) => {
+//   // ascending order - From small to large;
+//   if (a > b) return 1;
+//   else if (a < b) return -1;
+//   else return 0;
+// });
+movements.sort((a, b) => a - b);
+console.log(movements);
+
+// Reverse
+// movements.sort((a, b) => {
+//   // descending order - From large to small;
+//   if (a > b) return -1;
+//   else if (a < b) return 1;
+//   else return 0;
+// });
+movements.sort((a, b) => b - a);
+console.log(movements);
+
+// const spiceGirls = [
+//   {
+//     name: 'ginger',
+//     age: 37,
+//   },
+//   {
+//     name: 'scary',
+//     age: 30,
+//   },
+//   {
+//     name: 'baby',
+//     age: 19,
+//   },
+//   {
+//     name: 'posh',
+//     age: 20,
+//   },
+// ];
+
+// const comparator = (a, b) => a.age - b.age;
+// spiceGirls.sort(comparator);
+// console.log(spiceGirls);
+
+// const comparator2 = (a, b) => a.name.length - b.name.length;
+// spiceGirls.sort(comparator2);
+// console.log(spiceGirls);
