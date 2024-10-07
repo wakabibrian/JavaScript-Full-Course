@@ -675,3 +675,10 @@ console.log(movements);
 // const comparator2 = (a, b) => a.name.length - b.name.length;
 // spiceGirls.sort(comparator2);
 // console.log(spiceGirls);
+
+// Practice
+const nums = [6, 4, 3, 8, 6, 9, 3, 1, 5];
+nums.sort((m, n) => m - n);
+console.log(nums);
+nums.sort((m, n) => n - m);
+console.log(nums);
