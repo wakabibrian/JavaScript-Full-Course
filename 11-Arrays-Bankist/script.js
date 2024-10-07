@@ -695,3 +695,16 @@ console.log(nums);
 */
 
 // =============================  More Ways of Creating and Filling Arrays
+const arr = [1, 2, 3, 4, 5, 6, 7];
+console.log(new Array(1, 2, 3, 4, 5, 6, 7));
+
+// Empty arrays + fill method
+const x = new Array(7);
+console.log(x);
+// x.fill(1);
+// x.fill(1, 3,); //fill the array with 1s starting at index 3
+x.fill(1, 3, 5); //fill the array with 1s starting at index 3 and end at index 5
+console.log(x);
+
+arr.fill(23, 2, 6);
+console.log(arr);
