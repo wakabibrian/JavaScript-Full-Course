@@ -715,3 +715,11 @@ console.log(y);
 
 const z = Array.from({ length: 7 }, (_, i) => i + 1);
 console.log(z);
+
+// Exercise
+// Create an array with 100 random dice rows
+const randomDice = Array.from(
+  { length: 100 },
+  () => Math.floor(Math.random() * 6) + 1
+);
+console.log(randomDice);
