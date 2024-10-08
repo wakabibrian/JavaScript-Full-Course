@@ -723,3 +723,14 @@ const randomDice = Array.from(
   () => Math.floor(Math.random() * 6) + 1
 );
 console.log(randomDice);
+
+labelBalance.addEventListener('click', function () {
+  const movementsUI = Array.from(
+    document.querySelectorAll('.movements__value'),
+    el => Number(el.textContent.replace('€', ''))
+  );
+
+  console.log(movementsUI);
+
+  // const movementsUI2 = [...document.querySelectorAll('.movements__value')] // Here you have to do the mapping separately
+});
