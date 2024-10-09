@@ -761,3 +761,17 @@ console.log(numDeposits1000);
 let a = 10;
 console.log(++a);
 console.log(a);
+
+// 3. Get all the deposits
+const { deposits, withdraws } = accounts
+  .flatMap(acc => acc.movements)
+  .reduce(
+    (sums, cur) => {
+      // cur > 0 ? (sums.deposits += cur) : (sums.withdraws += cur);
+      sums[cur > 0 ? 'deposits' : 'withdraws'] += cur;
+      return sums;
+    },
+    { deposits: 0, withdraws: 0 }
+  );
+
+console.log(deposits, withdraws);
