@@ -744,3 +744,20 @@ const bankDepositSum = accounts
   .filter(mov => mov > 0)
   .reduce((sum, cur) => sum + cur, 0);
 console.log(bankDepositSum);
+
+// 2. How many deposits in the bank with atleast 1000 dollars
+// const numDeposits1000 = accounts
+//   .flatMap(acc => acc.movements)
+//   .filter(mov => mov >= 1000).length;
+// console.log(numDeposits1000);
+
+const numDeposits1000 = accounts
+  .flatMap(acc => acc.movements)
+  // .reduce((count, cur) => (cur >= 1000 ? count + 1 : count), 0);
+  .reduce((count, cur) => (cur >= 1000 ? ++count : count), 0);
+console.log(numDeposits1000);
+
+// Prefix operator
+let a = 10;
+console.log(++a);
+console.log(a);
