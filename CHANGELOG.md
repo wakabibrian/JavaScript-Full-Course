@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.58.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.57.0...v1.58.0) (2024-10-12)
+
+
+### Features
+
+* Add converting strings to numbers ([2f68795](https://github.com/wakabibrian/JavaScript-Full-Course/commit/2f68795412fda101ac6816c0ea8c2ce7c0be6704))
+* Add isNaN, isFinite and isInteger ([674cbda](https://github.com/wakabibrian/JavaScript-Full-Course/commit/674cbdafa9711355c08f35d2e614e10838234d86))
+* Add parseInt and parseFloat ([87b711a](https://github.com/wakabibrian/JavaScript-Full-Course/commit/87b711a30975075d23a2231d86cc433968f52ebb))
+* How Javascript represents numbers ([98e7ffa](https://github.com/wakabibrian/JavaScript-Full-Course/commit/98e7ffa82ee706901ac7442ebd816c23f680a0fd))
+
 ## [1.57.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.56.0...v1.57.0) (2024-10-12)
 
 
