@@ -251,3 +251,13 @@ btnSort.addEventListener('click', function (e) {
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
 // LECTURES
+// =============================  Converting and Checking Numbers
+console.log(23 === 23.0);
+// Numbers are represented internally in a 64 base 2 format
+// Numbers are stored in binary format -> They are only composed of 0s and 1s
+
+// Base 10 -> 0-9
+// Binary, base 2 -> 0 1
+// There are certain numbers that are very difficult to represent in base 2 e.g 0.1
+console.log(0.1 + 0.2); //Will result in weired result
+console.log(0.1 + 0.2 === 0.3); // false
