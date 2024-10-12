@@ -265,3 +265,10 @@ console.log(0.1 + 0.2 === 0.3); // false
 // Converting string to number - Conversion
 console.log(Number('23'));
 console.log(+'23');
+
+// Parsing
+console.log(Number.parseInt('30px', 10)); //30 - Gets rid of unnecessary symbols that are not numbers
+console.log(Number.parseInt('e23', 10)); //NaN
+
+console.log(Number.parseInt('2.5rem')); //2
+console.log(Number.parseFloat('2.5rem')); //2.5
