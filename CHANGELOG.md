@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.57.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.56.0...v1.57.0) (2024-10-12)
+
+
+### Features
+
+* Add Array.from ([1a70578](https://github.com/wakabibrian/JavaScript-Full-Course/commit/1a70578fc0aa0561a91998a2a09ef29494288244))
+* Add Array.from on DOM selector ([d21ac52](https://github.com/wakabibrian/JavaScript-Full-Course/commit/d21ac52d56e62b827e28c8967617a0e1ad1f1cd5))
+* Add empty arrays + fill method ([23f1b70](https://github.com/wakabibrian/JavaScript-Full-Course/commit/23f1b70baf5af281dadf24feb879d2c8ff91afd9))
+* Add exercise ([ab445cd](https://github.com/wakabibrian/JavaScript-Full-Course/commit/ab445cd61a3672e7a3875d3d01a2ba6cc321b4ab))
+* Add exercise 1 ([83b2655](https://github.com/wakabibrian/JavaScript-Full-Course/commit/83b265501343cc667da0925480be54711d9fbd42))
+* Add exercise 2 with prefix operator ([3a87561](https://github.com/wakabibrian/JavaScript-Full-Course/commit/3a875610375cefc5f1081153931eff666e72cd33))
+* Add exercise 3 ([17239fd](https://github.com/wakabibrian/JavaScript-Full-Course/commit/17239fded2b1a76b2e091a4b3e84ce5835de8286))
+* Add exercise 4 ([19c4229](https://github.com/wakabibrian/JavaScript-Full-Course/commit/19c422908a19c7a07a053b9867c1000d589e50a4))
+* Add final coding challenge ([e1fd0e1](https://github.com/wakabibrian/JavaScript-Full-Course/commit/e1fd0e1636b85a3f2c2f0a38a5e210bfd801cc49))
+* Add practice ([f90b05f](https://github.com/wakabibrian/JavaScript-Full-Course/commit/f90b05f8e92e4d7cb7730fc24df9306ebe4882a1))
+* Add sort method ([f8d7910](https://github.com/wakabibrian/JavaScript-Full-Course/commit/f8d79103a91846d2b58a6d1d9bbfacc259d9126e))
+* Add sort on the application - sorting the movements ([f0f1ce1](https://github.com/wakabibrian/JavaScript-Full-Course/commit/f0f1ce1b821124179ea4a1ad5b3eb1e674bd5abb))
+* Add sort with strings ([69ae0ba](https://github.com/wakabibrian/JavaScript-Full-Course/commit/69ae0baf0650bad5cd4a978795764d8c3df53732))
+* Add sorting with strings ([401bacc](https://github.com/wakabibrian/JavaScript-Full-Course/commit/401bacc0646657be25c91facd3e2c050c2713582))
+
 ## [1.56.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.55.0...v1.56.0) (2024-10-01)
 
 
