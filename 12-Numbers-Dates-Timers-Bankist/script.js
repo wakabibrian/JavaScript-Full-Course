@@ -302,3 +302,7 @@ console.log(Math.max(5, 18, '23', 11, 10)); //23 - Does type coercion
 console.log(Math.max(5, 18, '23px', 11, 10)); //NaN - Doesn't parse
 
 console.log(Math.min(5, 18, 23, 11, 10));
+
+console.log(Math.PI * parseFloat('10px') ** 2); //Area of a circle
+
+console.log();
