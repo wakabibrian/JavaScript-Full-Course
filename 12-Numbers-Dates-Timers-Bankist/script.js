@@ -252,6 +252,7 @@ btnSort.addEventListener('click', function (e) {
 /////////////////////////////////////////////////
 // LECTURES
 // =============================  Converting and Checking Numbers
+/*
 console.log(23 === 23.0);
 // Numbers are represented internally in a 64 base 2 format
 // Numbers are stored in binary format -> They are only composed of 0s and 1s
@@ -290,3 +291,6 @@ console.log(Number.isInteger(23)); //true
 console.log(Number.isInteger('23')); //false
 console.log(Number.isInteger(23.0)); //true
 console.log(Number.isInteger(23 / 0)); //false
+*/
+
+// =============================  Math and Rounding
