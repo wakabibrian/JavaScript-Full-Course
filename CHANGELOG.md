@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.59.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.58.0...v1.59.0) (2024-10-19)
+
+
+### Features
+
+* Add area of a circle ([046654f](https://github.com/wakabibrian/JavaScript-Full-Course/commit/046654fa48b2ee1dd1df303b21e7110c0c4e2627))
+* Add random ([9890510](https://github.com/wakabibrian/JavaScript-Full-Course/commit/989051055a18584cf20d4ef30affe6de26accabf))
+* Add rounding float numbers / decimals ([a0bb003](https://github.com/wakabibrian/JavaScript-Full-Course/commit/a0bb003abf9c3924c657676bd35dc52e94f0ddfe))
+* Add rounding integers ([7c8084c](https://github.com/wakabibrian/JavaScript-Full-Course/commit/7c8084c2243d83b607f4a6b46415436a97a080c6))
+* Add rouning values of the bank app ([0ef4362](https://github.com/wakabibrian/JavaScript-Full-Course/commit/0ef43628eaff1f4d0727167d246d6a09609f474b))
+* Add sqrt, max and min ([aa3aacb](https://github.com/wakabibrian/JavaScript-Full-Course/commit/aa3aacbdc79e5d46be8d9aa0019ffa340a5d4c15))
+
 ## [1.58.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.57.0...v1.58.0) (2024-10-12)
 
 
