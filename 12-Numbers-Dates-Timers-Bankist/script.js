@@ -305,4 +305,9 @@ console.log(Math.min(5, 18, 23, 11, 10));
 
 console.log(Math.PI * parseFloat('10px') ** 2); //Area of a circle
 
-console.log();
+console.log(Math.trunc(Math.random() * 6) + 1); //Random number between 0 and 6
+
+const randomInt = (min, max) =>
+  Math.trunc(Math.random() * (max - min) + 1) + min;
+
+console.log(randomInt(4, 9));
