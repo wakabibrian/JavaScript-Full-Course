@@ -328,5 +328,10 @@ console.log(Math.floor('23.9')); //23
 
 console.log(Math.trunc(-23.3)); //-23
 console.log(Math.floor(-23.3)); //-24
-
 // floor() is better because it works for both positive and negative numbers
+
+// Rounding Decimals
+console.log((2.7).toFixed(0)); //3 - string
+console.log((2.7).toFixed(3)); //2.700 - string
+console.log((2.345).toFixed(2)); //2.35 - string
+console.log(+(2.345).toFixed(2)); //2.35 - number
