@@ -339,6 +339,7 @@ console.log(+(2.345).toFixed(2)); //2.35 - number
 */
 
 // =============================  The Remainder Operator
+/*
 console.log(5 % 2); //1
 console.log(5 / 2); // 5 = 2 * 2 + 1
 console.log(8 % 3); //2
@@ -361,3 +362,6 @@ labelBalance.addEventListener('click', function () {
     if (i % 3 === 0) row.style.backgroundColor = 'blue';
   });
 });
+*/
+
+// =============================  Numeric Separators
