@@ -339,3 +339,15 @@ console.log(+(2.345).toFixed(2)); //2.35 - number
 */
 
 // =============================  The Remainder Operator
+console.log(5 % 2); //1
+console.log(5 / 2); // 5 = 2 * 2 + 1
+console.log(8 % 3); //2
+console.log(8 / 3); //8 = 2*3+2
+
+// Even numbers - if devisable by 2 / Remainder is 0
+console.log(6 % 2); //6 is even number
+
+const isEven = n => n % 2 === 0;
+
+console.log(isEven(20));
+console.log(isEven(31));
