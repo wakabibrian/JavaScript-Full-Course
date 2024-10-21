@@ -294,6 +294,7 @@ console.log(Number.isInteger(23 / 0)); //false
 */
 
 // =============================  Math and Rounding
+/*
 console.log(Math.sqrt(25));
 console.log(25 ** (1 / 2));
 console.log(8 ** (1 / 3));
@@ -335,3 +336,6 @@ console.log((2.7).toFixed(0)); //3 - string
 console.log((2.7).toFixed(3)); //2.700 - string
 console.log((2.345).toFixed(2)); //2.35 - string
 console.log(+(2.345).toFixed(2)); //2.35 - number
+*/
+
+// =============================  The Remainder Operator
