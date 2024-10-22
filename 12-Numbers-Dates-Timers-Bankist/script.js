@@ -390,6 +390,7 @@ console.log(parseInt('235_000')); //235 - wrong
 */
 
 // =============================  Working with BigInt
+/*
 // Introduced in ES20
 // Numbers are represented internally as 64 bits. Meaning we have 64 1s or 0s to represent any given number
 // Only 53 are used to store the digits themselves, the rest used to store the position of decimal point and sign
@@ -434,3 +435,6 @@ console.log(huge + ' is really big!!!');
 
 console.log(10n / 3n); //3n - cuts the decimal parts off
 console.log(10 / 3); // 3.3333
+*/
+
+// =============================   Creating Dates
