@@ -365,3 +365,24 @@ labelBalance.addEventListener('click', function () {
 */
 
 // =============================  Numeric Separators
+// Helps to form numbers that is easier for us or other developers to read and understand
+// 28,746,000,000
+const diameter = 28_746_000_000;
+console.log(diameter); //28746000000
+
+const price = 345_99;
+console.log(price); //34599
+
+// Gives the number meaning
+const transferFee1 = 15_00; //15USD
+const transferFee2 = 1_500; //1,500
+
+// const PI = 3._1415 //error
+// const PI2 = 3_.1415 //error
+// const PI3 = _3.1415 //error
+// const PI4 = 3.1415_ //error
+// const PI4 = 3.14__15 //error
+
+console.log(Number('235000'));
+console.log(Number('235_000')); //NaN
+console.log(parseInt('235_000')); //235 - wrong
