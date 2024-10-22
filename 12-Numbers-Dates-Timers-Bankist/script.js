@@ -390,3 +390,13 @@ console.log(parseInt('235_000')); //235 - wrong
 */
 
 // =============================  Working with BigInt
+// Introduced in ES20
+// Numbers are represented internally as 64 bits. Meaning we have 64 1s or 0s to represent any given number
+// Only 53 are used to store the digits themselves, the rest used to store the position of decimal point and sign
+// Meaning there is a limit of how big numbers can be
+// Calculate the number
+console.log(2 ** 53 - 1); //Biggest number that JS can safely represent
+console.log(Number.MAX_SAFE_INTEGER);
+
+// Any integer larger than the above its not safe, meaning it cannot be represented accurately
+console.log();
