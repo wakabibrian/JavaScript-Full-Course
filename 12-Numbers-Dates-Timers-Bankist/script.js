@@ -411,3 +411,13 @@ console.log(2 ** 53 + 4);
 // Representing Big Numbers
 console.log(23422253738888346666374744n);
 console.log(BigInt(234222537388));
+
+// Operations
+console.log(10000n + 10000n);
+console.log(345355552222222222226363663n * 100000n);
+
+// You can't mix big int numbers with regular numbers
+const huge = 34522222222253553553622n;
+const num = 23;
+// console.log(huge * num); //error
+console.log(huge * BigInt(num)); //works
