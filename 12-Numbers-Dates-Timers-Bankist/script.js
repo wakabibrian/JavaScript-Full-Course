@@ -407,3 +407,7 @@ console.log(2 ** 53 + 3);
 console.log(2 ** 53 + 4);
 
 // Thats a problem because sometimes we really big numbers e.g from the data base
+
+// Representing Big Numbers
+console.log(23422253738888346666374744n);
+console.log(BigInt(234222537388));
