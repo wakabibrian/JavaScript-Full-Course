@@ -472,3 +472,6 @@ console.log(future.getTime()); //Timestamp of the date - time in ms after 1970
 
 console.log(new Date(2142246180000));
 console.log(Date.now());
+
+future.setFullYear(2040); // There is also - setMonth(), setDate() etc
+console.log(future);
