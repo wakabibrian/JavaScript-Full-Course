@@ -444,3 +444,13 @@ console.log(now);
 
 console.log(new Date('Tue Oct 22 2024 07:34:06'));
 console.log(new Date('Dec, 24 2024'));
+console.log(new Date(account1.movementsDates[0]));
+
+console.log(new Date(2037, 10, 19, 15, 23, 5)); // Y, M, D, H, M, S -> Thu Nov 19 2037 15:23:05 - month is zero based
+console.log(new Date(2037, 10, 31)); // Auto corrects to the next day -> Tue Dec 01 2037 00:00:00 GMT+0300
+console.log(new Date(2037, 10, 32)); // Auto corrects -> Wed Dec 02 2037 00:00:00
+
+// Passing in the amount of milliseconds after unix time
+console.log(new Date(0)); //Thu Jan 01 1970 03:00:00
+console.log(new Date(3 * 24 * 60 * 60 * 1000)); //3 days after the above -> 24H 60M 60S 1000MS
+console.log(new Date(3 * 24 * 60 * 60 * 1000)); //259200000 - timestamp of day no. 3
