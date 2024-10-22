@@ -438,3 +438,9 @@ console.log(10 / 3); // 3.3333
 */
 
 // =============================   Creating Dates
+// Create a date
+const now = new Date();
+console.log(now);
+
+console.log(new Date('Tue Oct 22 2024 07:34:06'));
+console.log(new Date('Dec, 24 2024'));
