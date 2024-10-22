@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.60.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.59.0...v1.60.0) (2024-10-22)
+
+
+### Features
+
+* Add every nth number ([53150a6](https://github.com/wakabibrian/JavaScript-Full-Course/commit/53150a6ff47a39af3fc9ff9f52b22c504daa5999))
+* Add numeric separators ([559757b](https://github.com/wakabibrian/JavaScript-Full-Course/commit/559757b557702ac4e1923e0acba7a28c4f97ded0))
+* Add Remainder operator and even numbers function ([618a9ff](https://github.com/wakabibrian/JavaScript-Full-Course/commit/618a9ff3490d2ce654d0519ca2f66ff6ec1245c5))
+
 ## [1.59.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.58.0...v1.59.0) (2024-10-19)
 
 
