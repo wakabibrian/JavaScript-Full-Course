@@ -365,6 +365,7 @@ labelBalance.addEventListener('click', function () {
 */
 
 // =============================  Numeric Separators
+/*
 // Helps to form numbers that is easier for us or other developers to read and understand
 // 28,746,000,000
 const diameter = 28_746_000_000;
@@ -386,3 +387,6 @@ const transferFee2 = 1_500; //1,500
 console.log(Number('235000'));
 console.log(Number('235_000')); //NaN
 console.log(parseInt('235_000')); //235 - wrong
+*/
+
+// =============================  Working with BigInt
