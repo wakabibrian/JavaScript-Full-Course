@@ -399,4 +399,11 @@ console.log(2 ** 53 - 1); //Biggest number that JS can safely represent
 console.log(Number.MAX_SAFE_INTEGER);
 
 // Any integer larger than the above its not safe, meaning it cannot be represented accurately
-console.log();
+// Unsafe numbers - Sometimes the numbers look correct and sometimes they don't
+console.log(2 ** 53 + 1);
+console.log(2 ** 53 + 0);
+console.log(2 ** 53 + 2);
+console.log(2 ** 53 + 3);
+console.log(2 ** 53 + 4);
+
+// Thats a problem because sometimes we really big numbers e.g from the data base
