@@ -428,3 +428,9 @@ console.log(20n === 20); //false
 console.log(typeof 20n); //bigint
 console.log(20n == 20); //true
 console.log(20n == '20'); //true
+
+console.log(huge + ' is really big!!!');
+// console.log(Math.sqrt(16n)); //error
+
+console.log(10n / 3n); //3n - cuts the decimal parts off
+console.log(10 / 3); // 3.3333
