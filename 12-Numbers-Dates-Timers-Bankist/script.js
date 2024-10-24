@@ -506,5 +506,6 @@ console.log(Date.now());
 
 future.setFullYear(2040); // There is also - setMonth(), setDate() etc
 console.log(future);
-
 */
+
+// =============================   Operations With Dates
