@@ -559,9 +559,15 @@ const num = 3884764.23;
 //   unit: 'celsius',
 // };
 
+// const options = {
+//   style: 'percent',
+//   unit: 'celsius',
+// };
+
 const options = {
-  style: 'percent',
+  style: 'currency',
   unit: 'celsius',
+  currency: 'EUR',
 };
 
 console.log('US: ', new Intl.NumberFormat('en-US', options).format(num));
