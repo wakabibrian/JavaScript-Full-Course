@@ -554,8 +554,13 @@ console.log(days1);
 // =============================   Internationalizing Numbers (Intl)
 const num = 3884764.23;
 
+// const options = {
+//   style: 'unit',
+//   unit: 'celsius',
+// };
+
 const options = {
-  style: 'unit',
+  style: 'percent',
   unit: 'celsius',
 };
 
