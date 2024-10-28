@@ -550,3 +550,5 @@ console.log(days1);
 */
 
 // =============================   Internationalizing Dates (Intl)
+
+// =============================   Internationalizing Numbers (Intl)
