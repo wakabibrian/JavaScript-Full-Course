@@ -592,3 +592,14 @@ console.log(
 */
 
 // =============================   Timers: setTimeout and setInterval
+// setTimeout - runs once
+// setInterval - keeps running - forever until we stop it
+// setTimeout - used to execute some code, in the future
+// Asynchronous JavaScript
+setTimeout(
+  (ing1, ing2) => console.log(`Here is your pizza with ${ing1} and ${ing2}🍕`),
+  3000,
+  'olive',
+  'spinach'
+);
+console.log('Waiting...');
