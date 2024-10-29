@@ -596,10 +596,12 @@ console.log(
 // setInterval - keeps running - forever until we stop it
 // setTimeout - used to execute some code, in the future
 // Asynchronous JavaScript
-setTimeout(
+const ingredients = ['olive', 'spinach'];
+const pizzaTimer = setTimeout(
   (ing1, ing2) => console.log(`Here is your pizza with ${ing1} and ${ing2}🍕`),
   3000,
-  'olive',
-  'spinach'
+  ...ingredients
 );
 console.log('Waiting...');
+
+if (ingredients.includes('spinach')) clearTimeout(pizzaTimer);
