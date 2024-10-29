@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.62.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.61.0...v1.62.0) (2024-10-29)
+
+
+### Features
+
+* Add clearTimeout ([e287cc8](https://github.com/wakabibrian/JavaScript-Full-Course/commit/e287cc81515999ec7f5ba988898848d57feb84b4))
+* Add imprementing countDown ([803455d](https://github.com/wakabibrian/JavaScript-Full-Course/commit/803455d86e1d62dc12c1720fca722bce25f3625d))
+* Add setInterval ([576e73f](https://github.com/wakabibrian/JavaScript-Full-Course/commit/576e73fa5443946f1b49a245ffbb8b0e7681afe3))
+* Add setTimeout to application ([2d0fe1f](https://github.com/wakabibrian/JavaScript-Full-Course/commit/2d0fe1fac91dfd1c62cac28ebcad43c54b145a1c))
+* Add setTimout ([aa957d1](https://github.com/wakabibrian/JavaScript-Full-Course/commit/aa957d19817db896cc1daf76e364834dd34e6d94))
+
 ## [1.61.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.60.0...v1.61.0) (2024-10-29)
 
 
