@@ -562,6 +562,7 @@ console.log(days1);
 // =============================   Internationalizing Dates (Intl)
 
 // =============================   Internationalizing Numbers (Intl)
+/*
 const num = 3884764.23;
 
 // const options = {
@@ -588,3 +589,6 @@ console.log(
   navigator.language,
   new Intl.NumberFormat(navigator.language, options).format(num)
 );
+*/
+
+// =============================   Timers: setTimeout and setInterval
