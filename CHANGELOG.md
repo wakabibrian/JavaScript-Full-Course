@@ -2,6 +2,38 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.61.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.60.0...v1.61.0) (2024-10-29)
+
+
+### Features
+
+* Add Big Int exceptions and division ([7c077f4](https://github.com/wakabibrian/JavaScript-Full-Course/commit/7c077f47426da51098b6a0bb2c2c572713032c6f))
+* Add BigInt logical/comparison operators ([b324037](https://github.com/wakabibrian/JavaScript-Full-Course/commit/b324037a5e2dff7eadf65cd08f4cfaa947f256e1))
+* Add BigInt numbers ([ff5387e](https://github.com/wakabibrian/JavaScript-Full-Course/commit/ff5387e71618cc9a06d8648f2a4a2898c8fef6bf))
+* Add BigInt operations ([a7df3fb](https://github.com/wakabibrian/JavaScript-Full-Course/commit/a7df3fbf8c41462eef6defb9d5f61252325a4773))
+* Add calculate number of days passed ([2ffc6a4](https://github.com/wakabibrian/JavaScript-Full-Course/commit/2ffc6a40fc299a942163648c7a89a774612172b6))
+* Add create a date ([9301b4d](https://github.com/wakabibrian/JavaScript-Full-Course/commit/9301b4d81eac8c36b44ea938278eb7ebee8e38bb))
+* Add date format option ([812c340](https://github.com/wakabibrian/JavaScript-Full-Course/commit/812c34089437d118ed0d356ab6977cfa382df80c))
+* Add date to the bankist app ([76f4c85](https://github.com/wakabibrian/JavaScript-Full-Course/commit/76f4c85869c203e369da824f9402829d93d9b9f7))
+* Add days format to the application ([12b0981](https://github.com/wakabibrian/JavaScript-Full-Course/commit/12b09815503370f9f6cecb4145d2272eb59512af))
+* Add fomat all app dates ([374da3d](https://github.com/wakabibrian/JavaScript-Full-Course/commit/374da3d4278fde913ed5aa4c43af55aa7266c13c))
+* Add format balance ([853a422](https://github.com/wakabibrian/JavaScript-Full-Course/commit/853a422a565f49aa5281640faa4ab58e8fab7bf4))
+* Add format date to en-US ([09932f1](https://github.com/wakabibrian/JavaScript-Full-Course/commit/09932f11bcc2a8491612a272779dd46192f50459))
+* Add format summary ([c78d3fb](https://github.com/wakabibrian/JavaScript-Full-Course/commit/c78d3fb206c7711432da489ba414077a99fb4051))
+* Add format to login ([6a2fc1d](https://github.com/wakabibrian/JavaScript-Full-Course/commit/6a2fc1d862de743b545547c0142e70e08f58c40c))
+* Add formating numbers ([bbe1e71](https://github.com/wakabibrian/JavaScript-Full-Course/commit/bbe1e71d84045b839858e577eb7d884ddf602e64))
+* Add locale from the accounts ([1307521](https://github.com/wakabibrian/JavaScript-Full-Course/commit/1307521698447b5d17d0fabdba203f51c4603ff1))
+* Add locale from the browser ([14be20f](https://github.com/wakabibrian/JavaScript-Full-Course/commit/14be20fc74263b6829a2533d82840456ede1d902))
+* Add MAx_SAFE_INTEGER ([c80c3f1](https://github.com/wakabibrian/JavaScript-Full-Course/commit/c80c3f1a4b69d25aa9f2fa32f8e915cf09e35ca4))
+* Add options - units ([c8bb827](https://github.com/wakabibrian/JavaScript-Full-Course/commit/c8bb8278fe84af9728c7d2bc969fb65bc101837b))
+* Add setFullYear() ([afdc813](https://github.com/wakabibrian/JavaScript-Full-Course/commit/afdc813fa024471ff04d7017813e4a10c7035c50))
+* Add style - currency ([cef2937](https://github.com/wakabibrian/JavaScript-Full-Course/commit/cef29378a355512a8fecd475aeee3b9dcc349373))
+* Add style - percent ([ab6fb34](https://github.com/wakabibrian/JavaScript-Full-Course/commit/ab6fb3407fdab9bbac192001acb67413e3517561))
+* Add time stamps ([e4d7f89](https://github.com/wakabibrian/JavaScript-Full-Course/commit/e4d7f89349fdc0d6d04bb4a1c52d8e8e5aaf23f3))
+* Add time stamps after unix time ([8899492](https://github.com/wakabibrian/JavaScript-Full-Course/commit/88994928680d1602b2e60d4d6351addf0a6cc8c4))
+* Add unsafe numbers ([398f27f](https://github.com/wakabibrian/JavaScript-Full-Course/commit/398f27f658af59171f3afdb667ab9a7198eaec86))
+* Add working with dates ([d9b7b1e](https://github.com/wakabibrian/JavaScript-Full-Course/commit/d9b7b1e82b45fa6544021e726aa4a838db58b5e9))
+
 ## [1.60.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.59.0...v1.60.0) (2024-10-22)
 
 
