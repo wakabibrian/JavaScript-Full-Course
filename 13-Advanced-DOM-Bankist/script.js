@@ -44,3 +44,7 @@ console.log(document.body); // Selecting the body
 document.querySelector('.header'); //returns the first element that matches class header
 const allSections = document.querySelectorAll('.section'); //selects multiple elements with section class
 console.log(allSections);
+
+document.getElementById('section--1');
+const allButtons = document.getElementsByTagName('button');
+console.log(allButtons);
