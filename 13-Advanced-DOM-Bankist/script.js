@@ -66,3 +66,10 @@ header.append(message); //Add message element as last child of header element
 
 // header.before(message); //Add message element before header element as a sibling
 // header.after(message); //Add message element after header element as a sibling
+
+// Delete elements
+document
+  .querySelector('.btn--close-cookie')
+  .addEventListener('click', function () {
+    message.remove();
+  });
