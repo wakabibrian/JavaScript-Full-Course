@@ -48,3 +48,5 @@ console.log(allSections);
 document.getElementById('section--1');
 const allButtons = document.getElementsByTagName('button');
 console.log(allButtons);
+
+console.log(document.getElementsByClassName('btn'));
