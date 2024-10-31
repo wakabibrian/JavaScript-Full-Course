@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.63.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.62.0...v1.63.0) (2024-10-31)
+
+
+### Features
+
+* Add delete element (remove()) ([c0e1a3b](https://github.com/wakabibrian/JavaScript-Full-Course/commit/c0e1a3b3c8a4c7f403a37401ceb80b12192d598b))
+* Add element before and after another element as a sibling ([b4afcd4](https://github.com/wakabibrian/JavaScript-Full-Course/commit/b4afcd4f37daea2636924f3c59298fb1d447aac6))
+* Add getElementById and getElementsByTagName ([009416d](https://github.com/wakabibrian/JavaScript-Full-Course/commit/009416d50f8d3ab8e1c9c8e2223821155577c403))
+* Add getElementsByClassName ([3c5962d](https://github.com/wakabibrian/JavaScript-Full-Course/commit/3c5962dc3b488cd6ce6b141183c8dccdf18aeae8))
+* Add prepend and append elements, createElement, addClassLit, and innerHTML ([3a1d572](https://github.com/wakabibrian/JavaScript-Full-Course/commit/3a1d5723df14302113ece3eccd746bb278dbd1fd))
+* Add same element multiple times ([440456b](https://github.com/wakabibrian/JavaScript-Full-Course/commit/440456bdf366c43b665d6ca969fef5949d355da6))
+* Add the most used ways of selecting elements ([88a9be0](https://github.com/wakabibrian/JavaScript-Full-Course/commit/88a9be08bc59463cb6f3039f4e6fdd9e6df1445e))
+
 ## [1.62.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.61.0...v1.62.0) (2024-10-29)
 
 
