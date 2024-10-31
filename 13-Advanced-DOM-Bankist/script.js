@@ -34,4 +34,13 @@ document.addEventListener('keydown', function (e) {
   }
 });
 
+///////////////////////////////////////
+///////////////////////////////////////
 //======================Selecting, Creating, and Deleting Elements
+console.log(document.documentElement); // Selecting the entire document
+console.log(document.head); // Selecting the head
+console.log(document.body); // Selecting the body
+
+document.querySelector('.header'); //returns the first element that matches class header
+const allSections = document.querySelectorAll('.section'); //selects multiple elements with section class
+console.log(allSections);
