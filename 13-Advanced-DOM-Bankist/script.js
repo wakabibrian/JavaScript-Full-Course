@@ -1,6 +1,7 @@
 'use strict';
 
 ///////////////////////////////////////
+///////////////////////////////////////
 // Modal window
 
 const modal = document.querySelector('.modal');
@@ -32,3 +33,5 @@ document.addEventListener('keydown', function (e) {
     closeModal();
   }
 });
+
+//======================Selecting, Creating, and Deleting Elements
