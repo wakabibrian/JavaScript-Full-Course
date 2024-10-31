@@ -41,7 +41,7 @@ console.log(document.documentElement); // Selecting the entire document
 console.log(document.head); // Selecting the head
 console.log(document.body); // Selecting the body
 
-document.querySelector('.header'); //returns the first element that matches class header
+const header = document.querySelector('.header'); //returns the first element that matches class header
 const allSections = document.querySelectorAll('.section'); //selects multiple elements with section class
 console.log(allSections);
 
@@ -50,3 +50,15 @@ const allButtons = document.getElementsByTagName('button');
 console.log(allButtons);
 
 console.log(document.getElementsByClassName('btn'));
+
+// Creating and inserting elements
+// .insertAdjacentHTML
+
+const message = document.createElement('div');
+message.classList.add('cookie-message');
+// message.textContent = 'We use cookies for improved functionality and analytics';
+message.innerHTML =
+  'We use cookies for improved functionality and analytics <button class="btn btn--close-cookie">Got it!</button>';
+header.prepend(message); //Add message element as first child of header element
+header.append(message); //Add message element as last child of header element
+// Above message is only inserted once because a DOM element is unique, it can only exist at 1 place
