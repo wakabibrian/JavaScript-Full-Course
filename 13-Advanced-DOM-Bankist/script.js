@@ -59,7 +59,10 @@ message.classList.add('cookie-message');
 // message.textContent = 'We use cookies for improved functionality and analytics';
 message.innerHTML =
   'We use cookies for improved functionality and analytics <button class="btn btn--close-cookie">Got it!</button>';
-header.prepend(message); //Add message element as first child of header element
-// header.append(message); //Add message element as last child of header element
+// header.prepend(message); //Add message element as first child of header element
+header.append(message); //Add message element as last child of header element
 // Above message is only inserted once because a DOM element is unique, it can only exist at 1 place
-header.append(message.cloneNode(true)); //Add the same element multiple times
+// header.append(message.cloneNode(true)); //Add the same element multiple times
+
+// header.before(message); //Add message element before header element as a sibling
+// header.after(message); //Add message element after header element as a sibling
