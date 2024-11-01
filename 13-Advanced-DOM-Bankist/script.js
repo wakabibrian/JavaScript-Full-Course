@@ -77,3 +77,17 @@ document
 ///////////////////////////////////////
 ///////////////////////////////////////
 //======================Styles, Attributes and Classes
+// Styles - set as inline styles; directly in the DOM
+message.style.backgroundColor = '#37383d';
+message.style.width = '120%';
+
+console.log(message.style.height); //Won't show because we didn't set it ourselves
+console.log(message.style.backgroundColor); //Will show because we set it ourselves
+
+console.log(getComputedStyle(message).color);
+console.log(getComputedStyle(message).height);
+
+message.style.height =
+  Number.parseFloat(getComputedStyle(message).height, 10) + 30 + 'px';
+
+document.documentElement.style.setProperty('--color-primary', 'orangered');
