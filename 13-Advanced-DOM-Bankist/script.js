@@ -37,6 +37,7 @@ document.addEventListener('keydown', function (e) {
 ///////////////////////////////////////
 ///////////////////////////////////////
 //======================Selecting, Creating, and Deleting Elements
+/*
 console.log(document.documentElement); // Selecting the entire document
 console.log(document.head); // Selecting the head
 console.log(document.body); // Selecting the body
@@ -73,10 +74,10 @@ document
   .addEventListener('click', function () {
     message.remove();
   });
+*/
 
-///////////////////////////////////////
-///////////////////////////////////////
 //======================Styles, Attributes and Classes
+/*
 // Styles - set as inline styles; directly in the DOM
 message.style.backgroundColor = '#37383d';
 message.style.width = '120%';
@@ -124,3 +125,6 @@ logo.classList.contains('c');
 
 // Don't use - overrides all the existing classes and only put once class on one element
 // logo.className = 'wakabi'; //Set a class
+*/
+
+//====================== Implementing Smooth Scrolling
