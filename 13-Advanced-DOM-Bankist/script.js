@@ -91,3 +91,27 @@ message.style.height =
   Number.parseFloat(getComputedStyle(message).height, 10) + 30 + 'px';
 
 document.documentElement.style.setProperty('--color-primary', 'orangered');
+
+// Attributes
+// Read attributes
+const logo = document.querySelector('.nav__logo');
+console.log(logo.alt); //Access alt attribute
+console.log(logo.className);
+
+// Set attributes
+logo.alt = 'Beautiful Minimalist Logo';
+
+// Non-standard
+console.log(logo.designer); //undefined
+console.log(logo.getAttribute('designer')); //Wakabi
+logo.setAttribute('company', 'Bankist');
+
+console.log(logo.src); //Access src attribute - absolute url
+console.log(logo.getAttribute('src')); //Relative url - relative to the folder
+
+const btn = document.querySelector('.nav__link--btn');
+console.log(btn.href); //Absolute
+console.log(btn.getAttribute('href')); //Relative
+
+// Data Attributes - special kind of attributes that start with the word data
+console.log(logo.dataset.versionNumber);
