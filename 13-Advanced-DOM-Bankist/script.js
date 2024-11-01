@@ -73,3 +73,7 @@ document
   .addEventListener('click', function () {
     message.remove();
   });
+
+///////////////////////////////////////
+///////////////////////////////////////
+//======================Styles, Attributes and Classes
