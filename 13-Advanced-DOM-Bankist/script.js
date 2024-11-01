@@ -151,9 +151,11 @@ btnScrollTo.addEventListener('click', function (e) {
   //   s1Coords.top + window.scrollY
   // );
 
-  window.scrollTo({
-    left: s1Coords.left + window.scrollX,
-    top: s1Coords.top + window.scrollY,
-    behavior: 'smooth',
-  });
+  // window.scrollTo({
+  //   left: s1Coords.left + window.scrollX,
+  //   top: s1Coords.top + window.scrollY,
+  //   behavior: 'smooth',
+  // });
+
+  section1.scrollIntoView({ behavior: 'smooth' });
 });
