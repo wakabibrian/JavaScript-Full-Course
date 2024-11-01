@@ -115,3 +115,12 @@ console.log(btn.getAttribute('href')); //Relative
 
 // Data Attributes - special kind of attributes that start with the word data
 console.log(logo.dataset.versionNumber);
+
+// Classes
+logo.classList.add('c', 'j');
+logo.classList.remove('c', 'j');
+logo.classList.toggle('c');
+logo.classList.contains('c');
+
+// Don't use - overrides all the existing classes and only put once class on one element
+// logo.className = 'wakabi'; //Set a class
