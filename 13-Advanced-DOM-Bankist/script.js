@@ -144,4 +144,16 @@ btnScrollTo.addEventListener('click', function (e) {
     document.documentElement.clientHeight,
     document.documentElement.clientWidth
   );
+
+  // Scrolling
+  // window.scrollTo(
+  //   s1Coords.left + window.scrollX,
+  //   s1Coords.top + window.scrollY
+  // );
+
+  window.scrollTo({
+    left: s1Coords.left + window.scrollX,
+    top: s1Coords.top + window.scrollY,
+    behavior: 'smooth',
+  });
 });
