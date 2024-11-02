@@ -207,8 +207,16 @@ document.querySelector('.nav__links').addEventListener('click', function (e) {
   console.log('CONTAINER', e.target, e.currentTarget);
 });
 
-document.querySelector('.nav').addEventListener('click', function (e) {
-  this.style.backgroundColor = randomColor();
+document.querySelector('.nav').addEventListener(
+  'click',
+  function (e) {
+    this.style.backgroundColor = randomColor();
 
-  console.log('NAV', e.target, e.currentTarget);
-});
+    console.log('NAV', e.target, e.currentTarget);
+  }
+
+  // Capturing
+  // The events are captured when they come from the document root to the currentTarget element
+  // Use capture parameter is set to true - the event handler no longer listens to bubbling events but instead capturing events
+  // true
+);
