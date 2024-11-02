@@ -161,6 +161,7 @@ btnScrollTo.addEventListener('click', function (e) {
 });
 
 //======================  Types of Events and Event Handlers
+/*
 const h1 = document.querySelector('h1');
 
 // Listening to an event just once
@@ -176,3 +177,32 @@ setTimeout(() => h1.removeEventListener('mouseenter', alertH1), 3000);
 // h1.onmouseenter = function (e) {
 //   alert("onmouseenter: Great! You're reading the heading");
 // };
+*/
+
+//======================  Event Propagation in Practice
+// rgb(255, 255, 255)
+// Event Propagation happens on the element and its parent elements
+// Target element is where the event happens and is the same for all because of event bubbling - the event bubbles up to its parent elements
+const randomInt = (min, max) =>
+  Math.floor(Math.random() * (max - min + 1) + min);
+
+const randomColor = () =>
+  `rgb(${randomInt(0, 255)}, ${randomInt(0, 255)}, ${randomInt(0, 255)})`;
+
+document.querySelector('.nav__link').addEventListener('click', function (e) {
+  this.style.backgroundColor = randomColor();
+
+  console.log('LINK', e.target);
+});
+
+document.querySelector('.nav__links').addEventListener('click', function (e) {
+  this.style.backgroundColor = randomColor();
+
+  console.log('CONTAINER', e.target);
+});
+
+document.querySelector('.nav').addEventListener('click', function (e) {
+  this.style.backgroundColor = randomColor();
+
+  console.log('NAV', e.target);
+});
