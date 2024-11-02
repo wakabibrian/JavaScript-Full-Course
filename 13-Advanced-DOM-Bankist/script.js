@@ -196,6 +196,9 @@ document.querySelector('.nav__link').addEventListener('click', function (e) {
   // e.currentTarget - element on which the event is attached
   console.log('LINK', e.target, e.currentTarget);
   console.log(e.currentTarget === this);
+
+  // Stop propagation
+  // e.stopPropagation();
 });
 
 document.querySelector('.nav__links').addEventListener('click', function (e) {
