@@ -34,6 +34,48 @@ document.addEventListener('keydown', function (e) {
   }
 });
 
+//====================== Implementing Smooth Scrolling
+const btnScrollTo = document.querySelector('.btn--scroll-to');
+const section1 = document.querySelector('#section--1');
+
+btnScrollTo.addEventListener('click', function (e) {
+  const s1Coords = section1.getBoundingClientRect();
+  console.log(s1Coords);
+
+  console.log(e.target.getBoundingClientRect());
+
+  console.log('Current scroll X/Y', window.scrollX, window.scrollY);
+
+  console.log(
+    'height/width viewport',
+    document.documentElement.clientHeight,
+    document.documentElement.clientWidth
+  );
+
+  // Scrolling
+  // window.scrollTo(
+  //   s1Coords.left + window.scrollX,
+  //   s1Coords.top + window.scrollY
+  // );
+
+  // window.scrollTo({
+  //   left: s1Coords.left + window.scrollX,
+  //   top: s1Coords.top + window.scrollY,
+  //   behavior: 'smooth',
+  // });
+
+  section1.scrollIntoView({ behavior: 'smooth' });
+});
+
+//======================  Event Delegation: Implementing Page Navigation
+document.querySelectorAll('.nav__link').forEach(function (el) {
+  el.addEventListener('click', function (e) {
+    e.preventDefault();
+    const id = this.getAttribute('href');
+    document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
+  });
+});
+
 ///////////////////////////////////////
 ///////////////////////////////////////
 //======================Selecting, Creating, and Deleting Elements
@@ -127,39 +169,6 @@ logo.classList.contains('c');
 // logo.className = 'wakabi'; //Set a class
 */
 
-//====================== Implementing Smooth Scrolling
-const btnScrollTo = document.querySelector('.btn--scroll-to');
-const section1 = document.querySelector('#section--1');
-
-btnScrollTo.addEventListener('click', function (e) {
-  const s1Coords = section1.getBoundingClientRect();
-  console.log(s1Coords);
-
-  console.log(e.target.getBoundingClientRect());
-
-  console.log('Current scroll X/Y', window.scrollX, window.scrollY);
-
-  console.log(
-    'height/width viewport',
-    document.documentElement.clientHeight,
-    document.documentElement.clientWidth
-  );
-
-  // Scrolling
-  // window.scrollTo(
-  //   s1Coords.left + window.scrollX,
-  //   s1Coords.top + window.scrollY
-  // );
-
-  // window.scrollTo({
-  //   left: s1Coords.left + window.scrollX,
-  //   top: s1Coords.top + window.scrollY,
-  //   behavior: 'smooth',
-  // });
-
-  section1.scrollIntoView({ behavior: 'smooth' });
-});
-
 //======================  Types of Events and Event Handlers
 /*
 const h1 = document.querySelector('h1');
@@ -180,6 +189,7 @@ setTimeout(() => h1.removeEventListener('mouseenter', alertH1), 3000);
 */
 
 //======================  Event Propagation in Practice
+/*
 // rgb(255, 255, 255)
 // Event Propagation happens on the element and its parent elements
 // Target element is where the event happens and is the same for all because of event bubbling - the event bubbles up to its parent elements
@@ -220,3 +230,4 @@ document.querySelector('.nav').addEventListener(
   // Use capture parameter is set to true - the event handler no longer listens to bubbling events but instead capturing events
   // true
 );
+*/
