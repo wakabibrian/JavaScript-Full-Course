@@ -245,3 +245,15 @@ document.querySelector('.nav').addEventListener(
   // true
 );
 */
+
+//======================  DOM Traversing
+// Walking through the DOM
+// We can select an element based on another element
+const h1 = document.querySelector('h1');
+
+// Going Downwards: Selecting child elements
+console.log(h1.querySelectorAll('.highlight'));
+console.log(h1.childNodes); //Not so used
+console.log(h1.children); //Mostly used
+h1.firstElementChild.style.color = 'white';
+h1.lastElementChild.style.color = 'orangered';
