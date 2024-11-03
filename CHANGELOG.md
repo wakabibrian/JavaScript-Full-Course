@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.64.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.63.0...v1.64.0) (2024-11-03)
+
+
+### Features
+
+* Add attributes ([9332c45](https://github.com/wakabibrian/JavaScript-Full-Course/commit/9332c456124ee4c9e59fccd4f6c55fd3dbe405bd))
+* Add classes ([c4258b1](https://github.com/wakabibrian/JavaScript-Full-Course/commit/c4258b1c470fc40025e0e699841b5b56722e3233))
+* Add current scroll X/Y and viewport height/width ([cc0b421](https://github.com/wakabibrian/JavaScript-Full-Course/commit/cc0b4212893815eeb0ec72c9586465bd35e6e63c))
+* Add e.currentTarget ([cb5c522](https://github.com/wakabibrian/JavaScript-Full-Course/commit/cb5c52220d4565bc8e0acf8d1844b94689f94dab))
+* Add event bubbling ([87b3428](https://github.com/wakabibrian/JavaScript-Full-Course/commit/87b3428b2701270647ec0abcd434b23d85267b57))
+* Add Implementing Event Delegation ([daa531b](https://github.com/wakabibrian/JavaScript-Full-Course/commit/daa531b28e5fe4113258279839dcc002c6fcac9c))
+* Add listen to events - old school way ([85b9110](https://github.com/wakabibrian/JavaScript-Full-Course/commit/85b9110b607ac34f39ea5f0fcb44a545c425f563))
+* Add mouseenter event listener ([5e06861](https://github.com/wakabibrian/JavaScript-Full-Course/commit/5e068619cb9c6943228aeab1ec23f96e6ac60886))
+* Add querrySelectorAll - Implementing Page Navigation ([9a2bbed](https://github.com/wakabibrian/JavaScript-Full-Course/commit/9a2bbed4bf05cfe8f208bcfdd749a6d498eac6ce))
+* Add remove eventListener ([1da68f0](https://github.com/wakabibrian/JavaScript-Full-Course/commit/1da68f09e34c42dfd6122d2151d8b10c4f64970d))
+* Add remove eventListener after 3 seconds ([02eb90b](https://github.com/wakabibrian/JavaScript-Full-Course/commit/02eb90b4202d7fc30317249a9185886e7b24e27e))
+* Add Scroll To - Old school way ([ea377ed](https://github.com/wakabibrian/JavaScript-Full-Course/commit/ea377ed88685a40e84b1cd6a56d47de2453bb7e4))
+* Add ScrollIntoView - modern way ([60745c5](https://github.com/wakabibrian/JavaScript-Full-Course/commit/60745c5c8f86355c98c94faf88c82466f26bcfc6))
+* Add setting capturing to true ([85dabe5](https://github.com/wakabibrian/JavaScript-Full-Course/commit/85dabe5d4c533e9cc6bc9377a73f7191e98dc6d4))
+* Add stop propagation ([0d4cb2e](https://github.com/wakabibrian/JavaScript-Full-Course/commit/0d4cb2eaef52bdea8a788f26b9da6e05deab8975))
+* Add styles ([1a98e33](https://github.com/wakabibrian/JavaScript-Full-Course/commit/1a98e334a0270709624da997e085e4c1532b032b))
+
 ## [1.63.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.62.0...v1.63.0) (2024-10-31)
 
 
