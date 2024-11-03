@@ -266,3 +266,17 @@ h1.closest('.header').style.background = 'var(--gradient-secondary)';
 h1.closest('h1').style.background = 'var(--gradient-primary)';
 
 // querySelector/querySelectorAll finds children while closest finds parents
+
+// Going Sideways: Selecting siblings elements
+// We can only access direct siblings: previous and next
+console.log(h1.previousElementSibling);
+console.log(h1.nextElementSibling);
+
+console.log(h1.previousSibling);
+console.log(h1.nextSibling);
+
+// Getting all  the siblings
+console.log(h1.parentElement.children);
+[...h1.parentElement.children].forEach(function (el) {
+  if (el !== h1) el.style.transform = 'scale(0.5)';
+});
