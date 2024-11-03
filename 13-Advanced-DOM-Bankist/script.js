@@ -90,6 +90,30 @@ document.querySelector('.nav__links').addEventListener('click', function (e) {
   }
 });
 
+//======================  Building a Tabbed Component
+const tabs = document.querySelectorAll('.operations__tab');
+const tabsContainer = document.querySelector('.operations__tab-container');
+const tabsContent = document.querySelectorAll('.operations__content');
+
+tabsContainer.addEventListener('click', function (e) {
+  const clicked = e.target.closest('.operations__tab');
+
+  // Guard close
+  if (!clicked) return;
+
+  // Remove active classes
+  tabs.forEach(t => t.classList.remove('operations__tab--active'));
+  tabsContent.forEach(c => c.classList.remove('operations__content--active'));
+
+  // Activate Tab
+  clicked.classList.add('operations__tab--active');
+
+  // Activate content Area
+  document
+    .querySelector(`.operations__content--${clicked.dataset.tab}`)
+    .classList.add('operations__content--active');
+});
+
 ///////////////////////////////////////
 ///////////////////////////////////////
 //======================Selecting, Creating, and Deleting Elements
@@ -247,6 +271,7 @@ document.querySelector('.nav').addEventListener(
 */
 
 //======================  DOM Traversing
+/*
 // Walking through the DOM
 // We can select an element based on another element
 const h1 = document.querySelector('h1');
@@ -280,3 +305,4 @@ console.log(h1.parentElement.children);
 [...h1.parentElement.children].forEach(function (el) {
   if (el !== h1) el.style.transform = 'scale(0.5)';
 });
+*/
