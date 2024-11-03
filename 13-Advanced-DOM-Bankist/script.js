@@ -257,3 +257,12 @@ console.log(h1.childNodes); //Not so used
 console.log(h1.children); //Mostly used
 h1.firstElementChild.style.color = 'white';
 h1.lastElementChild.style.color = 'orangered';
+
+// Going Upwards: Selecting parent elements
+console.log(h1.parentNode);
+console.log(h1.parentElement); //Direct parent
+
+h1.closest('.header').style.background = 'var(--gradient-secondary)';
+h1.closest('h1').style.background = 'var(--gradient-primary)';
+
+// querySelector/querySelectorAll finds children while closest finds parents
