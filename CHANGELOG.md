@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.65.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.64.0...v1.65.0) (2024-11-19)
+
+
+### Features
+
+* Add Building a Tabbed Component ([b8b4bc5](https://github.com/wakabibrian/JavaScript-Full-Course/commit/b8b4bc5974a631acac82a2427a7de1e378bffac6))
+* Add DOM Traversing - going downwards (child) ([0923094](https://github.com/wakabibrian/JavaScript-Full-Course/commit/0923094435ababb70a83aef4accec5cfab2126f4))
+* Add DOM Traversing - going sideways (siblings) ([b8a8cc1](https://github.com/wakabibrian/JavaScript-Full-Course/commit/b8a8cc14a847c56091fe0ae5c1533ffa941fbd4c))
+* Add DOM Traversing - going upwards (parents) ([5a3261f](https://github.com/wakabibrian/JavaScript-Full-Course/commit/5a3261f8530338f641fd0574bee351a7b823ad28))
+* Add fade menu animation ([f3e4570](https://github.com/wakabibrian/JavaScript-Full-Course/commit/f3e4570c654e585c3d9ce6de320834a7c04e1a86))
+* Add Handling Click Events ([5a2285e](https://github.com/wakabibrian/JavaScript-Full-Course/commit/5a2285ecc1686ec2fb6b8e0ab019a869baea617f))
+* Add Imprementing a sticky navigation - The Intersection Observer API ([d1a2e6e](https://github.com/wakabibrian/JavaScript-Full-Course/commit/d1a2e6e3c9ba3dd29b88a90edfd1848e7d7e2866))
+* Add Imprementing a sticky navigation - the scroll event ([2262a43](https://github.com/wakabibrian/JavaScript-Full-Course/commit/2262a437e4a9085fd576b6040376bed955e23783))
+* Add select and manipulate the DOM elements ([f16fc7e](https://github.com/wakabibrian/JavaScript-Full-Course/commit/f16fc7ec592679927bb68c33389a43f7e879b43e))
+* Implement Game Logic ([a5596fc](https://github.com/wakabibrian/JavaScript-Full-Course/commit/a5596fcdec0265d1709f0570b368510acd4c36f7))
+* Implement game restart ([bd52d9c](https://github.com/wakabibrian/JavaScript-Full-Course/commit/bd52d9c14613a103b943c137666ab8f871ee8f62))
+* Implement high score ([ea5caa2](https://github.com/wakabibrian/JavaScript-Full-Course/commit/ea5caa2f66b674001958ef42954e969e2d16bc96))
+* Refactor code ([592f45d](https://github.com/wakabibrian/JavaScript-Full-Course/commit/592f45d0164bd99909d3480a80fb2f1d18823e8c))
+
 ## [1.64.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.63.0...v1.64.0) (2024-11-03)
 
 
