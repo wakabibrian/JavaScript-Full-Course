@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.66.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.65.0...v1.66.0) (2024-11-23)
+
+
+### Features
+
+* Add Handling an Esc Keypress Event ([b4af633](https://github.com/wakabibrian/JavaScript-Full-Course/commit/b4af633e21f556c341429382f9b0a8f2967f16a8))
+* Add working with classes ([36d1ddb](https://github.com/wakabibrian/JavaScript-Full-Course/commit/36d1ddb257474e2a0db1c0a177d59fcd9b1e6784))
+* Selected all elements ([fe10e2f](https://github.com/wakabibrian/JavaScript-Full-Course/commit/fe10e2f67bdd063b974497e7eb62eeba17fd9e15))
+
 ## [1.65.0](https://github.com/wakabibrian/JavaScript-Full-Course/compare/v1.64.0...v1.65.0) (2024-11-19)
 
 
